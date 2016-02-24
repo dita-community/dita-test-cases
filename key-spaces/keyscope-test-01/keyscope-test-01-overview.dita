@@ -73,6 +73,15 @@
               <entry>Reports map as valid, resolves links correctly.</entry>
               <entry/>
             </row>
+            <row>
+              <entry>XMetaL 10</entry>
+              <entry>Appears to resolve the key references in the editor but without regard to the
+                scope context. In the re-used topic, it reflects the result of resolving the key
+                reference in the scope of scope-01</entry>
+              <entry>This seems to be a side effect of XMetaL using PIs to put the resolved link
+                text in the XML source, rather than resolving the reference dynamically at
+                presentation time.</entry>
+            </row>
           </tbody>
         </tgroup>
       </table>

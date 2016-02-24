@@ -9,13 +9,19 @@
       <p>Tests the effect of using <xmlelement>dvrKeyscopePrefix</xmlelement> and
           <xmlelement>dvrResourcePrefix</xmlelement> when there are nested key scopes.</p>
       <p>The specification is potentially ambiguous about what the correct behavior is in this case
-        for key scope prefixes and suffixes, but it seems to require that prefixes and suffixes are
-        applied to all descendant key scopes in addition to the topicref that contains the
-          <xmlelement>ditavalref</xmlelement> element.</p>
-      <p>This test case has two branches, one that defines no <xmlatt>keyscope</xmlatt> attribute
-        and one that defines a <xmlatt>keyscope</xmlatt> attribute. In both branches there is a
-        reference to a <xmlelement>ditavalref</xmlelement> element that specifies a key scope prefix
-        and a resource name prefix.</p>
+        for key scope prefixes and suffixes, in that it could be read as requiring that key scope
+        prefixes and suffixes be propagated to descendant key scopes if you only look at the
+        architecture specification. But if you look at the reference entry for
+          <xmlelement>dvrKeyscopePrefix</xmlelement> it makes it clearer that the prefix only
+        applies the scope names on the filtered branch. That is also the only sensible behavior as
+        otherwise qualified key references to scopes within the scope of the filtered branch would
+        be impossible to author. (This feature also makes it clear that having nested filtered
+        branches that both apply key scope qualifiers is probably not something you should do in
+        practice unless you know exactly what you're doing and why).</p>
+      <p>This test case has two branches, one without a <xmlatt>keyscope</xmlatt> attribute and one
+        that defines a <xmlatt>keyscope</xmlatt> attribute. In both branches there is a reference to
+        a <xmlelement>ditavalref</xmlelement> element that specifies a key scope prefix and a
+        resource name prefix.</p>
       <p>Within each branch is a child topicref that defines a <xmlatt>keyscope</xmlatt> of
         "child-01".</p>
       <p>The question is: "What is the effective key scope of the child topicref following
@@ -27,7 +33,8 @@
           <xmlelement>ditavalref</xmlelement> elements.</note>
     </section>
     <section spectitle="Expected Results">
-      <p>In both cases the effective key scope of the child scope should be "ksPrefix-child-01"</p>
+      <p>In both cases the effective key scope of the child scope should be "child-01" (that is, the
+        parent scope's prefix should not be added to the child scope name.</p>
     </section>
     <section spectitle="Relevant Specification Language">
       <p>The requirements for resource and key space name modification are defined in clause <xref
@@ -48,6 +55,9 @@
             </dlentry>
           </dl>
         </lq></p>
+      <p>Here, the phrase "each key scope in the branch" means "all the key scope names on the
+        branch's @keyscope attribute, if specified", not "all the scope scopes descending from the
+        branch".</p>
       <p>And in 3.5.4.5 &lt;dvrKeyscopePrefix>:<lq>For map branches that are implied by
           &lt;ditavalref> elements, the value of the <xmlelement>dvrKeyscopePrefix</xmlelement>
           element contributes to the effective key scope names of the branch. The effective key
@@ -59,6 +69,8 @@
           The full key scope names also will reflect the value of a
             <xmlelement>dvrKeyscopeSuffix</xmlelement> element if one is specified, regardless of
           whether the branch as authored specifies a <xmlatt>keyscope</xmlatt> value.</lq></p>
+      <p>This makes it clearer that the prefixes (and suffixes) only apply to the filtered branch and
+        not descendant scope names.</p>
     </section>
     <section spectitle="Test Results">
       <p>Describe the results of running the tests with different processors. Include the processor
@@ -79,15 +91,12 @@
           <tbody>
             <row>
               <entry>DITA OT 2.2.2</entry>
-              <entry>
-                <p>Links to topic-01 and topic-02 in branch with explicit <xmlatt>keyscope</xmlatt>
-                  (tr-branch-02) work.</p>
-                <p>Links to topic-01 and topic-02 in branch with no keyscope (tr-branch-01) do not
-                  resolve.</p>
-              </entry>
-              <entry>Looks like OT does not implement requirement that the key scope prefix sets the
-                key scope on the filtered branch when <xmlatt>keyscope</xmlatt> not
-                specified.</entry>
+              <entry>Only the link branch tr-branch-02 is resolved (the branch with the
+                explicitly-specified <xmlatt>keyscope</xmlatt> attribute. The other links do not
+                resolve.</entry>
+              <entry>The 2.2.2 OT propagates keyscope prefixes to descendant scopes.<p>The 2.2 2 OT
+                  does not use the prefix or suffix as the key scope when no @keyscope is
+                  specified.</p></entry>
             </row>
             <row>
               <entry>oXygenXML 17.1</entry>
@@ -98,8 +107,9 @@
                 constructing its key spaces.</entry>
             </row>
             <row>
-              <entry/>
-              <entry/>
+              <entry>XMetaL 10</entry>
+              <entry>The key spaces shown in the Key Space Manager do not reflect the branch
+                filtering prefixes.</entry>
               <entry/>
             </row>
           </tbody>
