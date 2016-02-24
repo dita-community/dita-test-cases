@@ -21,12 +21,44 @@
       <p>The question is: "What is the effective key scope of the child topicref following
         application of branch filtering rules?"</p>
       <p>The key scope prefix is "ksPrefix-" in both branches.</p>
+      <note>This example is artificial in that it uses two different branches in order to have
+        different <xmlatt>keyscope</xmlatt> values on the branches. Without different
+          <xmlatt>keyscope</xmlatt> values you could have one branch with two
+          <xmlelement>ditavalref</xmlelement> elements.</note>
     </section>
     <section spectitle="Expected Results">
       <p>In both cases the effective key scope of the child scope should be "ksPrefix-child-01"</p>
     </section>
     <section spectitle="Relevant Specification Language">
-      <p/>
+      <p>The requirements for resource and key space name modification are defined in clause <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part3-all-inclusive/archSpec/base/branch-filtering-resource-names.html"
+          format="html" scope="external">2.4.4.4 Branch filtering: Impact on resource and key
+          names</xref>, as well as in <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/base/dvrKeyscopePrefix.html#dvrKeyscopePrefix"
+          format="html" scope="external">the reference entry for
+            <xmlelement>dvrKeyscopeSuffix</xmlelement></xref>. </p>
+      <p>The relevant language in 2.4.4.4 is:<lq>
+          <dl>
+            <dlentry>
+              <dt><xmlelement>dvrKeyscopePrefix</xmlelement></dt>
+              <dd>Enables a map author to specify a prefix that is added to the start of key scope
+                names for each key scope in the branch. If no key scope is specified for the branch,
+                this can be used to establish a new key scope, optionally combined with a value
+                specified in <xmlelement>dvrKeyscopeSuffix</xmlelement>.</dd>
+            </dlentry>
+          </dl>
+        </lq></p>
+      <p>And in 3.5.4.5 &lt;dvrKeyscopePrefix>:<lq>For map branches that are implied by
+          &lt;ditavalref> elements, the value of the <xmlelement>dvrKeyscopePrefix</xmlelement>
+          element contributes to the effective key scope names of the branch. The effective key
+          scope names start with the value of the <xmlelement>dvrKeyscopePrefix</xmlelement>
+          element. Note that if the branch as authored does not specify a <xmlatt>keyscope</xmlatt>
+          value, specifying <xmlelement>dvrKeyscopePrefix</xmlelement> (without also specifying
+            <xmlelement>dvrKeyscopeSuffix</xmlelement>) results in the branch establishing a key
+          scope whose name is the value of the <xmlelement>dvrKeyscopePrefix</xmlelement> element.
+          The full key scope names also will reflect the value of a
+            <xmlelement>dvrKeyscopeSuffix</xmlelement> element if one is specified, regardless of
+          whether the branch as authored specifies a <xmlatt>keyscope</xmlatt> value.</lq></p>
     </section>
     <section spectitle="Test Results">
       <p>Describe the results of running the tests with different processors. Include the processor
@@ -46,14 +78,24 @@
           </thead>
           <tbody>
             <row>
-              <entry/>
-              <entry/>
-              <entry/>
+              <entry>DITA OT 2.2.2</entry>
+              <entry>
+                <p>Links to topic-01 and topic-02 in branch with explicit <xmlatt>keyscope</xmlatt>
+                  (tr-branch-02) work.</p>
+                <p>Links to topic-01 and topic-02 in branch with no keyscope (tr-branch-01) do not
+                  resolve.</p>
+              </entry>
+              <entry>Looks like OT does not implement requirement that the key scope prefix sets the
+                key scope on the filtered branch when <xmlatt>keyscope</xmlatt> not
+                specified.</entry>
             </row>
             <row>
-              <entry/>
-              <entry/>
-              <entry/>
+              <entry>oXygenXML 17.1</entry>
+              <entry>Key references are not resolved: reports the keys as not defined.<p>Key
+                  reference creation dialog does not reflect branch-filtering defined scopes, no way
+                  to select key reference to post-filtering key scopes.</p></entry>
+              <entry>Looks like oXygenXML does not take branch filtering into account when
+                constructing its key spaces.</entry>
             </row>
             <row>
               <entry/>

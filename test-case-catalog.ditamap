@@ -9,7 +9,11 @@
   </topicgroup>
   <topicref keys="test-case-catalog" href="test-case-catalog.dita">
     <topicref keys="key-spaces" href="key-spaces/key-spaces-tests.dita">
-      <topicref href="key-spaces/keyscope-test-01/keyscope-test-01-overview.dita"/>
+      <topicref
+        href="key-spaces/branch-filtering-name-augmentation-01/branch-filtering-name-augmentation-01.dita"
+        keys="branch-filtering-name-augmentation-test-01"/>
+      <topicref href="key-spaces/keyscope-test-01/keyscope-test-01-overview.dita"
+        keys="keyscope-test-01"/>
     </topicref>
   </topicref>
 </map>

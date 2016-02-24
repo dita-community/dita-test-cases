@@ -41,18 +41,33 @@
           </thead>
           <tbody>
             <row>
-              <entry/>
-              <entry/>
-              <entry/>
-            </row>
-            <row>
-              <entry/>
-              <entry/>
+              <entry>DITA Open Toolkit 2.2.x</entry>
+              <entry>Not tested</entry>
               <entry/>
             </row>
             <row>
+              <entry>oXygenXML Editor 17.x</entry>
+              <entry>Not tested</entry>
               <entry/>
+            </row>
+            <row>
+              <entry>XMetaL 10.x</entry>
+              <entry>Not tested</entry>
               <entry/>
+            </row>
+            <row>
+              <entry>FrameMaker 13</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>ditac 2.5.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>DFST Link Manager 0.9.x</entry>
+              <entry>Not tested</entry>
               <entry/>
             </row>
           </tbody>
