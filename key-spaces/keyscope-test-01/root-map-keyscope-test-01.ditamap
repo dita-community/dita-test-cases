@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Keyscope Test 01</title>
+  <topicref 
+    keyscope="scope-01"
+    keys="topic-01"
+    href="topics/topic-01.dita"/>
+  <topicref
+    keyscope="scope-02"
+    keys="topic-01"
+    href="topics/topic-02.dita"
+    />
+</map>
