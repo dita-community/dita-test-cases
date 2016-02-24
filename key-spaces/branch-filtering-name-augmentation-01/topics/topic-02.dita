@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_jnm_dnn_cv">
+  <title>Topic 02 <ph platform="windows">(Windows)</ph><ph platform="osx">(OS X)</ph></title>
+  <body>
+    <p>This is topic 02. It is used from two filtered branches. The title should reflect the
+      filtering condition applied in the branch (windows or osx).</p>
+  </body>
+</topic>

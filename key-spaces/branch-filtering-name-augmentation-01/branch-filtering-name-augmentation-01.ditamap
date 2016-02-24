@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Branch Filtering Name Augmentation Test 01</title>
+  <topicref href="branch-filtering-name-augmentation-01.dita" keys="test-case-description"/>
+  <topicref keys="linking-topic-01" href="topics/linking-topic-01.dita"/>
+  <topicref id="tr-branch-01" href="topics/topic-01.dita" keys="topic-01">
+    <ditavalref href="ditavals/ditaval-win.ditaval">
+      <ditavalmeta>
+        <dvrResourcePrefix>br-01-</dvrResourcePrefix>
+        <dvrKeyscopePrefix>windows-</dvrKeyscopePrefix>       
+      </ditavalmeta>
+    </ditavalref>
+    <topicref keys="topic-02" keyscope="child-01"
+      href="topics/topic-02.dita"
+    />
+  </topicref>
+  <topicref id="tr-branch-02" 
+    href="topics/topic-01.dita" 
+    keys="topic-01" 
+    keyscope="branch-02">
+    <ditavalref href="ditavals/ditaval-osx.ditaval">
+      <ditavalmeta>
+        <dvrResourcePrefix>br-02-</dvrResourcePrefix>
+        <dvrKeyscopePrefix>osx-</dvrKeyscopePrefix>       
+      </ditavalmeta>
+    </ditavalref>
+    <topicref keys="topic-02" keyscope="child-01"
+      href="topics/topic-02.dita"
+    />
+  </topicref>
+</map>

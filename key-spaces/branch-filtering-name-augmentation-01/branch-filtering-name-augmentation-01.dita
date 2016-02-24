@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ahb_v2n_cv">
+  <title>Branch Filtering Name Augmentation Test 01</title>
+  <shortdesc>Tests setting of effective key scope and resource names using branch filtering when
+    there are nested scopes and topicrefs.</shortdesc>
+  <body>
+    <section spectitle="Overview">
+      <p>Tests the effect of using <xmlelement>dvrKeyscopePrefix</xmlelement> and
+          <xmlelement>dvrResourcePrefix</xmlelement> when there are nested key scopes.</p>
+      <p>The specification is potentially ambiguous about what the correct behavior is in this case
+        for key scope prefixes and suffixes, but it seems to require that prefixes and suffixes are
+        applied to all descendant key scopes in addition to the topicref that contains the
+          <xmlelement>ditavalref</xmlelement> element.</p>
+      <p>This test case has two branches, one that defines no <xmlatt>keyscope</xmlatt> attribute
+        and one that defines a <xmlatt>keyscope</xmlatt> attribute. In both branches there is a
+        reference to a <xmlelement>ditavalref</xmlelement> element that specifies a key scope prefix
+        and a resource name prefix.</p>
+      <p>Within each branch is a child topicref that defines a <xmlatt>keyscope</xmlatt> of
+        "child-01".</p>
+      <p>The question is: "What is the effective key scope of the child topicref following
+        application of branch filtering rules?"</p>
+      <p>The key scope prefix is "ksPrefix-" in both branches.</p>
+    </section>
+    <section spectitle="Expected Results">
+      <p>In both cases the effective key scope of the child scope should be "ksPrefix-child-01"</p>
+    </section>
+    <section spectitle="Relevant Specification Language">
+      <p/>
+    </section>
+    <section spectitle="Test Results">
+      <p>Describe the results of running the tests with different processors. Include the processor
+        version and option details so that others can reproduce your tests.</p>
+      <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
+        <title>Test Results</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>Test Result</entry>
+              <entry>Notes</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </body>
+</topic>
