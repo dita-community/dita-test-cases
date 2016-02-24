@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_xgt_12n_cv">
+  <title>Keyscope Test 01 Description</title>
+  <shortdesc>Verifies that keys defined on topicrefs that also specify <xmlatt>keyscope</xmlatt> are
+    in the specified scope and not the parent scope.</shortdesc>
+  <body>
+    <section spectitle="Overview">
+      <p>This map has two topicrefs. Each topicref defines both a key scope and a key name, with a
+        reference to a unique
+        topic:<codeblock>  &lt;topicref id="tr-scope-01"
+    keyscope="scope-01"
+    keys="topic-01"
+    href="topics/topic-01.dita"/>
+  &lt;topicref id="tr-scope-02"
+    keyscope="scope-02"
+    keys="topic-01"
+    href="topics/topic-02.dita"
+    /></codeblock></p>
+      <p>To refer to the key "topic-01" from outside the scope "scope-01", the correct key reference
+        is "scope-01.topic-01", as used in the xref from
+        <filepath>topic-02.dita</filepath>:<codeblock>&lt;xref keyref="scope-01.topic-01"/></codeblock></p>
+      <p>The topic <filepath>topic-01.dita</filepath> has the equivalent qualified key reference to
+          <filepath>topic-02.dita</filepath> as used from topicref "tr-scope-02".</p>
+    </section>
+    <section spectitle="Expected Result">
+      <p>The xref to key "scope-01.topic-01" should be resolved to topic-01.dita as used by topicref
+        "tr-scope-01".</p>
+    </section>
+    <section spectitle="Relevant Specification Clauses">
+      <p>The relevant spec language is in clause 2.3.4.2, Key Scopes (<xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part3-all-inclusive/archSpec/base/keyScopes.html"
+          format="html" scope="external"
+          >http://docs.oasis-open.org/dita/dita/v1.3/os/part3-all-inclusive/archSpec/base/keyScopes.html</xref>):<lq>A
+          key scope includes the following components: <ul id="ul_r2v_p2n_cv">
+            <li><i>The scope-defining element</i>
+            </li>
+            <li>The elements that are contained by the scope-defining element, minus the elements
+              that are contained by child key scopes </li>
+            <li>The elements that are referenced by the scope-defining element or its descendants,
+              minus the elements that are contained by child key scopes</li>
+          </ul><p>(Italics added)</p></lq></p>
+    </section>
+    <section spectitle="Test Results">
+      <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
+        <title>Test Results</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>Test Result</entry>
+              <entry>Notes</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Open Toolkit 2.2.2, XHTML transform</entry>
+              <entry>Correct result</entry>
+              <entry>Incorrectly reports the key "topic-01" in scope "scope-02" as a
+                duplicate.</entry>
+            </row>
+            <row>
+              <entry>Open Toolkit 2.2.2, PDF transform</entry>
+              <entry>Correct result</entry>
+              <entry>Incorrectly reports the key "topic-01" in scope "scope-02" as a
+                duplicate.</entry>
+            </row>
+            <row>
+              <entry>oXygenXML 17.1</entry>
+              <entry>Reports map as valid, resolves links correctly.</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>XMetaL 10</entry>
+              <entry>Appears to resolve the key references in the editor but without regard to the
+                scope context. In the re-used topic, it reflects the result of resolving the key
+                reference in the scope of scope-01</entry>
+              <entry>This seems to be a side effect of XMetaL using PIs to put the resolved link
+                text in the XML source, rather than resolving the reference dynamically at
+                presentation time.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </body>
+</topic>

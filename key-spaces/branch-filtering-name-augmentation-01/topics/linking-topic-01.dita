@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_p15_dmn_cv">
+  <title>Linking Topic 01</title>
+  <body>
+    <p>This topic has links to topic <filepath>topic-01.dita</filepath> as used in both of the
+      branches.</p>
+    <p>Links to <filepath>topic-01.dita:</filepath></p>
+    <p>Link to topic-01 as used in branch "tr-branch-01", 
+      using key reference "windows-.topic-01":
+      <xref keyref="windows-.topic-01"/>.</p>
+    <p>Link to topic-01 as used in branch "tr-branch-02", 
+      using key reference "osx-branch-02.topic-01": 
+      <xref keyref="osx-branch-02.topic-01"/>.</p>
+    <p>Links to <filepath>topic-02.dita:</filepath></p>
+    <p>Link to topic-02 as used in branch "tr-branch-01", 
+      using key reference "windows-.child-01.topic-02":
+      <xref keyref="windows-.child-01.topic-02"/>.</p>
+    <p>Link to topic-02 as used in branch "tr-branch-02", 
+      using key reference "osx-branch-02.child-01.topic-02": 
+      <xref keyref="osx-branch-02.child-01.topic-02"/>.</p>
+  </body>
+</topic>

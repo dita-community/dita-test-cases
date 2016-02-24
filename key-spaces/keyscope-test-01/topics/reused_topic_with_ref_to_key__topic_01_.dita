@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reused_topic_with_ref_to_key__topic_01_">
+  <title>Reused Topic With Ref to key &quot;topic-01&quot;</title>
+  <body>
+    <p>This topic has an unqualified key reference to the key "topic-01", which should resolve to
+      topic <filepath>topic-01.dita</filepath> in key scope "scope-01" and topic
+        <filepath>topic-02.dita</filepath> in key "scope-02".</p>
+    <p>Cross reference to key "topic-01": <xref keyref="topic-01"/></p>
+    <p>Note that in HTML-type output the processor has to produce two different result HTML files
+      for each use of this topic.</p>
+  </body>
+</topic>

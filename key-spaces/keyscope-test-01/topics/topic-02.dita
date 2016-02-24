@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_wp1_zbn_cv">
+  <title>Topic 02</title>
+  <body>
+    <p>This is topic 02, bound to key "topic-01" in scope "scope-02".</p>
+    <p>Cross reference to topic-01.dita using qualified keyref: <xref
+        keyref="scope-01.topic-01"/></p>
+  </body>
+</topic>

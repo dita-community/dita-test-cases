@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_o3s_hln_cv">
+  <title>Topic 01 <ph platform="windows">(Windows)</ph><ph platform="osx">(OS X)</ph></title>
+  <body>
+    <p>This is <filepath>topic-01.dita</filepath>. It is used from two filtered branches. The
+      following two paragraphs are conditional to the <xmlatt>platform</xmlatt> values "windows" and
+      "osx" respecitively.</p>
+    <p platform="windows">This applicable to platform="windows"</p>
+    <p platform="osx">This is applicable to platform="osx"</p>
+  </body>
+</topic>
