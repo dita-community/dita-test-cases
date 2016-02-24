@@ -4,6 +4,10 @@ Informal repository for DITA test case documents
 This repository is a place to capture DITA test case documents
 for whatever aspect of DITA you want to test.
 
+The test case catalog is published as HTML here: 
+
+http://www.dita-community.org/dita-test-cases/
+
 This is NOT any sort of official set of test cases. It has
 absolutely no affiliation with the OASIS Open DITA Technical Committee.
 It's just a convenient place to capture tests that will be of 
