@@ -4,5 +4,6 @@
   <title>Topic 01</title>
   <body>
     <p>This is topic 01, bound to key "topic-01" in scope "scope-01".</p>
+    <p>Xref to key "topic-01" in scope "scope-02": <xref keyref="scope-02.topic-01"/></p>
   </body>
 </topic>

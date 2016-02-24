@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_lnd_dgn_cv">
+  <title>Test Case Catalog</title>
+  <body>
+    <p>This document includes the test case description topics from the various test cases. It
+      serves as a catalog of test cases.</p>
+    <p>If you create a new test case please add a reference to the test case description topic
+      here.</p>
+  </body>
+</topic>
