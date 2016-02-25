@@ -90,6 +90,11 @@
           </thead>
           <tbody>
             <row>
+              <entry>DITA OT 2.2.3</entry>
+              <entry>Pass. All links are resolved to the correct locations.</entry>
+              <entry/>
+            </row>
+            <row>
               <entry>DITA OT 2.2.2</entry>
               <entry>Only the link branch tr-branch-02 is resolved (the branch with the
                 explicitly-specified <xmlatt>keyscope</xmlatt> attribute. The other links do not
