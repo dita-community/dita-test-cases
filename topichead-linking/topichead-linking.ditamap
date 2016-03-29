@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Topichead Linking Test</title>
+  <topicref href="topics/topichead_linking_test.dita">
+    <topicref href="topics/target_of_normal_keyref.dita" keys="test-case-01"/>
+    <topichead keys="test-case-02">
+      <topicmeta>
+        <navtitle>Test Case 2: Topichead with no @copy-to attribute</navtitle>
+      </topicmeta>
+    </topichead>
+    <topichead keys="test-case-03" copy-to="to-content">
+      <topicmeta>
+        <navtitle>Test Case 3: Topichead with @copy-to of "to-content"</navtitle>
+      </topicmeta>
+    </topichead>
+    <topichead id="test-case-04" keys="test-case-04" copy-to="to-content">
+      <topicmeta>
+        <navtitle>Test Case 4: Topichead with @copy-to of "to-content", @id of "test-case-04"</navtitle>
+      </topicmeta>
+    </topichead>
+    <topichead id="test-case-05" keys="test-case-05">
+      <topicmeta>
+        <navtitle>Test Case 5: Topichead with no @copy-to, @id of "test-case-05"</navtitle>
+      </topicmeta>
+    </topichead>
+    <topicref id="test-case-06" keys="test-case-06" href="topics/target_of_normal_idref.dita"/>
+  </topicref>
+</map>
