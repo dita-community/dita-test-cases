@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Tests for "This Topic" Fragment Identifiers</title>
+  <topicgroup>
+    <keydef href="warehouse-task-01.dita" keys="warehouse-task-01"/>
+  </topicgroup>
+  <topicref href="topics/tests_for__this_topic__fragment_identifiers.dita">
+    <topicref href="topics/test_case_1__conref_to_steps.dita" keys="test-case-01"/>
+    <topicref keyref="warehouse-task-01" keys="task-direct-use">
+      <topicmeta>
+        <navtitle>Warehouse Task Used Directly</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="warehouse-task-01">
+  <title>Warehouse Task</title>
+  <shortdesc>Task that contains steps that are used by reference and that contain this-topic
+    fragment ID references among the steps.</shortdesc>
+  <taskbody>
+    <steps id="steps">
+      <step id="step-01">
+        <cmd>This is step 1, ID "step-01".</cmd>
+      </step>
+      <step id="step-02">
+        <cmd>This is step 2, ID "step-02".</cmd>
+      </step>
+      <step>
+        <cmd>This is step 3, ID "step-03".</cmd>
+        <stepresult>See <xref href="#./step-01" format="dita"/> (Reference to step 01 using
+          "#./step-01").</stepresult>
+      </step>
+    </steps>
+  </taskbody>
+</task>

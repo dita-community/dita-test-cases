@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="tests_for__this_topic__fragment_identifiers">
+  <title>Tests for &quot;This Topic&quot; Fragment Identifiers</title>
+  <body>
+    <p>This publication tests handling of "this topic" fragment identifiers.</p>
+    <p>"This topic" fragment identifiers are new for DITA 1.3. They use a "." (period) in place of
+      the topic ID part of a fragment identifier (the part after the "#"). This feature allows for
+      both convenient references to elements within the same topic and handles the case of re-using
+      elements via conref where the elements contain references to other elements, either in the
+      same set of re-used elements or to a target expected to be within the topic that uses the
+      referencing element by conref.</p>
+    <section>
+      <title>Test Case 1: Re-used steps with links among the steps</title>
+      <p>In this case, a set of steps is used by reference. The steps have links to other steps
+        within the same task,
+        e.g.:<codeblock>&lt;stepresult>
+  &lt;p>See &lt;xref href="<b>#./ssms-launch-step</b>"/> and  
+  &lt;xref href="<b>#./expand-db-step</b>"/>.&lt;/p>
+&lt;/stepresult></codeblock></p>
+      <p>The expected result is that the references are resolved in the context of referencing
+        topic, not in the context of the topic can contains the referenced steps as authored (e.g.,
+        the "warehouse" topic with the steps).</p>
+      <p>The task that uses the steps by reference: <xref keyref="test-case-01"/></p>
+      <p>The warehouse task, used directly: <xref keyref="task-direct-use"/>
+      </p>
+    </section>
+  </body>
+</topic>

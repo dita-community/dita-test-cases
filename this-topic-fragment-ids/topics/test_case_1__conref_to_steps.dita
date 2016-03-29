@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="test_case_1__conref_to_steps">
+    <title>Test Case 1: Conref to Steps</title>
+    <shortdesc>This task contains conref to steps that use this-topic fragment identifiers to link
+    to among themselves.</shortdesc>
+    <taskbody>
+        <context>
+            <p>The steps are used by reference from topic
+          <filepath>warehouse-task-01.dita</filepath>.</p>
+        </context>
+      <steps conkeyref="warehouse-task-01/steps">
+        <step>
+          <cmd></cmd>
+        </step>
+      </steps>
+    </taskbody>
+</task>
