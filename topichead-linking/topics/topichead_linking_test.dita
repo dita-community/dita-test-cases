@@ -5,25 +5,25 @@
   <body>
     <p>This map tests the ability to link to topicheads and what the result is.</p>
     <p>The DITA spec doesn't completely define what the result should be when a topichead that does
-      not specify @copy-to is the target of a link, either by direct URI reference or via key
+      not specify @chunk is the target of a link, either by direct URI reference or via key
       reference.</p>
-    <p>If a topichead specifies "to-content" for @copy-to then the processor should treat it as
-      though it was a reference to a title-only topic where the title is the topichead's navigation
-      title. This ensures that there is a useful target in the main content as rendered.</p>
+    <p>If a topichead specifies "to-content" for @chunk then the processor should treat it as though
+      it was a reference to a title-only topic where the title is the topichead's navigation title.
+      This ensures that there is a useful target in the main content as rendered.</p>
     <p>This test case tests the following cases:<ol id="ol_xrh_1bz_lv">
         <li>A link to a normal topic via key reference. This is the baseline and should work
           reliably in all DITA 1.2-capable processors.</li>
-        <li>A link to a topichead with no @copy-to specified via key. Expected results are not
+        <li>A link to a topichead with no @chunk specified via key. Expected results are not
           defined. Different deliverable types may have different results. For PDF would expect it
           to result in a link to the topichead's contribution to the main content flow. For HTML,
           not clear what a reasonable result should be, but linking to the reflection of the
           topichead in some navigation structure (table of contents) would be appropriate.</li>
-        <li>A link via key reference to a topichead with @copy-to of "to-content" specified. Result
+        <li>A link via key reference to a topichead with @chunk of "to-content" specified. Result
           should be identical to case (1).</li>
-        <li>A link via direct URI reference to a topichead with @copy-to of "to-content". Not clear
+        <li>A link via direct URI reference to a topichead with @chunk of "to-content". Not clear
           what the result should be as direct URI references to topicrefs is not 100% defined in the
           DITA 1.x specification.</li>
-        <li>A link via direct URI reference to a topichead without @copy-to. Again, behavior is
+        <li>A link via direct URI reference to a topichead without @chunk. Again, behavior is
           undefined.</li>
         <li>A link via direct URI reference to a topicref to a topic. Behavior is undefined.</li>
       </ol></p>
@@ -31,10 +31,13 @@
       <title>The Links</title>
       <p>Case 1: Link to normal topic via key reference: <xref
           keyref="test-case-01"/></p>
-      <p>Case 2: Link to topichead via key reference with no @copy-to: <xref keyref="test-case-02"/></p>
-      <p>Case 3: Link to topichead via key reference with @copy-to: <xref keyref="test-case-03"/></p>
-      <p>Case 4: Link to topichead via direct URI reference with @copy-to: <xref href="../topichead-linking.ditamap#test-case-04"/></p>
-      <p>Case 5: Link to topichead via direct URI reference with no @copy-to: <xref href="../topichead-linking.ditamap#test-case-05"/></p>
+      <p>Case 2: Link to topichead via key reference with no @chunk: <xref keyref="test-case-02"
+        /></p>
+      <p>Case 3: Link to topichead via key reference with @chunk: <xref keyref="test-case-03"/></p>
+      <p>Case 4: Link to topichead via direct URI reference with @chunk: <xref
+          href="../topichead-linking.ditamap#test-case-04"/></p>
+      <p>Case 5: Link to topichead via direct URI reference with no @chunk: <xref
+          href="../topichead-linking.ditamap#test-case-05"/></p>
       <p>Case 6: Link to topicref via direct URI reference: <xref href="../topichead-linking.ditamap#test-case-06"/></p>
     </section>
   </body>
