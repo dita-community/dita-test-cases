@@ -25,5 +25,16 @@
       <p>The warehouse task, used directly: <xref keyref="task-direct-use"/>
       </p>
     </section>
+    <section id="section_tdd_2zz_lv">
+      <title>Test Case 2: Link from within re-used content to element outside re-used
+        content</title>
+      <p>In this case, the re-used content contains a this-topic reference to an element that is
+        expected to exist within the referencing topic. The this-topic reference should be resolved
+        after content reference resolution so that the link is to the element within the referencing
+        topic, not the element within the topic containing the re-used element as authored.</p>
+      <p>Topic that uses the paragraph with the this-topic crossref: <xref keyref="test-case-02"
+        /></p>
+      <p>Warehouse topic used directly: <xref keyref="warehouse-topic-direct-use"/></p>
+    </section>
   </body>
 </topic>

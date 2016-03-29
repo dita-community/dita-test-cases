@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test_case_2__use_of_para_with_this_topic_reference">
+  <title>Test Case 2: Use of Para With This-Topic Reference</title>
+  <body>
+    <p>This topic contains a conref to a paragraph that contains a this-topic fragment ID reference
+      to the ID "target-section". The expectation is that the reference will be resolved to the
+      section with that ID in this topic, not in the topic that contains the paragraph as authored
+      (the warehouse topic).</p>
+    <p conkeyref="warehouse-topic/para-with-this-topic-fragid-xref"/>
+    <section id="target-section">
+      <title>Target Section in Using Topic</title>
+      <p>This section is in the topic that uses the paragraph with the this-topic fragment ID by
+        conref.</p>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="warehouse_topic">
+  <title>Warehouse Topic</title>
+  <body>
+    <p id="para-with-this-topic-fragid-xref">This is a paragraph with a this-topic fragment ID to
+      element with ID "target-section": <xref href="#./target-section"/></p>
+    <section id="target-section">
+      <title>Target Section</title>
+      <p id="target-para">This is a paragraph with the ID "target-para". It serves as the target of a
+        this-topic fragment ID within the context of this warehouse topic. It should not be the target
+        of the this-topic fragment ID when the paragraph with the xref is used in other topics.</p>
+    </section>
+  </body>
+</topic>

@@ -4,13 +4,25 @@
  <title>Tests for "This Topic" Fragment Identifiers</title>
   <topicgroup>
     <keydef href="warehouse-task-01.dita" keys="warehouse-task-01"/>
+    <topicref href="topics/warehouse_topic.dita" keys="warehouse-topic"/>
   </topicgroup>
   <topicref href="topics/tests_for__this_topic__fragment_identifiers.dita">
-    <topicref href="topics/test_case_1__conref_to_steps.dita" keys="test-case-01"/>
-    <topicref keyref="warehouse-task-01" keys="task-direct-use">
-      <topicmeta>
-        <navtitle>Warehouse Task Used Directly</navtitle>
-      </topicmeta>
-    </topicref>
+    <topichead navtitle="Test Case 1: Links within re-used steps">
+      <topicref href="topics/test_case_1__conref_to_steps.dita" keys="test-case-01"/>
+      <topicref keyref="warehouse-task-01" keys="task-direct-use">
+        <topicmeta>
+          <navtitle>Warehouse Task Used Directly</navtitle>
+        </topicmeta>
+      </topicref>
+    </topichead>
+    <topichead navtitle="Test Case 2: Link from reused content to element in using topic">
+      <topicref href="topics/test_case_2__use_of_para_with_this_topic_reference.dita"
+        keys="test-case-02"/>
+      <topicref keyref="warehouse-topic" keys="warehouse-topic-direct-use">
+        <topicmeta>
+          <navtitle>Warehouse Topic Used Directly</navtitle>
+        </topicmeta>
+      </topicref>
+    </topichead>
   </topicref>
 </map>
