@@ -1,67 +1,42 @@
 <!DOCTYPE html
   SYSTEM "about:legacy-compat">
-<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016"><meta name="DC.rights.owner" content="(C) Copyright 2016"><meta name="DC.Type" content="topic"><meta name="description" content="Tests the resolution of this-topic fragment IDs within elements used by content reference."><meta name="DC.Relation" scheme="URI" content="../this-topic-fragment-ids/this_topic_fragment_identifiers.html"><meta name="DC.Format" content="XHTML"><meta name="DC.Identifier" content="topic_ahb_v2n_cv"><link rel="stylesheet" type="text/css" href="../commonltr.css"><title>This-Topic Fragment ID Test 01</title></head><body id="topic_ahb_v2n_cv"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
-  <h1 class="title topictitle1" id="ariaid-title1">This-Topic Fragment ID Test 01</h1>
-  
-  <div class="body"><p class="shortdesc">Tests the resolution of this-topic fragment IDs within elements used by content
-    reference.</p>
-    <section class="section"><h2 class="sectiontitle">Overview</h2>
-      <p class="p">The DITA 1.3 specification requires that these references be resolved in the context of the
-        referencing topic, not the topic that contains the re-used elements. This means that these
-        references must be resolved after content reference resolution has been performed.</p>
-    </section>
-    <section class="section"><h2 class="sectiontitle">Expected Results</h2>
-      <p class="p">For task test-case-01, which uses the steps by conref, the reference from step 3 to step 1
-        should be resolved in the context of the test-case-01 topic.</p>
-      <p class="p">For task warehouse-task-01 when used directly from the map, the reference from step 3 to
-        step 1 should be resolved in the context of the warehouse topic as rendered for that
-        normal-role use.</p>
-    </section>
-    <section class="section"><h2 class="sectiontitle">Relevant Specification Language</h2>
-      <p class="p">The this-topic fragment identifier is defined here: <a class="xref" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/uri-based-addressing.html" target="_blank">http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/uri-based-addressing.html</a>. </p>
-      <p class="p">The requirements for processing this-topic fragment identifiers in content references is
-        defined here: <a class="xref" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/handling-xref-and-conref-within-topics.html#handling-xref-and-conref-within-topics" target="_blank">http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/handling-xref-and-conref-within-topics.html#handling-xref-and-conref-within-topics</a></p>
-    </section>
-    <section class="section"><h2 class="sectiontitle">Test Results</h2>
-      <p class="p">Tests performed 29 March 2016.</p>
-      <div class="table-frame-top-bottom"><table id="topic_ahb_v2n_cv__table_t4w_rgn_cv" class="table expanse-column table-rules-topbot"><caption><span class="tablecap">Table 1. Test Results</span></caption><colgroup><col style="width:33.33333333333333%"><col style="width:33.33333333333333%"><col style="width:33.33333333333333%"></colgroup><thead class="thead" style="text-align:left;">
-            <tr class="row">
-              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d860e70">Processor</th>
-              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d860e73">Test Result</th>
-              <th class="entry row-nocellborder" style="text-align:left;vertical-align:top;" id="d860e76">Notes</th>
-            </tr>
-          </thead><tbody class="tbody">
-            <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d860e70 ">DITA Open Toolkit 2.2.3</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d860e73 ">HTML: Failed with unresolved or incorrectly-resolved links<p class="p">PDF: Failed with
-                  unresolved/incorrectly-resolved references in the conreffed elements.</p></td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d860e76 ">This-topic fragment identifiers within conreffed elements are not correctly
-                resolved. They are correctly resolved in the same content when processed
-                directly.</td>
-            </tr>
-            <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d860e70 ">oXygenXML Editor 18 beta</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d860e73 ">Failed</td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d860e76 ">Reference is resolved in the context of source topic containing the conreffed
-                elements, not in the referencing context.<p class="p">Issue has been reported to Syncro Soft
-                  and logged as an issue.</p></td>
-            </tr>
-            <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d860e70 ">XMetaL 11</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d860e73 ">Not tested</td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d860e76 ">&nbsp;</td>
-            </tr>
-            <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d860e70 ">FrameMaker 13</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d860e73 ">Not tested</td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d860e76 ">&nbsp;</td>
-            </tr>
-            <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d860e70 ">ditac 2.5.x</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d860e73 ">Not tested</td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d860e76 ">&nbsp;</td>
-            </tr>
-          </tbody></table></div>
-    </section>
-  </div>
-<nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../this-topic-fragment-ids/this_topic_fragment_identifiers.html">This-Topic Fragment Identifiers</a></div></div></nav></article></main></body></html>
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>This-Topic Fragment ID Test 01</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="schema.DC" href="http://purl.org/dc/terms/"><meta name="DC.Type" content="topic"><meta name="description" content="Tests the resolution of this-topic fragment IDs within elements used by content reference."><meta name="DC.Format" content="XHTML"><meta name="DC.Identifier" content="topic_ahb_v2n_cv"><script type="text/javascript">var d4p = {"relativePath":"..\/","dev":false,"debug":false,"draft":false,"nextTopicHref":"","previousTopicHref":"this-topic-fragment-ids\/this_topic_fragment_identifiers.html","ext":".html","root":false,"topic":{"chunked":""},"map":{"title":"Test Case Catalog","chunked":false},"search":{"minlength":2},"l":{"searchPageHeading":"Search Results","close":"Close"}}</script><link rel="stylesheet" type="text/css" media="screen, projection" href="../themes/dita-d4p-classic/css/style.css"><link rel="stylesheet" type="text/css" media="screen, projection, print" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><script type="text/javascript">
+      
+        d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
+        var ADAPT_CONFIG = {
+          // Where is your CSS?
+          path: d4p.relativePath + d4p.cssGridPath,
+          
+          // false = Only run once, when page first loads.
+          // true = Change on window resize and page tilt.
+          dynamic: true,
+          
+          // Optional callback... myCallback(i, width)
+          callback: doc_resize,
+          
+          // First range entry is the minimum.
+          // Last range entry is the maximum.
+          // Separate ranges by "to" keyword.
+          range: [
+             // small (size-0)
+            '0px    to 760px  = mobile.css',
+             // medium (size-1, size-2)
+            '760px  to 980px  = 720.css',
+            '980px  to 1270px = 960.css',
+             // large (size-3, size-5)
+            '1270px to 1600px = 1200.css',
+            '1600px to 1940px = 1560.css',
+             // extra large (size-6)
+            '1940px to 2540px = 1920.css',
+            '2540px           = 2520.css'
+          ]
+        };
+
+        function doc_resize(i, width)
+        {
+          d4p.setBodyClassfunction(i, width);
+        }
+
+
+        
+      </script><script type="text/javascript" src="../themes/dita-d4p-classic/js/script.js"></script></head><body class="en-us dita-d4p-classic centered navigation-default"><div id="d4h5-main-container" class="container_12" role="application"><header role="banner" aria-labelledby="publication-title" class="hide-for-small"><div class="grid_8"><h1 id="publication-title">Test Case Catalog</h1></div><section class="grid_4 search-box"><form id="search" role="search"><div class="form-group"><input id="search-text" type="text" autocomplete="off" class="form-control" placeholder="Search"></div></form></section><secion class="clearfix"></secion></header><div id="d4h5-section-container" class="grid_12"><nav id="local-navigation" class="grid_4 alpha omega" role="navigation" aria-label="Main navigation"><div id="nav-content"><ul><li><a href="../index.html">Table of Contents</a></li><li class="collapsible active"><a href="../test-case-catalog.html">Test Case Catalog</a><ul><li class="collapsible collapsed"><a href="../key-spaces/key-spaces-tests.html">Key Space Tests</a><ul><li><a href="../key-spaces/branch-filtering-name-augmentation-01/branch-filtering-name-augmentation-01.html">Branch Filtering Name Augmentation Test 01</a></li><li><a href="../key-spaces/keyscope-test-01/keyscope-test-01-overview.html">Keyscope Test 01 Description</a></li></ul></li><li class="collapsible active"><a href="this_topic_fragment_identifiers.html">This-Topic Fragment Identifiers</a><ul><li class=" active"><a href="this-topic-fragment-ids-test-01.html" class=" selected">This-Topic Fragment ID Test 01</a></li></ul></li></ul></li></ul></div></nav><div id="d4h5-main-content" class="grid_8 alpha omega"><article><nav id="content-toolbar" class="toolbar hide-for-small"></nav><section id="page"><div><a id="topic_ahb_v2n_cv" class="anchor"></a> <h1 class="title topictitle1">This-Topic Fragment ID Test 01</h1> <div class="body"><p class="shortdesc">Tests the resolution of this-topic fragment IDs within elements used by content reference.</p> <div class="section" id="topic_ahb_v2n_cv-d1530e11"><h2 class="sectiontitle">Overview</h2> <p class="p">The DITA 1.3 specification requires that these references be resolved in the context of the referencing topic, not the topic that contains the re-used elements. This means that these references must be resolved after content reference resolution has been performed.</p> </div> <div class="section" id="topic_ahb_v2n_cv-d1530e17"><h2 class="sectiontitle">Expected Results</h2> <p class="p">For task test-case-01, which uses the steps by conref, the reference from step 3 to step 1 should be resolved in the context of the test-case-01 topic.</p> <p class="p">For task warehouse-task-01 when used directly from the map, the reference from step 3 to step 1 should be resolved in the context of the warehouse topic as rendered for that normal-role use.</p> </div> <div class="section" id="topic_ahb_v2n_cv-d1530e26"><h2 class="sectiontitle">Relevant Specification Language</h2> <p class="p">The this-topic fragment identifier is defined here: <a class="xref external" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/uri-based-addressing.html">http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/uri-based-addressing.html</a>. </p> <p class="p">The requirements for processing this-topic fragment identifiers in content references is defined here: <a class="xref external" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/handling-xref-and-conref-within-topics.html#handling-xref-and-conref-within-topics">http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/handling-xref-and-conref-within-topics.html#handling-xref-and-conref-within-topics</a></p> </div> <div class="section" id="topic_ahb_v2n_cv-d1530e42"><h2 class="sectiontitle">Test Results</h2> <p class="p">Tests performed 29 March 2016.</p> <div class="tablenoborder"><table id="topic_ahb_v2n_cv__table_t4w_rgn_cv" class="table"><caption xmlns="http://www.w3.org/1999/xhtml"><span class="tablecap"><span class="tablecap">Test Results</span></span></caption> <thead class="thead" align="left"> <tr class="row"> <th class="entry" valign="top" width="33.33333333333333%" id="d1530e64">Processor</th> <th class="entry" valign="top" width="33.33333333333333%" id="d1530e67">Test Result</th> <th class="entry" valign="top" width="33.33333333333333%" id="d1530e70">Notes</th> </tr> </thead> <tbody class="tbody"> <tr class="row"> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e64 ">DITA Open Toolkit 2.2.3</td> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e67 ">HTML: Failed with unresolved or incorrectly-resolved links<p class="p">PDF: Failed with unresolved/incorrectly-resolved references in the conreffed elements.</p></td> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e70 ">This-topic fragment identifiers within conreffed elements are not correctly resolved. They are correctly resolved in the same content when processed directly.</td> </tr> <tr class="row"> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e64 ">oXygenXML Editor 18 beta</td> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e67 ">Failed</td> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e70 ">Reference is resolved in the context of source topic containing the conreffed elements, not in the referencing context.<p class="p">Issue has been reported to Syncro Soft and logged as an issue.</p></td> </tr> <tr class="row"> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e64 ">XMetaL 11</td> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e67 ">Not tested</td> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e70 ">&nbsp;</td> </tr> <tr class="row"> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e64 ">FrameMaker 13</td> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e67 ">Not tested</td> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e70 ">&nbsp;</td> </tr> <tr class="row"> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e64 ">ditac 2.5.x</td> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e67 ">Not tested</td> <td class="entry" valign="top" width="33.33333333333333%" headers="d1530e70 ">&nbsp;</td> </tr> </tbody> </table></div> </div> </div> <footer id="topicsNPLinks"><div id="footer_previous"><a href="../this-topic-fragment-ids/this_topic_fragment_identifiers.html" class="previous" rel="internal">This-Topic Fragment Identifiers</a></div><div id="footer_next"></div></footer></div></section></article><div class="clear"></div></div><div class="clearfix"></div></div><div class="clearfix"></div><div id="footer-container" class="grid_12"></div></div></body></html>
