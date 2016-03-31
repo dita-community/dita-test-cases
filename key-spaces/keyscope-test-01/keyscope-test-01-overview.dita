@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_xgt_12n_cv">
   <title>Keyscope Test 01 Description</title>
-  <shortdesc>Verifies that keys defined on topicrefs that also specify <xmlatt>keyscope</xmlatt> are
+  <shortdesc>Verifies that keys defined on topicrefs that also specify <codeph>@keyscope</codeph> are
     in the specified scope and not the parent scope.</shortdesc>
   <body>
     <section spectitle="Overview">
@@ -42,6 +42,7 @@
           </ul><p>(Italics added)</p></lq></p>
     </section>
     <section spectitle="Test Results">
+      <p>Tests run 30 March 2016 for oXygen 18, XMetal 11.</p>
       <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
         <title>Test Results</title>
         <tgroup cols="3">
@@ -69,9 +70,24 @@
                 duplicate.</entry>
             </row>
             <row>
+              <entry>oXygenXML 18 beta</entry>
+              <entry>Reports map as valid, resolves links correctly. When re-used topic is opened in
+                the context of a specific scope the xref's resolved text and associated target
+                reflects the current scope, even if topic was already open in the editor.</entry>
+              <entry/>
+            </row>
+            <row>
               <entry>oXygenXML 17.1</entry>
               <entry>Reports map as valid, resolves links correctly.</entry>
               <entry/>
+            </row>
+            <row>
+              <entry>XMetaL 11</entry>
+              <entry>Correct result. Cross references are resolved to the correct scope-specific
+                target. Scopes are correctly reflected in the key space manager.</entry>
+              <entry>Note that there is a known bug in the initial release of XMetal 11 that
+                prevents xref text from being resolved in the editor. Cannot verify that xref text
+                reflection is correct but assume it will be.</entry>
             </row>
             <row>
               <entry>XMetaL 10</entry>
