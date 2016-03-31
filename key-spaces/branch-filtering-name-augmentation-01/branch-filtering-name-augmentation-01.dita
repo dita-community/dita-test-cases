@@ -6,31 +6,31 @@
     there are nested scopes and topicrefs.</shortdesc>
   <body>
     <section spectitle="Overview">
-      <p>Tests the effect of using <xmlelement>dvrKeyscopePrefix</xmlelement> and
-          <xmlelement>dvrResourcePrefix</xmlelement> when there are nested key scopes.</p>
+      <p>Tests the effect of using <codeph>&lt;dvrKeyscopePrefix&gt;</codeph> and
+          <codeph>&lt;dvrResourcePrefix&gt;</codeph> when there are nested key scopes.</p>
       <p>The specification is potentially ambiguous about what the correct behavior is in this case
         for key scope prefixes and suffixes, in that it could be read as requiring that key scope
         prefixes and suffixes be propagated to descendant key scopes if you only look at the
         architecture specification. But if you look at the reference entry for
-          <xmlelement>dvrKeyscopePrefix</xmlelement> it makes it clearer that the prefix only
+          <codeph>&lt;dvrKeyscopePrefix&gt;</codeph> it makes it clearer that the prefix only
         applies the scope names on the filtered branch. That is also the only sensible behavior as
         otherwise qualified key references to scopes within the scope of the filtered branch would
         be impossible to author. (This feature also makes it clear that having nested filtered
         branches that both apply key scope qualifiers is probably not something you should do in
         practice unless you know exactly what you're doing and why).</p>
-      <p>This test case has two branches, one without a <xmlatt>keyscope</xmlatt> attribute and one
-        that defines a <xmlatt>keyscope</xmlatt> attribute. In both branches there is a reference to
-        a <xmlelement>ditavalref</xmlelement> element that specifies a key scope prefix and a
+      <p>This test case has two branches, one without a <codeph>@keyscope</codeph> attribute and one
+        that defines a <codeph>@keyscope</codeph> attribute. In both branches there is a reference to
+        a <codeph>&lt;ditavalref&gt;</codeph> element that specifies a key scope prefix and a
         resource name prefix.</p>
-      <p>Within each branch is a child topicref that defines a <xmlatt>keyscope</xmlatt> of
+      <p>Within each branch is a child topicref that defines a <codeph>@keyscope</codeph> of
         "child-01".</p>
       <p>The question is: "What is the effective key scope of the child topicref following
         application of branch filtering rules?"</p>
       <p>The key scope prefix is "ksPrefix-" in both branches.</p>
       <note>This example is artificial in that it uses two different branches in order to have
-        different <xmlatt>keyscope</xmlatt> values on the branches. Without different
-          <xmlatt>keyscope</xmlatt> values you could have one branch with two
-          <xmlelement>ditavalref</xmlelement> elements.</note>
+        different <codeph>@keyscope</codeph> values on the branches. Without different
+          <codeph>@keyscope</codeph> values you could have one branch with two
+          <codeph>&lt;ditavalref&gt;</codeph> elements.</note>
     </section>
     <section spectitle="Expected Results">
       <p>In both cases the effective key scope of the child scope should be "child-01" (that is, the
@@ -43,15 +43,15 @@
           names</xref>, as well as in <xref
           href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/base/dvrKeyscopePrefix.html#dvrKeyscopePrefix"
           format="html" scope="external">the reference entry for
-            <xmlelement>dvrKeyscopeSuffix</xmlelement></xref>. </p>
+            <codeph>&lt;dvrKeyscopeSuffix&gt;</codeph></xref>. </p>
       <p>The relevant language in 2.4.4.4 is:<lq>
           <dl>
             <dlentry>
-              <dt><xmlelement>dvrKeyscopePrefix</xmlelement></dt>
+              <dt><codeph>&lt;dvrKeyscopePrefix&gt;</codeph></dt>
               <dd>Enables a map author to specify a prefix that is added to the start of key scope
                 names for each key scope in the branch. If no key scope is specified for the branch,
                 this can be used to establish a new key scope, optionally combined with a value
-                specified in <xmlelement>dvrKeyscopeSuffix</xmlelement>.</dd>
+                specified in <codeph>&lt;dvrKeyscopeSuffix&gt;</codeph>.</dd>
             </dlentry>
           </dl>
         </lq></p>
@@ -59,16 +59,16 @@
         branch's @keyscope attribute, if specified", not "all the scope scopes descending from the
         branch".</p>
       <p>And in 3.5.4.5 &lt;dvrKeyscopePrefix>:<lq>For map branches that are implied by
-          &lt;ditavalref> elements, the value of the <xmlelement>dvrKeyscopePrefix</xmlelement>
+          &lt;ditavalref> elements, the value of the <codeph>&lt;dvrKeyscopePrefix&gt;</codeph>
           element contributes to the effective key scope names of the branch. The effective key
-          scope names start with the value of the <xmlelement>dvrKeyscopePrefix</xmlelement>
-          element. Note that if the branch as authored does not specify a <xmlatt>keyscope</xmlatt>
-          value, specifying <xmlelement>dvrKeyscopePrefix</xmlelement> (without also specifying
-            <xmlelement>dvrKeyscopeSuffix</xmlelement>) results in the branch establishing a key
-          scope whose name is the value of the <xmlelement>dvrKeyscopePrefix</xmlelement> element.
+          scope names start with the value of the <codeph>&lt;dvrKeyscopePrefix&gt;</codeph>
+          element. Note that if the branch as authored does not specify a <codeph>@keyscope</codeph>
+          value, specifying <codeph>&lt;dvrKeyscopePrefix&gt;</codeph> (without also specifying
+            <codeph>&lt;dvrKeyscopeSuffix&gt;</codeph>) results in the branch establishing a key
+          scope whose name is the value of the <codeph>&lt;dvrKeyscopePrefix&gt;</codeph> element.
           The full key scope names also will reflect the value of a
-            <xmlelement>dvrKeyscopeSuffix</xmlelement> element if one is specified, regardless of
-          whether the branch as authored specifies a <xmlatt>keyscope</xmlatt> value.</lq></p>
+            <codeph>&lt;dvrKeyscopeSuffix&gt;</codeph> element if one is specified, regardless of
+          whether the branch as authored specifies a <codeph>@keyscope</codeph> value.</lq></p>
       <p>This makes it clearer that the prefixes (and suffixes) only apply to the filtered branch and
         not descendant scope names.</p>
     </section>
@@ -78,9 +78,9 @@
       <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
         <title>Test Results</title>
         <tgroup cols="3">
-          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
-          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
-          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <colspec colname="c1" colnum="1" colwidth="1.02*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.01*"/>
           <thead>
             <row>
               <entry>Processor</entry>
@@ -96,8 +96,8 @@
             </row>
             <row>
               <entry>DITA OT 2.2.2</entry>
-              <entry>Only the link branch tr-branch-02 is resolved (the branch with the
-                explicitly-specified <xmlatt>keyscope</xmlatt> attribute. The other links do not
+              <entry>Fail: Only the link branch tr-branch-02 is resolved (the branch with the
+                explicitly-specified <codeph>@keyscope</codeph> attribute). The other links do not
                 resolve.</entry>
               <entry>The 2.2.2 OT propagates keyscope prefixes to descendant scopes.<p>The 2.2 2 OT
                   does not use the prefix or suffix as the key scope when no @keyscope is
@@ -123,8 +123,14 @@
                 constructing its key spaces.</entry>
             </row>
             <row>
+              <entry>XMetaL 11</entry>
+              <entry>Fail: The key spaces shown in the Key Space Manager do not reflect the branch
+                filtering prefixes.</entry>
+              <entry/>
+            </row>
+            <row>
               <entry>XMetaL 10</entry>
-              <entry>The key spaces shown in the Key Space Manager do not reflect the branch
+              <entry>Fail: The key spaces shown in the Key Space Manager do not reflect the branch
                 filtering prefixes.</entry>
               <entry/>
             </row>

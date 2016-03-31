@@ -4,7 +4,7 @@
   <title>Topic 01 <ph platform="windows">(Windows)</ph><ph platform="osx">(OS X)</ph></title>
   <body>
     <p>This is <filepath>topic-01.dita</filepath>. It is used from two filtered branches. The
-      following two paragraphs are conditional to the <xmlatt>platform</xmlatt> values "windows" and
+      following two paragraphs are conditional to the <codeph>@platform</codeph> values "windows" and
       "osx" respecitively.</p>
     <p platform="windows">This applicable to platform="windows"</p>
     <p platform="osx">This is applicable to platform="osx"</p>
