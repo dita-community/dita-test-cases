@@ -104,6 +104,17 @@
                   specified.</p></entry>
             </row>
             <row>
+              <entry>oxygenXML 18 beta build 2016031809</entry>
+              <entry>Pass: Key references are resolved correctly.<p>Pass: Key reference creation
+                  dialog includes the augmented scope names as selection options for qualified key
+                  names.</p></entry>
+              <entry>There's no obvious way for the editor to reflect the fact that a topic is used
+                in two different scopes and that navigating to it as used in one scope is a
+                different result than when navigating to it as used in another scope. Doing a
+                "search references" on the re-used topic does correctly reflect the places where it
+                is used.</entry>
+            </row>
+            <row>
               <entry>oXygenXML 17.1</entry>
               <entry>Key references are not resolved: reports the keys as not defined.<p>Key
                   reference creation dialog does not reflect branch-filtering defined scopes, no way
