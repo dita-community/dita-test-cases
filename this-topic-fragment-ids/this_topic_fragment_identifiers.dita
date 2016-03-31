@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="this_topic_fragment_identifiers">
+  <title>This-Topic Fragment Identifiers</title>
+  <body>
+    <p>These test cases exercise the DITA 1.3 "this topic" fragment identifier feature.</p>
+  </body>
+</topic>
