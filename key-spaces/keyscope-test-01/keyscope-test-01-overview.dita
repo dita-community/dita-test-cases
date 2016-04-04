@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_xgt_12n_cv">
-  <title>Keyscope Test 01 Description ssss</title>
+  <title>Keyscope Test 01 Description</title>
   <shortdesc>Verifies that keys defined on topicrefs that also specify <codeph>@keyscope</codeph> are
     in the specified scope and not the parent scope.</shortdesc>
   <body>
