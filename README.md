@@ -30,3 +30,8 @@ base edition:
 
 http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/archSpec-base.html
 
+You can view and edit the test documents using OxygenXML's Web editor GitHub integration. If you don't have write access to this repository the editor will automatically create a fork of this respository to save your changes in. You can then use GitHub's pull request feature to easily submit your changes as a pull request.
+
+https://www.oxygenxml.com/webapp-demo-aws/app/oxygen.html?gh_repo=dita-community/dita-test-cases&gh_branch=master&gh_ditamap=test-case-catalog.ditamap
+
+The test-case-catalog DITA map organizes all the test cases. In addition, each test case has one or more root maps for those test cases.
