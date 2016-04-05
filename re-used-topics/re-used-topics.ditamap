@@ -2,8 +2,10 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Reused Topics Test 01</title>
-  <topicref href="topic_a.dita"/>
-  <topicref href="topic_b.dita"/>
-  <topicref href="topic_c.dita"/>
-  <topicref href="topic_a.dita" copy-to="topic_a-use-02.dita"/>
+  <topicref href="reuse_with_copy_to_01.dita">
+    <topicref href="topic_a.dita"/>
+    <topicref href="topic_b.dita"/>
+    <topicref href="topic_c.dita"/>
+    <topicref href="topic_a.dita" copy-to="topic_a-use-02.dita"/>
+  </topicref>
 </map>

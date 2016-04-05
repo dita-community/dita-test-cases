@@ -3,7 +3,7 @@
 <topic id="topic_b">
   <title>Topic B</title>
   <body>
-    <p><xref href="topic_a.dita#topic_a"/></p>
-    <p><xref href="topic_a-use-02.dita#topic_a"/></p>
+    <p>Link to URI "topic_a.dita": <xref href="topic_a.dita#topic_a"/></p>
+    <p>Link to URI "topic_a-use-02.dita": <xref href="topic_a-use-02.dita#topic_a"/></p>
   </body>
 </topic>

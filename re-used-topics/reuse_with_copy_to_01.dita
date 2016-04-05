@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "technicalContent/dtd/topic.dtd" [
+]>
+
+
+
+<topic id = "reuse_with_copy_to_01"
+    xmlns:ditaarch = "http://dita.oasis-open.org/architecture/2005/">
+<title>Reuse with copy-to 01</title>
+<shortdesc>This test exercises the use of <xmlatt>copy-to</xmlatt> to
+enable cross references to two different uses of a single topic.</shortdesc>
+<body><section spectitle = "Overview"><p>If the same topic is used
+twice in the same map and you need to create cross references to
+one or both of the uses using direct URI references (and not keys) then
+there is a fundamental problem in that a reference to the source
+DITA file is ambiguous as to which use of the topic you mean. In
+an HTML output context you will likely get the first use of the
+topic or for both uses there will only be a single HTML file generated
+and the link will go to that file. The file may reflect both use
+contexts, for example if you generate links to parent topics the
+HTML file will have a link to both parents.</p><p>Through DITA 1.2
+the non-key solution is to use <xmlatt>copy-to</xmlatt> on one of
+the references to specify a new effective source filename for the
+reference. This has the effect of producing a distinct HTML result
+file for the reference to the topic. For cross references you specify
+the effective source file name (the <xmlatt>copy-to</xmlatt> value)
+rather than the real source file name. Editors may flag this reference
+as unresolved (because there's no actual source file with the referenced
+filename) but processors should resolve the reference in outputs.
+The DITA Open Toolkit generates a literal source file reflecting
+the <xmlatt>copy-to</xmlatt> value in the temporary files it generates
+as part of preprocessing.</p><p>For DITA 1.3, if you use key scopes
+or branch filtering such that each use of a topic is within a distinct
+key scope or has branch filtering applied, then the processor is
+effectively obligated to generate unique result files for each use
+of a given topic. That may remove the need to use <xmlatt>copy-to</xmlatt> when
+the reference to the topic is within the same key scope or within
+the same filtered scope.</p><p>The test case contains a number of
+topics. Topic <filepath>topic_a.dita</filepath> is used twice in
+the map. The second use specifies "topic_a-use-02.dita" for the <xmlatt>copy-to</xmlatt> value.</p><p>Topic <filepath>topic_b.dita</filepath> has
+links to both "topic_a.dita" and "topic_a-use-02.dita".</p></section>
+<section spectitle = "Expected Results"><p>The cross reference to
+the <xmlatt>copy-to</xmlatt> value "topic_a-use-02.dita" should resolve
+to the second use of topic A.</p></section>
+<section spectitle = "Relevant Specification Language"><p>The <xmlatt>copy-to</xmlatt> attribute
+is defined in <xref  href = "http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/attributes/topicrefElementAttributes.html"
+format = "html" scope = "external">3.10.12 Topicref element attributes
+group</xref>.</p></section>
+<section spectitle = "Test Results"><p>Describe the results of running
+the tests with different processors. Include the processor version
+and option details so that others can reproduce your tests.</p><table
+    frame = "topbot" colsep = "1" rowsep = "1" id = "table_t4w_rgn_cv">
+<title>Test Results</title>
+<tgroup cols = "3" colsep = "1" rowsep = "1" outputclass = "FormatA">
+<colspec colnum = "1" colname = "1" colwidth = "33*"/>
+<colspec colnum = "2" colname = "2" colwidth = "33*"/>
+<colspec colnum = "3" colname = "3" colwidth = "33*"/>
+<thead>
+<row rowsep = "1">
+<entry colname = "1">Processor</entry>
+<entry colname = "2">Test Result</entry>
+<entry colname = "3">Notes</entry>
+</row>
+</thead>
+<tbody>
+<row rowsep = "1">
+<entry colname = "1">DITA Open Toolkit 2.2.x</entry>
+<entry colname = "2">Link is resolved correctly.</entry>
+<entry colname = "3"></entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1">oXygenXML Editor 18 beta</entry>
+<entry colname = "2">Editor does not resolve the reference to the <xmlatt>copy-to</xmlatt> value
+in the editor.</entry>
+<entry colname = "3"></entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1">XMetaL 11</entry>
+<entry colname="2">Editor does not resolve the reference to the <xmlatt>copy-to</xmlatt> value in
+                the editor.</entry>
+<entry colname = "3"></entry>
+</row>
+<row rowsep = "1">
+<entry colname="1">FrameMaker 13.0.1.385</entry>
+<entry colname="2">Editor does not resolve the reference to the <xmlatt>copy-to</xmlatt> value in
+                the editor.</entry>
+<entry colname="3">No text is shown in this case, so it's not very clear what's going on because the
+                link is just empty.</entry>
+</row>
+<row rowsep = "1">
+<entry colname = "1">ditac 2.5.x</entry>
+<entry colname = "2">Not tested</entry>
+<entry colname = "3"></entry>
+</row>
+<row rowsep = "0">
+<entry colname = "1">DFST Link Manager 0.9.x</entry>
+<entry colname = "2">Not tested</entry>
+<entry colname = "3"></entry>
+</row>
+</tbody>
+</tgroup></table></section></body></topic>
