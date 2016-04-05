@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="map_a_topic_02">
+  <title>Map A Topic 02</title>
+  <body>
+    <p>This is topic 02 of Map A. It is bound to the key "topic-02" in the global key scope of Map
+      A.</p>
+    <p>This is a link to key "topic-01" in key scope "map-b": <xref keyref="map-b.topic-01"/>.</p>
+  </body>
+</topic>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ahb_v2n_cv">
+  <title>Cross-Deliverable Link Test 01</title>
+  <shortdesc>Tests the handling of cross-deliverable links using DITA 1.3's new meaning for
+    scope="peer" and scoped key references.</shortdesc>
+  <body>
+    <section spectitle="Overview">
+      <p>This test consists of two maps where Map A has a scope="peer" map reference to Map B and
+        then has several forms of link from Map A to keys defined in Map B:<ul id="ul_uyv_t5y_nv">
+          <li>Cross references from topics in Map A to topics in Map B using scope-qualified key
+            references.</li>
+          <li>Relationship table references from Map A to topics in Map B.</li>
+        </ul></p>
+      <p>In order to test that the key spaces of Map A and Map B are kept distinct, Map B and Map A
+        both declare the same key name in the root scope. Because Map B's map reference occurs in
+        Map A before Map A's reference to it's own key-defining map, if the key spaces are not kept
+        distinct the key definition in Map B will take precedence over the key definition in Map A.
+        A reference from a topic in Map A should resolve to the Map-A-used topic and not to the Map
+        B-used topic.</p>
+    </section>
+    <section spectitle="Expected Results">
+      <p>The expected results include:<ul id="ul_mly_x5y_nv">
+          <li>Map B's keys are not included in Map A's key space.</li>
+          <li>The references to Map B topics from Map A are recognized as being cross-deliverable.
+            The processing result will vary depending on how well cross-deliverable linking is
+            supported, but at a minimum the reference should be recognized as cross-deliverable and
+            either resolved correctly or reported as a unsupported link in some appropriate way. The
+            link should not be reported as invalid or unresolvable. Because both maps are present
+            processors should able to process both Map A and Map B when Map A is processed.</li>
+        </ul></p>
+    </section>
+    <section spectitle="Relevant Specification Language">
+      <p>Cross-deliverable addressing is defined in <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/links-between-maps.html#links-between-maps"
+          format="html" scope="external">Cross-deliverable addressing and linking</xref>.</p>
+    </section>
+    <section spectitle="Test Results">
+      <p>Test results </p>
+      <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
+        <title>Test Results</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>Test Result</entry>
+              <entry>Notes</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>DITA Open Toolkit 2.2.3</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>oXygenXML Editor 18 beta</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>XMetaL 11.0</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>FrameMaker 15</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>ditac 2.5.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>DFST Link Manager 0.9.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </body>
+</topic>

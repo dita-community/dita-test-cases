@@ -6,6 +6,38 @@
     <topicmeta>
       <navtitle>Key Definitions</navtitle>
     </topicmeta>
+    <mapref keyscope="branch-filtering-name-augmentation-01" 
+      href="key-spaces/branch-filtering-name-augmentation-01/branch-filtering-name-augmentation-01.ditamap"
+      scope="peer"
+      >
+      <topicmeta>
+        <navtitle>Branch filtering name augmentation test 01.</navtitle>
+      </topicmeta>
+    </mapref>
+    <mapref keyscope="keyscope-test-01" 
+      href="key-spaces/keyscope-test-01/root-map-keyscope-test-01.ditamap"
+      scope="peer"
+      >
+      <topicmeta>
+        <navtitle>Key scope test 01</navtitle>
+      </topicmeta>
+    </mapref>
+    <mapref keyscope="this-topic-fragment-ids" 
+      href="this-topic-fragment-ids/this-topic-fragment-ids.ditamap"
+      scope="peer"
+      >
+      <topicmeta>
+        <navtitle>"This-topic" fragment identifier tests</navtitle>
+      </topicmeta>
+    </mapref>
+    <mapref keyscope="cross-deliverable-links" 
+      href="cross-deliverable-links/cross-deliverable-links-test-01.ditamap"
+      scope="peer"
+      >
+      <topicmeta>
+        <navtitle>"This-topic" fragment identifier tests</navtitle>
+      </topicmeta>
+    </mapref>
   </topicgroup>
   <topicref keys="test-case-catalog" href="test-case-catalog.dita">
     <topicref keys="key-spaces" href="key-spaces/key-spaces-tests.dita">
@@ -15,9 +47,21 @@
       <topicref href="key-spaces/keyscope-test-01/keyscope-test-01-overview.dita"
         keys="keyscope-test-01"/>
     </topicref>
-    <topicref href="this-topic-fragment-ids/this_topic_fragment_identifiers.dita">
-      <topicref href="this-topic-fragment-ids/this-topic-fragment-ids-test-01.dita"
-        keys="this-topic-fragid-test-01"/>
+    <topicref href="this-topic-fragment-ids/this-topic-fragment-ids-test-01.dita">
+    </topicref>
+    <topicref href="cross-deliverable-links/cross-deliverable-links-test-01.dita">
     </topicref>
   </topicref>
+  <reltable>
+    <relrow>
+      <relcell>
+        <topicref keyref="test-case-catalog"/>
+      </relcell>
+      <relcell>
+        <topicref keyref="branch-filtering-name-augmentation-01.test-case-description"/>
+        <topicref keyref="keyscope-test-01.overview"/>
+        <topicref keyref="this-topic-fragment-ids.test-case-definition"/>
+      </relcell>
+    </relrow>
+  </reltable>
 </map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="map_b_topic_01">
+  <title>Map B Topic 01</title>
+  <body>
+    <p>This is Topic 01 in Map B. It is bound to the key "topic-01" in the root key scope of Map
+      B.</p>
+  </body>
+</topic>

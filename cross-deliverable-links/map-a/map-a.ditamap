@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Map A</title>
+  <topicgroup>
+    <mapref href="../map-b/map-b.ditamap" scope="peer" keyscope="map-b"/>
+  </topicgroup>
+  <mapref href="content-topics.ditamap"/>
+</map>
