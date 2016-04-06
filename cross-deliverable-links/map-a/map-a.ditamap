@@ -6,4 +6,26 @@
     <mapref href="../map-b/map-b.ditamap" scope="peer" keyscope="map-b"/>
   </topicgroup>
   <mapref href="content-topics.ditamap"/>
+  <reltable title="Cross-Deliverable Links">
+    <relheader>
+      <relcolspec>
+        <title>This publication</title>
+      </relcolspec>
+      <relcolspec>
+        <title>Target deliverable</title>
+      </relcolspec>
+    </relheader>
+    <relrow>
+      <relcell>
+        <topicref keyref="topic-01"/>
+      </relcell>
+      <relcell>
+        <topicref keyref="map-b.topic-01">
+          <topicmeta>
+            <navtitle>Map B as a Root Map</navtitle>
+          </topicmeta>
+        </topicref>
+      </relcell>
+    </relrow>
+  </reltable>
 </map>

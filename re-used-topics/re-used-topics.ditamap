@@ -6,6 +6,10 @@
     <topicref href="topic_a.dita"/>
     <topicref href="topic_b.dita"/>
     <topicref href="topic_c.dita"/>
-    <topicref href="topic_a.dita" copy-to="topic_a-use-02.dita"/>
+    <topicref href="topic_a.dita" copy-to="topic_a-use-02.dita">
+      <topicmeta>
+        <navtitle>Topic A Second Use</navtitle>
+      </topicmeta>
+    </topicref>
   </topicref>
 </map>
