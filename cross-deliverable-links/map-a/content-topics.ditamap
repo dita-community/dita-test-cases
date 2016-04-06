@@ -2,6 +2,8 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Content Topics</title>
-  <topicref href="topics/map_a_topic_01.dita" keys="topic-01"/>
-  <topicref href="topics/map_a_topic_02.dita" keys="topic-02"/>
+  <topicref href="topics/map-a.dita" keys="map-a">
+    <topicref href="topics/map_a_topic_01.dita" keys="topic-01"/>
+    <topicref href="topics/map_a_topic_02.dita" keys="topic-02"/>
+  </topicref>
 </map>

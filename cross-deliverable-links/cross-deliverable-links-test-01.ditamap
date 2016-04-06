@@ -3,8 +3,8 @@
 <map>
  <title>Cross-Deliverable Links Test 01</title>
   <topicgroup>
-    <mapref href="map-a/map-a.ditamap" scope="peer"/>
-    <mapref href="map-b/map-b.ditamap" scope="peer"/>
+    <mapref href="map-a/map-a.ditamap" scope="peer" keyscope="map-a"/>
+    <mapref href="map-b/map-b.ditamap" scope="peer" keyscope="map-b"/>
   </topicgroup>
   <topicref href="cross-deliverable-links-test-01.dita"/>
 </map>

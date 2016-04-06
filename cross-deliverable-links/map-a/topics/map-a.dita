@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_unn_mvf_4v">
+  <title>Map A</title>
+  <body>
+    <p>Map A has topics that refer to topics in Map B using DITA 1.3's cross-deliverable link
+      mechanism.</p>
+  </body>
+</topic>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_az3_tvf_4v">
+  <title>Map B</title>
+  <body>
+    <p>Topics in Map B are linked to by topics in Map A. Map A refers to Map B using
+        <xmlatt>scope</xmlatt> of "peer", which means "treat the referenced map as a separate root
+      map with its own distinct key space".</p>
+  </body>
+</topic>

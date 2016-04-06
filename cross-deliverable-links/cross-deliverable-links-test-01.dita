@@ -21,7 +21,9 @@ Because Map B's map reference occurs in Map A before Map A's reference
 to it's own key-defining map, if the key spaces are not kept distinct
 the key definition in Map B will take precedence over the key definition
 in Map A. A reference from a topic in Map A should resolve to the
-Map-A-used topic and not to the Map B-used topic.</p></section>
+Map-A-used topic and not to the Map B-used topic.</p>
+      <p>Map A is here: <xref keyref="map-a.topic-01"/>. Map A is the input to the tests.</p>
+      <p>Map B is here: <xref keyref="map-b.topic-01"/>. Map B is linked to by topics in Map A.</p></section>
 <section spectitle = "Expected Results"><p>The expected results
 include:<ul id = "ul_mly_x5y_nv"><li>Map B's keys are not included
 in Map A's key space.</li>
