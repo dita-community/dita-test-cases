@@ -7,5 +7,7 @@
       serves as a catalog of test cases.</p>
     <p>If you create a new test case please add a reference to the test case description topic
       here.</p>
+    <p>The source for these test cases is available on GitHub as <xref
+        keyref="github-project-dita-test-cases"/>. </p>
   </body>
 </topic>

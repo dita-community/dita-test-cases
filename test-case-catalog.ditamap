@@ -7,38 +7,37 @@
       <navtitle>Key Definitions</navtitle>
     </topicmeta>
     <mapref href="key-spaces/allowed-key-name-characters/allowed-key-characters-keydefs.ditamap"/>
-    <mapref keyscope="branch-filtering-name-augmentation-01" 
+    <mapref keyscope="branch-filtering-name-augmentation-01"
       href="key-spaces/branch-filtering-name-augmentation-01/branch-filtering-name-augmentation-01.ditamap"
-      scope="peer"
-      >
+      scope="peer" toc="no">
       <topicmeta>
         <navtitle>Branch filtering name augmentation test 01.</navtitle>
       </topicmeta>
     </mapref>
-    <mapref keyscope="keyscope-test-01" 
-      href="key-spaces/keyscope-test-01/root-map-keyscope-test-01.ditamap"
-      scope="peer"
-      >
+    <mapref keyscope="keyscope-test-01"
+      href="key-spaces/keyscope-test-01/root-map-keyscope-test-01.ditamap" scope="peer" toc="no">
       <topicmeta>
         <navtitle>Key scope test 01</navtitle>
       </topicmeta>
     </mapref>
-    <mapref keyscope="this-topic-fragment-ids" 
-      href="this-topic-fragment-ids/this-topic-fragment-ids.ditamap"
-      scope="peer"
-      >
+    <mapref keyscope="this-topic-fragment-ids"
+      href="this-topic-fragment-ids/this-topic-fragment-ids.ditamap" scope="peer" toc="no">
       <topicmeta>
         <navtitle>"This-topic" fragment identifier tests</navtitle>
       </topicmeta>
     </mapref>
-    <mapref keyscope="cross-deliverable-links" 
-      href="cross-deliverable-links/cross-deliverable-links-test-01.ditamap"
-      scope="peer"
-      >
+    <mapref keyscope="cross-deliverable-links"
+      href="cross-deliverable-links/cross-deliverable-links-test-01.ditamap" scope="peer" toc="no">
       <topicmeta>
         <navtitle>"This-topic" fragment identifier tests</navtitle>
       </topicmeta>
     </mapref>
+    <keydef href="http://github.com/dita-community/dita-test-cases"
+      keys="github-project-dita-test-cases" format="html" scope="external">
+      <topicmeta>
+        <navtitle>dita-community/dita-test-cases</navtitle>
+      </topicmeta>
+    </keydef>
   </topicgroup>
   <topicref keys="test-case-catalog" href="test-case-catalog.dita">
     <topicref keys="key-spaces" href="key-spaces/key-spaces-tests.dita">
