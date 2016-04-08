@@ -1,0 +1,110 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016"><meta name="DC.rights.owner" content="(C) Copyright 2016"><meta name="DC.Type" content="topic"><meta name="description" content="Tests the use of various characters within key names."><meta name="DC.Relation" scheme="URI" content="../../key-spaces/key-spaces-tests.html"><meta name="DC.Format" content="XHTML"><meta name="DC.Identifier" content="allowed_key_name_characters_test"><link rel="stylesheet" type="text/css" href="../../commonltr.css"><title>Allowed Key Name Characters Test</title></head><body id="allowed_key_name_characters_test"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Allowed Key Name Characters Test</h1>
+  
+  <div class="body"><p class="shortdesc">Tests the use of various characters within key names.</p>
+    <section class="section"><h2 class="sectiontitle">Overview</h2>
+      <p class="p">This test exercises the way that tools interpret the DITA 1.2 (and 1.3) rule for key names,
+        which says simply "characters allowed in URIs". That turns out to be a fairly fuzzy
+        definition that is open to a lot of interpretation.</p>
+    </section>
+    <section class="section"><h2 class="sectiontitle">Expected Results</h2>
+      <p class="p">The following table contains references to keys using different characters and indicates
+        how they should be handled.</p>
+      <div class="table-frame"><table id="allowed_key_name_characters_test__table_f55_2wv_4v" class="table expanse-column table-rules-all"><caption><span class="tablecap">Table 1. Key Name Tests</span></caption><colgroup><col style="width:50%"><col style="width:50%"></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d377e43">Test Description</th>
+              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d377e46">Key Reference</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e43 ">
+                <p class="p">Key with only alphabetic characters, dash, and dot.</p>
+                <p class="p">Should always work.</p>
+              </td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e46 ">"<span class="keyword">Alpha only with dash ("-") and dot (".")</span>"</td>
+            </tr>
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e43 ">Key containing a "[" (left square bracket). This character is explicitly
+                disallowed by the DITA spec.</td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e46 ">"<span class="keyword">Key with left square bracket (should not work)</span>"</td>
+            </tr>
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e43 ">Key containing characters way outside the ASCII range ("寺田寅彦-空想日録")<p class="p">Whether
+                  this is allowed or not depends on how you interpret "allowed in URIs".</p></td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e46 ">"<span class="keyword">Key with Japanese characters: "寺田寅彦-空想日録"</span>"</td>
+            </tr>
+          </tbody></table></div>
+    </section>
+    <section class="section"><h2 class="sectiontitle">Relevant Specification Language</h2>
+      <p class="p">See <a class="xref" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/attributes/thekeysattribute.html#thekeysattribute" target="_blank">http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/attributes/thekeysattribute.html#thekeysattribute</a></p>
+    </section>
+    <section class="section"><h2 class="sectiontitle">Test Results</h2>
+      <p class="p">Describe the results of running the tests with different processors. Include the processor
+        version and option details so that others can reproduce your tests.</p>
+      <div class="table-frame-top-bottom"><table id="allowed_key_name_characters_test__table_t4w_rgn_cv" class="table expanse-column table-rules-topbot"><caption><span class="tablecap">Table 2. Test Results</span></caption><colgroup><col style="width:33.33333333333333%"><col style="width:33.33333333333333%"><col style="width:33.33333333333333%"></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d377e132">Processor</th>
+              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d377e135">Test Result</th>
+              <th class="entry row-nocellborder" style="text-align:left;vertical-align:top;" id="d377e138">Notes</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e132 ">DITA Open Toolkit 2.2.3</td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e135 ">
+                <p class="p">Accepts the alpha-only key.</p>
+                <p class="p">Correctly reports the key containing "[" as invalid.</p>
+                <p class="p">Reports the Japanese key as invalid.</p>
+              </td>
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d377e138 ">This behavior reflects the most conservative interpretation of the DITA
+                specification language.<p class="p">Even though the OT reports the keys as invalid, it still
+                  resolves them all.</p></td>
+            </tr>
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e132 ">DITA Open Toolkit 1.8.5</td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e135 ">
+                <p class="p">Accepts the alpha-only key.</p>
+                <p class="p">Correctly reports the key containing "[" as invalid.</p>
+                <p class="p">Reports the Japanese key as invalid.</p>
+              </td>
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d377e138 ">This behavior reflects the most conservative interpretation of the DITA
+                specification language.<p class="p">Even though the OT reports the keys as invalid, it still
+                  resolves them all.</p></td>
+            </tr>
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e132 ">oXygenXML Editor 18 beta</td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e135 ">
+                <p class="p">Accepts the alpha-only key.</p>
+                <p class="p">Correctly reports the key containing "[" as invalid.</p>
+                <p class="p">Accepts the Japanese key.</p>
+              </td>
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d377e138 ">Map validator does not report the bad key but the main editor validator
+                does.</td>
+            </tr>
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e132 ">XMetaL 11</td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e135 ">Resolves the alpha-only and Japanese keys in the main editor view. Does not
+                resolve the invalid key.<p class="p">The key space manager flags the bad key as invalid and
+                  reports the issue in the Key Space Manager log.</p></td>
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d377e138 ">&nbsp;</td>
+            </tr>
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e132 ">FrameMaker 13</td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e135 ">Accepts all keys in the UI, does not report any keys as being invalid.</td>
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d377e138 ">&nbsp;</td>
+            </tr>
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e132 ">ditac 2.5.x</td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e135 ">Not tested</td>
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d377e138 ">&nbsp;</td>
+            </tr>
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e132 ">DFST Link Manager 0.9.x</td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d377e135 ">Not tested</td>
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d377e138 ">&nbsp;</td>
+            </tr>
+          </tbody></table></div>
+    </section>
+  </div>
+<nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../key-spaces/key-spaces-tests.html">Key Space Tests</a></div></div></nav></article></main></body></html>
