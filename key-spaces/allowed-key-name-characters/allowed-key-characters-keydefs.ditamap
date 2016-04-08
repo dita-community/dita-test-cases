@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Allowed Key Name Characters Test Key Definitions</title>
+  <topicgroup>
+    <keydef
+      href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/attributes/thekeysattribute.html#thekeysattribute"
+      format="html" scope="external" keys="dita-13-keys-att-definition">
+      <topicmeta>
+        <navtitle>3.10.13.2 The @keys attribute</navtitle>
+      </topicmeta>
+    </keydef>
+    <keydef keys="alphaonly-with-dash-and.dot">
+      <topicmeta>
+        <keywords>
+          <keyword>Alpha only with dash ("-") and dot (".")</keyword>
+        </keywords>
+      </topicmeta>
+    </keydef>
+    <keydef keys="left-square-bracket-[bracket">
+      <topicmeta>
+        <keywords>
+          <keyword>Key with left square bracket (should not work)</keyword>
+        </keywords>
+      </topicmeta>
+    </keydef>
+    <keydef keys="寺田寅彦-空想日録">
+      <topicmeta>
+        <keywords>
+          <keyword>Key with Japanese characters: "寺田寅彦-空想日録"</keyword>
+        </keywords>
+      </topicmeta>
+    </keydef>
+  </topicgroup>
+</map>

@@ -6,6 +6,7 @@
     <topicmeta>
       <navtitle>Key Definitions</navtitle>
     </topicmeta>
+    <mapref href="key-spaces/allowed-key-name-characters/allowed-key-characters-keydefs.ditamap"/>
     <mapref keyscope="branch-filtering-name-augmentation-01" 
       href="key-spaces/branch-filtering-name-augmentation-01/branch-filtering-name-augmentation-01.ditamap"
       scope="peer"
@@ -46,6 +47,7 @@
         keys="branch-filtering-name-augmentation-test-01"/>
       <topicref href="key-spaces/keyscope-test-01/keyscope-test-01-overview.dita"
         keys="keyscope-test-01"/>
+      <topicref href="key-spaces/allowed-key-name-characters/allowed_key_name_characters_test.dita"/>
     </topicref>
     <topicref href="this-topic-fragment-ids/this-topic-fragment-ids-test-01.dita">
     </topicref>

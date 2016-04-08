@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="allowed_key_name_characters_test">
+  <title>Allowed Key Name Characters Test</title>
+  <shortdesc>Tests the use of various characters within key names.</shortdesc>
+  <body>
+    <section spectitle="Overview">
+      <p>This test exercises the way that tools interpret the DITA 1.2 (and 1.3) rule for key names,
+        which says simply "characters allowed in URIs". That turns out to be a fairly fuzzy
+        definition that is open to a lot of interpretation.</p>
+    </section>
+    <section spectitle="Expected Results">
+      <p>The following table contains references to keys using different characters and indicates
+        how they should be handled.</p>
+      <table frame="all" rowsep="1" colsep="1" id="table_f55_2wv_4v">
+        <title>Key Name Tests</title>
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Test Description</entry>
+              <entry>Key Reference</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <p>Key with only alphabetic characters, dash, and dot.</p>
+                <p>Should always work.</p>
+              </entry>
+              <entry>"<keyword keyref="alphaonly-with-dash-and.dot"/>"</entry>
+            </row>
+            <row>
+              <entry>Key containing a "[" (left square bracket). This character is explicitly
+                disallowed by the DITA spec.</entry>
+              <entry>"<keyword keyref="left-square-bracket-[bracket"/>"</entry>
+            </row>
+            <row>
+              <entry>Key containing characters way outside the ASCII range ("寺田寅彦-空想日録")<p>Whether
+                  this is allowed or not depends on how you interpret "allowed in URIs".</p></entry>
+              <entry>"<keyword keyref="寺田寅彦-空想日録"/>"</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section spectitle="Relevant Specification Language">
+      <p>See <xref keyref="dita-13-keys-att-definition"/></p>
+    </section>
+    <section spectitle="Test Results">
+      <p>Describe the results of running the tests with different processors. Include the processor
+        version and option details so that others can reproduce your tests.</p>
+      <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
+        <title>Test Results</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>Test Result</entry>
+              <entry>Notes</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>DITA Open Toolkit 2.2.3</entry>
+              <entry>
+                <p>Accepts the alpha-only key.</p>
+                <p>Correctly reports the key containing "[" as invalid.</p>
+                <p>Reports the Japanese key as invalid.</p>
+              </entry>
+              <entry>This behavior reflects the most conservative interpretation of the DITA
+                specification language.<p>Even though the OT reports the keys as invalid, it still
+                  resolves them all.</p></entry>
+            </row>
+            <row>
+              <entry>DITA Open Toolkit 1.8.5</entry>
+              <entry>
+                <p>Accepts the alpha-only key.</p>
+                <p>Correctly reports the key containing "[" as invalid.</p>
+                <p>Reports the Japanese key as invalid.</p>
+              </entry>
+              <entry>This behavior reflects the most conservative interpretation of the DITA
+                specification language.<p>Even though the OT reports the keys as invalid, it still
+                  resolves them all.</p></entry>
+            </row>
+            <row>
+              <entry>oXygenXML Editor 18 beta</entry>
+              <entry>
+                <p>Accepts the alpha-only key.</p>
+                <p>Correctly reports the key containing "[" as invalid.</p>
+                <p>Accepts the Japanese key.</p>
+              </entry>
+              <entry>Map validator does not report the bad key but the main editor validator
+                does.</entry>
+            </row>
+            <row>
+              <entry>XMetaL 11</entry>
+              <entry>Resolves the alpha-only and Japanese keys in the main editor view. Does not
+                resolve the invalid key.<p>The key space manager flags the bad key as invalid and
+                  reports the issue in the Key Space Manager log.</p></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>FrameMaker 13</entry>
+              <entry>Accepts all keys in the UI, does not report any keys as being invalid.</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>ditac 2.5.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>DFST Link Manager 0.9.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </body>
+</topic>
