@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="more_specialized_referencing_topic">
+    <title>More-Specialized Referencing Topic</title>
+    <shortdesc>This is a task that contains a content reference to an element in a generic
+    topic.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Content reference to phrase element in a generic topic: "<ph
+          conkeyref="oth1460150042136/giraffe"/>".</p>
+        </context>
+        <steps>
+            <step>
+        <cmd>Do something</cmd>
+      </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="less_specialized_referencing_topic">
+  <title>Less-Specialized Referencing Topic</title>
+  <body>
+    <p>This is a generic topic. It has a content reference to a step element in a task:<ol
+        id="ol_nrp_5h2_pv">
+        <li>This is a list item authored in the topic.</li>
+        <li conkeyref="task-warehouse-01/step-01"/>
+      <li>This is after the content referenced list item.</li>
+    </ol></p>
+  </body>
+</topic>

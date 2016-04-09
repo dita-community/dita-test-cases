@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_to_task_content_reference">
+    <title>Task-to-Task Content Reference</title>
+    <shortdesc>This task has a content reference to an element in another task.</shortdesc>
+    <taskbody>
+        <context>
+            <p>The second step is referenced from the topic with the key "task-warehouse-01"</p>
+        </context>
+        <steps>
+            <step>
+        <cmd>This step is locally authored in the referencing task.</cmd>
+      </step>
+      <step conkeyref="task-warehouse-01/step-01">
+        <cmd/>
+      </step>
+      <step>
+        <cmd>This step is after the referenced step.</cmd>
+      </step>
+        </steps>
+    </taskbody>
+</task>

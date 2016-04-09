@@ -5,6 +5,14 @@
   <topicgroup>
     <keydef href="topics/conreftarget-01.dita" keys="guj1460149604808"/>
     <keydef href="topics/conreftarget-02.dita" keys="oth1460150042136"/>
+    <keydef href="topics/task-warehouse-01.dita" keys="task-warehouse-01"/>
   </topicgroup>
-  <topicref href="topics/referencing_topic_01.dita"/>
+  <topicref href="topics/conkeyref_tests.dita">
+    <topicref href="topics/referencing_topic_01.dita" keys="referencing-topic-01"/>
+    <topicref href="topics/more_specialized_referencing_topic.dita"
+      keys="more-specialized-referencing-topic"/>
+    <topicref href="topics/less_specialized_referencing_topic.dita"
+      keys="less-specialized-referencing-topic"/>
+    <topicref href="topics/task_to_task_content_reference.dita"/>
+  </topicref>
 </map>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conkeyref_tests">
+  <title>conkeyref Tests</title>
+  <body>
+    <p>Several cases:<ol id="ul_t5c_xg2_pv">
+        <li>Reference from a generic topic to elements in generic topics (same topic types)</li>
+        <li>Reference from a more-specialized topic to elements in a generic (less specialized)
+          topic</li>
+        <li>Reference from a less-specialized topic to a more-specialized topic</li>
+      </ol></p>
+    <p>Case (2) is not allowed when strict content reference constraints are enforced.</p>
+  </body>
+</topic>

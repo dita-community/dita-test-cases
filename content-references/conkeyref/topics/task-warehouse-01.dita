@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_dps_lh2_pv">
+    <title>Task Warehouse Topic</title>
+    <shortdesc>This is a task used as the target for content references. It is bound to the key
+    "task-warehouse-01".</shortdesc>
+    <taskbody>
+        <context>
+            <p>This is the task</p>
+        </context>
+        <steps>
+            <step id="step-01">
+        <cmd>This is a step with the ID "step-01".</cmd>
+      </step>
+        </steps>
+    </taskbody>
+</task>
