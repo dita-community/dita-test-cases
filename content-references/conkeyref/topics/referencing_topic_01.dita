@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="referencing_topic_01">
+  <title>Referencing Topic 01</title>
+  <body>
+    <p>This topic makes two content key references:<ol id="ol_d4t_lf2_pv">
+        <li>Reference to the keyword element in the topic "guj1460149604808" with the ID "aardvark":
+            "<keyword conkeyref="guj1460149604808/aardvark"/>".</li>
+        <li>Reference to the ph element in the topic "oth1460150042136" with the ID "giraffe": "<ph
+            conkeyref="oth1460150042136/giraffe"/>".</li>
+      </ol></p>
+  </body>
+</topic>

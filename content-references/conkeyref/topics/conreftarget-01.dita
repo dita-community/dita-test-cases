@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_psg_z22_pv">
+  <title>Conref Target Topic 01</title>
+  <body>
+    <p>This topic is bound to the key "guj1460149604808" using a resource-only topicref.</p>
+    <p>Here is a keyword with the ID "aardvark": <keyword id="aardvark">aardvark</keyword>.</p>
+  </body>
+</topic>

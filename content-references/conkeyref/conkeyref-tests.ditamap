@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>conkeyref Tests</title>
+  <topicgroup>
+    <keydef href="topics/conreftarget-01.dita" keys="guj1460149604808"/>
+    <keydef href="topics/conreftarget-02.dita" keys="oth1460150042136"/>
+  </topicgroup>
+  <topicref href="topics/referencing_topic_01.dita"/>
+</map>

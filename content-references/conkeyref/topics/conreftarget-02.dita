@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ivh_gf2_pv">
+  <title>Conref Target Topic 02</title>
+  <body>
+    <p>This topic is bound to the key "oth1460150042136" using a resource-only topicref.</p>
+    <p>Here is a ph element with the ID "giraffe": <ph id="giraffe">giraffe</ph>.</p>
+  </body>
+</topic>
