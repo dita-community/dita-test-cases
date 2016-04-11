@@ -1,14 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="conkeyref_tests">
-  <title>conkeyref Tests</title>
+<topic id="topic_ahb_v2n_cv">
+  <title>Content Key Reference Tests</title>
+  <shortdesc>Tests various configurations of referencing and referenced elements for content key
+    reference.</shortdesc>
   <body>
-    <p>Several cases:<ol id="ul_t5c_xg2_pv">
-        <li>Reference from a generic topic to elements in generic topics (same topic types)</li>
-        <li>Reference from a more-specialized topic to elements in a generic (less specialized)
-          topic</li>
-        <li>Reference from a less-specialized topic to a more-specialized topic</li>
-      </ol></p>
-    <p>Case (2) is not allowed when strict content reference constraints are enforced.</p>
+    <section spectitle="Overview">
+      <p>There are several cases for content reference reflecting different levels of specialization
+        for the referencing or referenced element:<ol id="ul_t5c_xg2_pv">
+          <li>Reference from a generic topic to elements in generic topics (same topic types)</li>
+          <li>Reference from a more-specialized topic to elements in a generic (less specialized)
+            topic</li>
+          <li>Reference from a less-specialized topic to a more-specialized topic</li>
+        </ol></p>
+      <p>Case (2) is not allowed when strong content reference constraints are enforced. However, by
+        default weak constraints, not strong constraints, are in effect. Processors may provide the
+        option of making all constraints strong. </p>
+      <p>These combinations of specialization are not specific to content key references—the rules
+        are the same whether you use <xmlatt>conkeyref</xmlatt>
+        <xmlatt>conref</xmlatt>. However, since you should never <xmlatt>conref</xmlatt> these tests
+        are constructed using key references.</p>
+    </section>
+    <section spectitle="Expected Results">
+      <p>Cases (1) and (3) should always work. Case (2) should fail, or at least generate a warning,
+        when strong content reference constraints are in effect (but remember that weak constraints
+        is the default). When weak content reference constraints are in effect then case (2) should
+        succeed.</p>
+    </section>
+    <section spectitle="Relevant Specification Language">
+      <p>General conref processing rules: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/conref-processing.html"
+          format="html" scope="external">2.4.2.2 Processing conrefs</xref>.</p>
+      <p>Weak and strong constraints: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/constraints-strong-and-weak.html"
+          format="html" scope="external">2.5.5.4 Weak and strong constraints</xref>.</p>
+      <p>Compatibility of documents for content reference strong constraint checking: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/constraints-conref-compatibility.html#conref-compatibility-constraints"
+          format="html" scope="external">2.5.5.5 Conref compatibility with constraints</xref>.</p>
+    </section>
+    <section spectitle="Test Results">
+      <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
+        <title>Test Results</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>Test Result</entry>
+              <entry>Notes</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>DITA Open Toolkit 2.2.3</entry>
+              <entry>Reference from less-specialized element to more-specialized element
+                  fails.<p>Other tests pass as expected. The OT does not appear to have an option
+                  for turning on strong constraint checking.</p></entry>
+              <entry>Logged as issue #1884</entry>
+            </row>
+            <row>
+              <entry>oXygenXML Editor 18 beta</entry>
+              <entry>
+                <p>All content references are resolved correctly in Author mode.</p>
+                <p>Oxygen 18 does not appear to provide an option for turning on strong constraint
+                  checking.</p>
+              </entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>XMetaL 11</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>FrameMaker 2015</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>ditac 2.5.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>DFST Link Manager 0.9.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
   </body>
 </topic>

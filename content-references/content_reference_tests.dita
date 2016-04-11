@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="content_reference_tests">
+<topic id="topic_ahb_v2n_cv">
   <title>Content Reference Tests</title>
-  <shortdesc>Tests that exercise various forms of content reference.</shortdesc>
+  <shortdesc>Tests that exercise different aspects of content reference.</shortdesc>
   <body>
-    <p>Content reference features include:<ul id="ul_v1w_l22_pv">
-        <li>Direct URI references (<xmlatt>conref</xmlatt>)</li>
-        <li>Key reference (<xmlatt>conkeyref</xmlatt>)</li>
-        <li>Conref push (pushing content into topics)</li>
-        <li>Referencing ranges</li>
-      </ul></p>
-    <p>In addition, the DITA 1.3 "this topic" fragment identifier has implications when used within
-      referenced content or used within a topic that references content. Tests for "this topic"
-      fragment identifiers are in the <filepath>this-topic-fragment-ids</filepath> test cases.</p>
+    <p>NOTE: Need more tests in this area, e.g., range referencing, conref push, etc.</p>
+    <p>Note that tests for "this-topic" fragment identifiers in the context of content references
+      are covered in the separate "this topic" fragment identifier tests.</p>
   </body>
 </topic>

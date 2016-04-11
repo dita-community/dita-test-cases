@@ -9,5 +9,9 @@
       here.</p>
     <p>The source for these test cases is available on GitHub as <xref
         keyref="github-project-dita-test-cases"/>. </p>
+    <note>This map also serves as a test of DITA 1.3 cross-deliverable links as it has
+      cross-deliverable links to topics in the context of other root maps, either simply to relate
+      the various test cases together or as a side effect of including test case description
+      documents that themselves contain cross-deliverable links.</note>
   </body>
 </topic>

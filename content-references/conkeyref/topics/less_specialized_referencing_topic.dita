@@ -5,7 +5,8 @@
   <body>
     <p>This is a generic topic. It has a content reference to a step element in a task:<ol
         id="ol_nrp_5h2_pv">
-        <li>This is a list item authored in the topic.</li>
+        <li>This is a list item authored in the topic. There should be 3 items in this list. 
+          The second one is conreffed from the task.</li>
         <li conkeyref="task-warehouse-01/step-01"/>
       <li>This is after the content referenced list item.</li>
     </ol></p>

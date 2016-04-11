@@ -2,5 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Content Reference Tests</title>
-  <topicref href="content_reference_tests.dita"/>
+  <topicref keys="content-reference-tests" href="content_reference_tests.dita">
+    <mapref href="conkeyref/conkeyref-tests.ditamap"/>
+  </topicref>
 </map>

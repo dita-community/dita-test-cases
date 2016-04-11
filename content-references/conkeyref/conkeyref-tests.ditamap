@@ -13,6 +13,6 @@
       keys="more-specialized-referencing-topic"/>
     <topicref href="topics/less_specialized_referencing_topic.dita"
       keys="less-specialized-referencing-topic"/>
-    <topicref href="topics/task_to_task_content_reference.dita"/>
+    <topicref keys="task-to-task-conref" href="topics/task_to_task_content_reference.dita"/>
   </topicref>
 </map>

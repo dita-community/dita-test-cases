@@ -32,12 +32,24 @@
         <navtitle>"This-topic" fragment identifier tests</navtitle>
       </topicmeta>
     </mapref>
+    <mapref href="content-references/content-references.ditamap"
+      keyscope="content-references"
+      scope="peer"
+    >
+      <topicmeta>
+        <navtitle>Content reference tests</navtitle>
+      </topicmeta>
+    </mapref>
     <keydef href="http://github.com/dita-community/dita-test-cases"
       keys="github-project-dita-test-cases" format="html" scope="external">
       <topicmeta>
         <navtitle>dita-community/dita-test-cases</navtitle>
       </topicmeta>
     </keydef>
+    <topicgroup><!-- Maps used as root maps for cross-deliverable linking tests -->
+      <mapref href="cross-deliverable-links/map-a/map-a.ditamap" scope="peer" keyscope="map-a"/>
+      <mapref href="cross-deliverable-links/map-b/map-b.ditamap" scope="peer" keyscope="map-b"/>
+    </topicgroup>
   </topicgroup>
   <topicref keys="test-case-catalog" href="test-case-catalog.dita">
     <topicref keys="key-spaces" href="key-spaces/key-spaces-tests.dita">
@@ -52,8 +64,14 @@
     </topicref>
     <topicref href="cross-deliverable-links/cross-deliverable-links-test-01.dita">
     </topicref>
+    <topicref href="content-references/conkeyref/topics/conkeyref_tests.dita"/>
   </topicref>
   <reltable>
+    <!-- This relationship table is intended to relate the mapin test case
+         catalog topic to the root topics in each of the test-case-type
+         maps as cross-document links, that is, treating each of those
+         maps as a separate root map.
+      -->
     <relrow>
       <relcell>
         <topicref keyref="test-case-catalog"/>
@@ -62,6 +80,7 @@
         <topicref keyref="branch-filtering-name-augmentation-01.test-case-description"/>
         <topicref keyref="keyscope-test-01.overview"/>
         <topicref keyref="this-topic-fragment-ids.test-case-definition"/>
+        <topicref keyref="content-references.content-reference-tests"/>
       </relcell>
     </relrow>
   </reltable>
