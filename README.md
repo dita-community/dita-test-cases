@@ -41,12 +41,12 @@ To generat the project GitHub pages for this repository using Docker, do the fol
 1. In the same parent directory as your clone of dita-test-cases, clone the dita-test-case project to
 the directory "dita-test-cases_gh-pages" and check out that clone to the branch "gh-pages"
 2. Execute this docker command (correct for OS X, may need adjustment for Windows): 
-    ~~~~
-    docker run  -v `pwd`/..:/opt/dita-ot/data \
+    
+    `docker run  -v `pwd`/..:/opt/dita-ot/data \
     ditaot/dita-ot \
     dita -i /opt/dita-ot/data/dita-test-cases/test-case-catalog.ditamap \
     -f xhtml \
     -o /opt/dita-ot/data/dita-test-cases_gh-pages \
-    -v 
-    ~~~~
+    -v` 
+
 3. Commit the updates to the gh-pages project and push to github
