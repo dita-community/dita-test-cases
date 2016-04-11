@@ -47,5 +47,6 @@ ditaot/dita-ot \
 dita -i /opt/dita-ot/data/dita-test-cases/test-case-catalog.ditamap \
 -f xhtml \
 -o /opt/dita-ot/data/dita-test-cases_gh-pages \
--v ~~~~
+-v 
+~~~~
 3. Commit the updates to the gh-pages project and push to github
