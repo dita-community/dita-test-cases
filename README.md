@@ -35,3 +35,18 @@ You can view and edit the test documents using OxygenXML's Web editor GitHub int
 https://www.oxygenxml.com/webapp-demo-aws/app/oxygen.html?gh_repo=dita-community/dita-test-cases&gh_branch=master&gh_ditamap=test-case-catalog.ditamap
 
 The test-case-catalog DITA map organizes all the test cases. In addition, each test case has one or more root maps for those test cases.
+
+To generat the project GitHub pages for this repository using Docker, do the following:
+
+1. In the same parent directory as your clone of dita-test-cases, clone the dita-test-case project to
+the directory "dita-test-cases_gh-pages" and check out that clone to the branch "gh-pages"
+2. Execute this docker command:
+~~~~
+docker run  -v `pwd`/..:/opt/dita-ot/data \
+ditaot/dita-ot \
+dita -i /opt/dita-ot/data/dita-test-cases/test-case-catalog.ditamap \
+-f xhtml \
+-o /opt/dita-ot/data/dita-test-cases_gh-pages \
+-v 
+~~~~
+3. Commit the updates to the gh-pages project and push to github

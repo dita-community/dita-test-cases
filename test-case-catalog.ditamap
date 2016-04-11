@@ -35,6 +35,7 @@
     <mapref href="content-references/content-references.ditamap"
       keyscope="content-references"
       scope="peer"
+      toc="no"
     >
       <topicmeta>
         <navtitle>Content reference tests</navtitle>
@@ -46,9 +47,17 @@
         <navtitle>dita-community/dita-test-cases</navtitle>
       </topicmeta>
     </keydef>
-    <topicgroup><!-- Maps used as root maps for cross-deliverable linking tests -->
-      <mapref href="cross-deliverable-links/map-a/map-a.ditamap" scope="peer" keyscope="map-a"/>
-      <mapref href="cross-deliverable-links/map-b/map-b.ditamap" scope="peer" keyscope="map-b"/>
+    <topicgroup toc="no"><!-- Maps used as root maps for cross-deliverable linking tests -->
+      <mapref href="cross-deliverable-links/map-a/map-a.ditamap" scope="peer" keyscope="map-a">
+        <topicmeta>
+          <navtitle>Root Map A</navtitle>
+        </topicmeta>        
+      </mapref>
+      <mapref href="cross-deliverable-links/map-b/map-b.ditamap" scope="peer" keyscope="map-b">
+        <topicmeta>
+          <navtitle>Root Map A</navtitle>
+        </topicmeta>        
+      </mapref>
     </topicgroup>
   </topicgroup>
   <topicref keys="test-case-catalog" href="test-case-catalog.dita">
