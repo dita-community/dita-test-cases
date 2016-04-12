@@ -6,5 +6,6 @@
     <p>This is topic 01 in map A. It has the key "topic-01" within the scope of Map A.</p>
     <p>This is a reference to key "topic-02", it should resolve to Map A Topic 02: <xref
         keyref="topic-02"/>.</p>
+    <p>This is a reference to map B itself: <xref keyref="map-b.map-b-map"/>.</p>
   </body>
 </topic>

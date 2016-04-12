@@ -3,7 +3,9 @@
 <map>
  <title>Map A</title>
   <topicgroup>
-    <mapref href="../map-b/map-b.ditamap" scope="peer" keyscope="map-b"/>
+    <mapref href="../map-b/map-b.ditamap" keys="map-b-map" scope="peer" keyscope="map-b"
+      toc="no"
+    />
   </topicgroup>
   <mapref href="content-topics.ditamap"/>
   <reltable title="Cross-Deliverable Links">
