@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topicsetref_test_map_a">
+  <title>Topicsetref Test Map A</title>
+  <body>
+    <p>This is topicsetref test Map A. It includes topicset references to topic sets
+      "topicset-map-B-topicset-01" and "topicset-map-B-topicset-02".</p>
+    <p>This topic includes scope-qualified key references to keys defined in Map B topicset-01 using
+      both the topicsetref-defined key scope name and the key scope name on the topicset.</p>
+    <p>Reference to Map B topic 01 via scoped key: </p>
+  </body>
+</topic>

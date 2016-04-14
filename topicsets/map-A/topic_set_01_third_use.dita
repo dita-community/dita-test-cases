@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_set_01_third_use">
+  <title>Topic Set 01 Third Use</title>
+  <body>
+    <p>This is the third use of Map B topic set 01. It specifies the key scope
+      "topicset-01-third-use" on the topicset reference. This tests the case where both the topicset
+      reference and the topicset specify a value for <xmlatt>keyscope</xmlatt>.</p>
+    <p>Cross reference to key "topic-01" in the scope "topicset-01-third-use": "<xref
+        keyref="topicset-01-third-use.topic-01"/>". This reference should probably resolve.</p>
+    <p>Cross reference to key "topic-01" in the scope
+      "topicset-01-third-use.map-b-topicset-01.topic-01": "<xref
+        keyref="topicset-01-third-use.map-b-topicset-01.topic-01"/>". This reference should probably
+        <b>not</b> resolve.</p>
+    <p>Cross reference to key "topic-01" in the scope "map-b-topicset-01": "<xref
+        keyref="map-b-topicset-01.topic-01"/>". This reference should probably resolve.</p>
+    
+  </body>
+</topic>

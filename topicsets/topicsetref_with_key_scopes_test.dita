@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topicsetref_with_key_scopes_test">
+  <title>Topicsetref With Key Scopes Test</title>
+  <shortdesc>Uses key scopes with topicsetref.</shortdesc>
+  <body>
+    <section spectitle="Overview">
+      <p>There are three possible conditions involving key scopes and
+          <xmlelement>topicsetref</xmlelement>:<ol id="ol_bdn_4zg_qv">
+          <li>The <xmlelement>topicset</xmlelement> specifies a key scope and the
+              <xmlelement>topicsetref</xmlelement> does not.</li>
+          <li>The <xmlelement>topicset</xmlelement> does not specify a key scope and the
+              <xmlelement>topicsetref</xmlelement> does.</li>
+          <li>Both <xmlelement>topicset</xmlelement> and <xmlelement>topicsetref</xmlelement>
+            specify a key scope.</li>
+        </ol></p>
+      <p>In all cases the key scopes should be preserved. The implication of the
+          <xmlelement>topicsetref</xmlelement> specification is that references to topic sets should
+        be treated like other map-to-map references, which implies that the same semantics as for
+        references to maps should apply, namely that any scope names defined on the referencing
+        element are combined with scope names on the referenced element to create a single key scope
+        with multiple names.</p>
+      <p>If a processor treats a <xmlelement>topicsetref</xmlelement> as a literal use-by-reference
+        such that the reference is completely replaced by the referenced
+          <xmlelement>topicset</xmlelement> element then it is likely to not preserve the scope
+        names from the <xmlelement>topicsetref</xmlelement>.</p>
+      <p>This test consists of two maps: Map A and Map B. </p>
+      <p>Map B defines two topic sets, one with a key scope and one without.</p>
+      <p>Map A has three topicset references: one with no scope that references the no-scope
+        topicset, one with no scope that references the topic set with a scope, and one with a scope
+        that references the topic set with a scope.</p>
+      <p>Within the topic sets are topics that include key references to the unqualified keys
+        defined within the topic set.</p>
+      <p>Within Map A are references to topics that have scope-qualified key references to the keys
+        defined within the topic set, using both the scope names from the topicset reference and
+        from the topic set. All the links should resolve.</p>
+    </section>
+    <section spectitle="Expected Results">
+      <p>The DITA 1.3 specification is silent on the explicit implications for key scopes on topic
+        set references. However, treating them like other map references seems like the most
+        reasonable (and most useful) interpretation.</p>
+      <p>If this interpretation is used, then all the key references in all the topics should
+        resolve.</p>
+    </section>
+    <section spectitle="Relevant Specification Language">
+      <p>General rules for map-to-map references and key scopes: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/keyScopes.html#concept_nsb_nv4_3q"
+          format="html" scope="external">2.3.4.2 Key scopes</xref>.</p>
+      <p>The <xmlelement>topicsetref</xmlelement> element: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/base/topicsetref.html#topicsetref"
+          format="html" scope="external">3.3.2.7 &lt;topicsetref></xref>.</p>
+    </section>
+    <section spectitle="Test Results">
+      <p>Describe the results of running the tests with different processors. Include the processor
+        version and option details so that others can reproduce your tests.</p>
+      <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
+        <title>Test Results</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>Test Result</entry>
+              <entry>Notes</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>DITA Open Toolkit 2.2.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>oXygenXML Editor 18</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>XMetaL 11</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>FrameMaker 2015</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>ditac 2.5.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>DFST Link Manager 0.9.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </body>
+</topic>

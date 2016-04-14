@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_set_01_second_use">
+  <title>Topic Set 01 Second Use</title>
+  <body>
+    <p>This the second use of Map B topic set 01 from Map A. As for the first use, it does not
+      specify a key scope on the topic set reference. This second reference tests the behavior of
+      processors that expect to create distinct result deliverable artifacts for multiple references
+      to the same topic.</p>
+  </body>
+</topic>

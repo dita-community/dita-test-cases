@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="map_b_topic_set_01">
+  <title>Map B Topic Set 01</title>
+  <body>
+    <p>This is the root topic of Map B topic set 01.</p>
+    <p>Cross reference to unqualified key "topic-01": <xref keyref="topic-01"/>. Should always
+      resolve to Map B topic set 01 unless overridden in a higher-level map.</p>
+  </body>
+</topic>

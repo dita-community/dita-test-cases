@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Topicsetref Map B</title>
+  <topicref href="topicsetref_test_map_b.dita">
+    <topicset href="map_b_topic_set_01.dita"  id="topicset-map-b-01" keyscope="map-b-topicset-01">
+      <topicref href="map_b_topic_set_01_topic_01.dita" keys="topic-01"/>
+    </topicset>
+    <topicset href="map_b_topic_set_02.dita" id="topicset-map-b-02">
+      <topicref href="map_b_topic_set_01_topic_02.dita" keys="topic-02"/>
+    </topicset>
+  </topicref>
+</map>

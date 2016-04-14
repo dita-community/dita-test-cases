@@ -59,6 +59,7 @@
         </topicmeta>        
       </mapref>
     </topicgroup>
+    <topicref href="topicsets/topicsetref_test_maps.ditamap" format="ditamap"/>
   </topicgroup>
   <topicref keys="test-case-catalog" href="test-case-catalog.dita">
     <topicref keys="key-spaces" href="key-spaces/key-spaces-tests.dita">
@@ -74,6 +75,9 @@
     <topicref href="cross-deliverable-links/cross-deliverable-links-test-01.dita">
     </topicref>
     <topicref href="content-references/conkeyref/topics/conkeyref_tests.dita"/>
+    <topicref href="topicsets/topicset_and_topicsetref_test_cases.dita">
+      <topicref href="topicsets/topicsetref_with_key_scopes_test.dita"/>
+    </topicref>
   </topicref>
   <reltable>
     <!-- This relationship table is intended to relate the mapin test case

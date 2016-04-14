@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_blp_vch_qv">
+  <title>Map B Topicset 02</title>
+  <body>
+    <p>This is the root topic of Map B topicset 02.</p>
+    <p>Cross reference to unqualified key "topic-02": <xref keyref="topic-02"/>. It should resolve
+      to Map B Topic Set 2 Topic 02 unless overridden in a higher-level map. Because topicset 02
+      does not define a key scope there's a greater possibility that the key definition will be
+      overridden in a map that uses the topicset.</p>
+  </body>
+</topic>

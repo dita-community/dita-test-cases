@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topicsetref_test_map_b">
+  <title>Topicsetref Test Map B</title>
+  <body>
+    <p>This is Map B. It defines a topic set with the id "topicset-map-b-01" and key scope
+      "map-b-topicset-01".</p>
+    <p>The topic set includes a reference to a topic with the key "topic-01".</p>
+  </body>
+</topic>

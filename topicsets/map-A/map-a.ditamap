@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Topicsetref Test Map A</title>
+  <topicref href="topicsetref_test_map_a.dita">
+    <topicref href="topics_set_01_first_use.dita">
+      <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-01"/>
+    </topicref>
+    <topicref href="topic_set_01_second_use.dita">
+      <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-01"/>
+    </topicref>
+    <topicref href="topic_set_01_third_use.dita">
+      <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-01"
+        keyscope="topicset-01-third-use"/>
+    </topicref>
+    <topicref href="topic_set_02_first_use.dita">
+      <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-02"/>
+    </topicref>
+    <topicref href="topic_set_02_second_use.dita">
+      <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-02"
+        keyscope="topicset-02-second-use"/>
+    </topicref>
+  </topicref>
+</map>

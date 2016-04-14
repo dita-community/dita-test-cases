@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_set_02_first_use">
+  <title>Topic Set 02 First Use</title>
+  <body>
+    <p>This is the first use of Map B Topic Set 02. Topic set 02 does not specify a value for
+        <xmlatt>keyscope</xmlatt>. The reference also does not specify a key scope. This tests the
+      condition where neither the reference nor the topic set specify a key scope (baseline control
+      test).</p>
+  </body>
+</topic>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Topicset and Topicsetref Test Cases</title>
+  <topicref href="topicsetref_test_maps.ditamap" format="ditamap"/>
+  <topicref href="topicset_and_topicsetref_test_cases.dita">
+    <topicref href="topicsetref_with_key_scopes_test.dita"/>
+  </topicref>
+</map>

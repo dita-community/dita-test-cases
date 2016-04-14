@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topics_set_01_first_use">
+  <title>Topic set 01 First Use</title>
+  <body>
+    <p>This branch of Map A contains the first use of Map B topic set 01. It does not specify a
+      keyscope. Topicset 01 specifies the key scope "map-b-topicset-01".</p>
+  </body>
+</topic>

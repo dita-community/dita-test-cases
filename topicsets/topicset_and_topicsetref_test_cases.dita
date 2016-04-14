@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topicset_and_topicsetref_test_cases">
+  <title>Topicset and Topicsetref Test Cases</title>
+  <body>
+    <p>These test cases exercise the handling of the DITA <xmlelement>topicset</xmlelement> and
+        <xmlelement>topicsetref</xmlelement> elements, introduced in DITA 1.2.</p>
+    <p>A topicset is a specialized topicref that requires an <xmlatt>id</xmlatt> attribute and is
+      intended to serve as a re-usable map branch.</p>
+    <p>A topicset reference is a specialized topicref that points to a
+        <xmlelement>topicset</xmlelement> element in order to use it by reference. For deliverable
+      types for which it makes sense, topicset references are intended to create a more dynamic or
+      read-time navigation mechanism, whereby the navigation structure defined by a topic set can be
+      integrated with the navigation defined by the topicsetref's containing map after the initial
+      deliverable generation is done. For example, you might have a mechanism where the main map
+      uses topicsetrefs to point to navigation structures that will be produced separately.</p>
+    <p>This mechanism is necessarily fuzzy in its details as defined in the DITA 1.2 (and unchanged
+      in DITA 1.3).</p>
+    <p>For static deliverables like PDF or EPUB, the topicsetref is treated as a simple
+      use-by-reference pretty much the same as a reference to a submap, the main difference being
+      that the referenced <xmlelement>topicset</xmlelement> element is the direct replacement for
+      the referencing <xmlelement>topicsetref</xmlelement> element.</p>
+    <p>One potential question in the context of DITA 1.3 is the implication for key scopes and
+      branch filtering. The DITA 1.3 specification doesn't say anything directly about how they are
+      handled. However, the description of <xmlelement>topicsetref</xmlelement> does say:<lq>
+        <p>For situations that do not support reusing a topic set as an independent unit, such as a
+          rendered PDF, applications MAY resolve the <xmlelement>topicsetref</xmlelement> element as
+          for other <xmlelement>topicset</xmlelement> (or <xmlelement>topicref</xmlelement>)
+          elements thathave the <xmlatt>format</xmlatt> attribute set to "ditamap".</p>
+        <p>Source: <xref
+            href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/base/topicsetref.html#topicsetref"
+            format="html" scope="external">3.3.2.7 &lt;topicsetref></xref></p>
+      </lq></p>
+    <p>This implies pretty strongly that <xmlelement>topicsetref</xmlelement> should be treated like
+      other map references and any scope defined on the <xmlelement>topicsetref</xmlelement> should
+      be merged with any scope defined on the <xmlelement>topicset</xmlelement>, resulting in a
+      single scope with two names, rather than either discarding the
+        <xmlelement>topicsetref</xmlelement>'s scope or creating two levels of scope.</p>
+    <p>An alternative behavior would be to treat the topicsetref and referenced topicset normally
+      for the purpose of constructing scopes, in which case any scope name on the topicsetref would
+      create a parent scope for any scope defined on the topicset, as though the
+        <xmlelement>topicset</xmlelement> were a child of the <xmlelement>topicsetref</xmlelement>.
+      However, since the semantic of <xmlelement>topicsetref</xmlelement> is use by reference this
+      seems like the incorrect behavior.</p>
+    <p>Another wrinkle is the requirement that multiple references to the same topic in different
+      scopes result in unique deliverable components (e.g., distinct HTML files) in order to ensure
+      that scope-related differences are correctly reflected. If a topicset is truly independent of
+      its use it follows that this requirement for unique deliverable components cannot apply to
+      topic scopes since there's no way for a topic scope to know where it is used and therefore no
+      way to know what scopes it might be used in. The topicset mechanism implies that the
+      topicscopes are produced separately from the maps that use them (making them more like
+      cross-deliverable links than like submap references).</p>
+  </body>
+</topic>

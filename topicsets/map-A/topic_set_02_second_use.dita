@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_set_02_second_use">
+  <title>Topic Set 02 Second Use</title>
+  <body>
+    <p>This is the second use of Map B topic set 02. This use specifies a key scope,
+      "topicset-02-second-use". This tests the case where the topicsetref has a keyscope and the
+      referenced topicset does not.</p>
+    <p>Cross reference to key "topic-02" in the scope "topicset-02-second-use": </p>
+  </body>
+</topic>
