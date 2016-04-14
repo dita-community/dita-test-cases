@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Content Key Reference Tests" />
+<meta name="abstract" content="Tests various configurations of referencing and referenced elements for content key reference." />
+<meta name="description" content="Tests various configurations of referencing and referenced elements for content key reference." />
+<meta name="DC.Relation" scheme="URI" content="../../../test-case-catalog.html" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="topic_ahb_v2n_cv" />
+<link rel="stylesheet" type="text/css" href="../../../commonltr.css" />
+<title>Content Key Reference Tests</title>
+</head>
+<body id="topic_ahb_v2n_cv">
+
+  <h1 class="title topictitle1" id="ariaid-title1">Content Key Reference Tests</h1>
+
+  
+  <div class="body"><p class="shortdesc">Tests various configurations of referencing and referenced elements for content key
+    reference.</p>
+
+    <div class="section"><h2 class="sectiontitle">Overview</h2>
+      <div class="p">There are several cases for content reference reflecting different levels of specialization
+        for the referencing or referenced element:<ol class="ol" id="topic_ahb_v2n_cv__ul_t5c_xg2_pv">
+          <li class="li">Reference from a generic topic to elements in generic topics (same topic types)</li>
+
+          <li class="li">Reference from a more-specialized topic to elements in a generic (less specialized)
+            topic</li>
+
+          <li class="li">Reference from a less-specialized topic to a more-specialized topic</li>
+
+        </ol>
+</div>
+
+      <p class="p">Case (2) is not allowed when strong content reference constraints are enforced. However, by
+        default weak constraints, not strong constraints, are in effect. Processors may provide the
+        option of making all constraints strong. </p>
+
+      <p class="p">These combinations of specialization are not specific to content key references—the rules
+        are the same whether you use <code class="keyword markupname xmlatt">@conkeyref</code>
+        <code class="keyword markupname xmlatt">@conref</code>. However, since you should never <code class="keyword markupname xmlatt">@conref</code> these tests
+        are constructed using key references.</p>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Expected Results</h2>
+      <p class="p">Cases (1) and (3) should always work. Case (2) should fail, or at least generate a warning,
+        when strong content reference constraints are in effect (but remember that weak constraints
+        is the default). When weak content reference constraints are in effect then case (2) should
+        succeed.</p>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Relevant Specification Language</h2>
+      <p class="p">General conref processing rules: <a class="xref" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/conref-processing.html" target="_blank">2.4.2.2 Processing conrefs</a>.</p>
+
+      <p class="p">Weak and strong constraints: <a class="xref" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/constraints-strong-and-weak.html" target="_blank">2.5.5.4 Weak and strong constraints</a>.</p>
+
+      <p class="p">Compatibility of documents for content reference strong constraint checking: <a class="xref" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/constraints-conref-compatibility.html#conref-compatibility-constraints" target="_blank">2.5.5.5 Conref compatibility with constraints</a>.</p>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Test Results</h2>
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="topic_ahb_v2n_cv__table_t4w_rgn_cv" class="table" frame="hsides" border="1" rules="all"><caption><span class="tablecap">Table 1. Test Results</span></caption><colgroup><col style="width:33.33333333333333%" /><col style="width:33.33333333333333%" /><col style="width:33.33333333333333%" /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d27e98">Processor</th>
+
+              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d27e101">Test Result</th>
+
+              <th class="entry row-nocellborder" style="text-align:left;vertical-align:top;" id="d27e104">Notes</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e98 ">DITA Open Toolkit 2.2.3</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e101 ">Reference from less-specialized element to more-specialized element
+                  fails.<p class="p">Other tests pass as expected. The OT does not appear to have an option
+                  for turning on strong constraint checking.</p>
+</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d27e104 ">Logged as issue #1884</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e98 ">oXygenXML Editor 18 beta</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e101 ">
+                <p class="p">All content references are resolved correctly in Author mode.</p>
+
+                <p class="p">Oxygen 18 does not appear to provide an option for turning on strong constraint
+                  checking.</p>
+
+              </td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d27e104 "> </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e98 ">XMetaL 11</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e101 ">Not tested</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d27e104 "> </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e98 ">FrameMaker 2015</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e101 ">Not tested</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d27e104 "> </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e98 ">ditac 2.5.x</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e101 ">Not tested</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d27e104 "> </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e98 ">DFST Link Manager 0.9.x</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d27e101 ">Not tested</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d27e104 "> </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+
+    </div>
+
+  </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../test-case-catalog.html">Test Case Catalog</a></div>
+</div>
+</div></body>
+</html>

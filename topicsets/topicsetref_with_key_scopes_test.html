@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Topicsetref With Key Scopes Test" />
+<meta name="abstract" content="Uses key scopes with topicsetref." />
+<meta name="description" content="Uses key scopes with topicsetref." />
+<meta name="DC.Relation" scheme="URI" content="../topicsets/topicset_and_topicsetref_test_cases.html" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="topicsetref_with_key_scopes_test" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Topicsetref With Key Scopes Test</title>
+</head>
+<body id="topicsetref_with_key_scopes_test">
+
+  <h1 class="title topictitle1" id="ariaid-title1">Topicsetref With Key Scopes Test</h1>
+
+  
+  <div class="body"><p class="shortdesc">Uses key scopes with topicsetref.</p>
+
+    <div class="section"><h2 class="sectiontitle">Overview</h2>
+      <div class="p">There are three possible conditions involving key scopes and
+          <code class="keyword markupname xmlelement">&lt;topicsetref&gt;</code>:<ol class="ol" id="topicsetref_with_key_scopes_test__ol_bdn_4zg_qv">
+          <li class="li">The <code class="keyword markupname xmlelement">&lt;topicset&gt;</code> specifies a key scope and the
+              <code class="keyword markupname xmlelement">&lt;topicsetref&gt;</code> does not.</li>
+
+          <li class="li">The <code class="keyword markupname xmlelement">&lt;topicset&gt;</code> does not specify a key scope and the
+              <code class="keyword markupname xmlelement">&lt;topicsetref&gt;</code> does.</li>
+
+          <li class="li">Both <code class="keyword markupname xmlelement">&lt;topicset&gt;</code> and <code class="keyword markupname xmlelement">&lt;topicsetref&gt;</code>
+            specify a key scope.</li>
+
+        </ol>
+</div>
+
+      <p class="p">In all cases the key scopes should be preserved. The implication of the
+          <code class="keyword markupname xmlelement">&lt;topicsetref&gt;</code> specification is that references to topic sets should
+        be treated like other map-to-map references, which implies that the same semantics as for
+        references to maps should apply, namely that any scope names defined on the referencing
+        element are combined with scope names on the referenced element to create a single key scope
+        with multiple names.</p>
+
+      <p class="p">If a processor treats a <code class="keyword markupname xmlelement">&lt;topicsetref&gt;</code> as a literal use-by-reference
+        such that the reference is completely replaced by the referenced
+          <code class="keyword markupname xmlelement">&lt;topicset&gt;</code> element then it is likely to not preserve the scope
+        names from the <code class="keyword markupname xmlelement">&lt;topicsetref&gt;</code>.</p>
+
+      <p class="p">This test consists of two maps: Map A and Map B. </p>
+
+      <p class="p">Map B defines two topic sets, one with a key scope and one without.</p>
+
+      <p class="p">Map A has three topicset references: one with no scope that references the no-scope
+        topicset, one with no scope that references the topic set with a scope, and one with a scope
+        that references the topic set with a scope.</p>
+
+      <p class="p">Within the topic sets are topics that include key references to the unqualified keys
+        defined within the topic set.</p>
+
+      <p class="p">Within Map A are references to topics that have scope-qualified key references to the keys
+        defined within the topic set, using both the scope names from the topicset reference and
+        from the topic set. All the links should resolve.</p>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Expected Results</h2>
+      <p class="p">The DITA 1.3 specification is silent on the explicit implications for key scopes on topic
+        set references. However, treating them like other map references seems like the most
+        reasonable (and most useful) interpretation.</p>
+
+      <p class="p">If this interpretation is used, then all the key references in all the topics should
+        resolve.</p>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Relevant Specification Language</h2>
+      <p class="p">General rules for map-to-map references and key scopes: <a class="xref" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/keyScopes.html#concept_nsb_nv4_3q" target="_blank">2.3.4.2 Key scopes</a>.</p>
+
+      <p class="p">The <code class="keyword markupname xmlelement">&lt;topicsetref&gt;</code> element: <a class="xref" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/base/topicsetref.html#topicsetref" target="_blank">3.3.2.7 &lt;topicsetref&gt;</a>.</p>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Test Results</h2>
+      <p class="p">Describe the results of running the tests with different processors. Include the processor
+        version and option details so that others can reproduce your tests.</p>
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="topicsetref_with_key_scopes_test__table_t4w_rgn_cv" class="table" frame="hsides" border="1" rules="all"><caption><span class="tablecap">Table 1. Test Results</span></caption><colgroup><col style="width:33.33333333333333%" /><col style="width:33.33333333333333%" /><col style="width:33.33333333333333%" /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d2662e140">Processor</th>
+
+              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d2662e143">Test Result</th>
+
+              <th class="entry row-nocellborder" style="text-align:left;vertical-align:top;" id="d2662e146">Notes</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e140 ">DITA Open Toolkit 2.2.x</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e143 ">Not tested</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d2662e146 "> </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e140 ">oXygenXML Editor 18</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e143 ">Not tested</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d2662e146 "> </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e140 ">XMetaL 11</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e143 ">Not tested</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d2662e146 "> </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e140 ">FrameMaker 2015</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e143 ">Not tested</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d2662e146 "> </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e140 ">ditac 2.5.x</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e143 ">Not tested</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d2662e146 "> </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e140 ">DFST Link Manager 0.9.x</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d2662e143 ">Not tested</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d2662e146 "> </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+
+    </div>
+
+  </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../topicsets/topicset_and_topicsetref_test_cases.html">Topicset and Topicsetref Test Cases</a></div>
+</div>
+</div></body>
+</html>

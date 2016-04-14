@@ -1,13 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html
-  SYSTEM "about:legacy-compat">
-<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016"><meta name="DC.rights.owner" content="(C) Copyright 2016"><meta name="DC.Type" content="topic"><meta name="description" content="Tests setting of effective key scope and resource names using branch filtering when there are nested scopes and topicrefs."><meta name="DC.Relation" scheme="URI" content="../../key-spaces/key-spaces-tests.html"><meta name="DC.Format" content="XHTML"><meta name="DC.Identifier" content="topic_ahb_v2n_cv"><link rel="stylesheet" type="text/css" href="../../commonltr.css"><title>Branch Filtering Name Augmentation Test 01</title></head><body id="topic_ahb_v2n_cv"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Branch Filtering Name Augmentation Test 01" />
+<meta name="abstract" content="Tests setting of effective key scope and resource names using branch filtering when there are nested scopes and topicrefs." />
+<meta name="description" content="Tests setting of effective key scope and resource names using branch filtering when there are nested scopes and topicrefs." />
+<meta name="DC.Relation" scheme="URI" content="../../key-spaces/key-spaces-tests.html" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="topic_ahb_v2n_cv" />
+<link rel="stylesheet" type="text/css" href="../../commonltr.css" />
+<title>Branch Filtering Name Augmentation Test 01</title>
+</head>
+<body id="topic_ahb_v2n_cv">
+
   <h1 class="title topictitle1" id="ariaid-title1">Branch Filtering Name Augmentation Test 01</h1>
+
   
   <div class="body"><p class="shortdesc">Tests setting of effective key scope and resource names using branch filtering when
     there are nested scopes and topicrefs.</p>
-    <section class="section"><h2 class="sectiontitle">Overview</h2>
+
+    <div class="section"><h2 class="sectiontitle">Overview</h2>
       <p class="p">Tests the effect of using <code class="ph codeph">&lt;dvrKeyscopePrefix&gt;</code> and
           <code class="ph codeph">&lt;dvrResourcePrefix&gt;</code> when there are nested key scopes.</p>
+
       <p class="p">The specification is potentially ambiguous about what the correct behavior is in this case
         for key scope prefixes and suffixes, in that it could be read as requiring that key scope
         prefixes and suffixes be propagated to descendant key scopes if you only look at the
@@ -18,42 +38,58 @@
         be impossible to author. (This feature also makes it clear that having nested filtered
         branches that both apply key scope qualifiers is probably not something you should do in
         practice unless you know exactly what you're doing and why).</p>
+
       <p class="p">This test case has two branches, one without a <code class="ph codeph">@keyscope</code> attribute and one
         that defines a <code class="ph codeph">@keyscope</code> attribute. In both branches there is a reference to
         a <code class="ph codeph">&lt;ditavalref&gt;</code> element that specifies a key scope prefix and a
         resource name prefix.</p>
+
       <p class="p">Within each branch is a child topicref that defines a <code class="ph codeph">@keyscope</code> of
         "child-01".</p>
+
       <p class="p">The question is: "What is the effective key scope of the child topicref following
         application of branch filtering rules?"</p>
+
       <p class="p">The key scope prefix is "ksPrefix-" in both branches.</p>
-      <div class="note note note_note"><span class="note__title notetitle">Note:</span> This example is artificial in that it uses two different branches in order to have
+
+      <div class="note note"><span class="notetitle">Note:</span> This example is artificial in that it uses two different branches in order to have
         different <code class="ph codeph">@keyscope</code> values on the branches. Without different
           <code class="ph codeph">@keyscope</code> values you could have one branch with two
           <code class="ph codeph">&lt;ditavalref&gt;</code> elements.</div>
-    </section>
-    <section class="section"><h2 class="sectiontitle">Expected Results</h2>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Expected Results</h2>
       <p class="p">In both cases the effective key scope of the child scope should be "child-01" (that is, the
         parent scope's prefix should not be added to the child scope name.</p>
-    </section>
-    <section class="section"><h2 class="sectiontitle">Relevant Specification Language</h2>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Relevant Specification Language</h2>
       <p class="p">The requirements for resource and key space name modification are defined in clause <a class="xref" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part3-all-inclusive/archSpec/base/branch-filtering-resource-names.html" target="_blank">2.4.4.4 Branch filtering: Impact on resource and key
           names</a>, as well as in <a class="xref" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/base/dvrKeyscopePrefix.html#dvrKeyscopePrefix" target="_blank">the reference entry for
             <code class="ph codeph">&lt;dvrKeyscopeSuffix&gt;</code></a>. </p>
+
       <div class="p">The relevant language in 2.4.4.4 is:<blockquote class="lq">
           <dl class="dl">
             
               <dt class="dt dlterm"><code class="ph codeph">&lt;dvrKeyscopePrefix&gt;</code></dt>
+
               <dd class="dd">Enables a map author to specify a prefix that is added to the start of key scope
                 names for each key scope in the branch. If no key scope is specified for the branch,
                 this can be used to establish a new key scope, optionally combined with a value
                 specified in <code class="ph codeph">&lt;dvrKeyscopeSuffix&gt;</code>.</dd>
+
             
           </dl>
-        </blockquote></div>
+
+        </blockquote>
+</div>
+
       <p class="p">Here, the phrase "each key scope in the branch" means "all the key scope names on the
         branch's @keyscope attribute, if specified", not "all the scope scopes descending from the
         branch".</p>
+
       <div class="p">And in 3.5.4.5 &lt;dvrKeyscopePrefix&gt;:<blockquote class="lq">For map branches that are implied by
           &lt;ditavalref&gt; elements, the value of the <code class="ph codeph">&lt;dvrKeyscopePrefix&gt;</code>
           element contributes to the effective key scope names of the branch. The effective key
@@ -64,66 +100,114 @@
           scope whose name is the value of the <code class="ph codeph">&lt;dvrKeyscopePrefix&gt;</code> element.
           The full key scope names also will reflect the value of a
             <code class="ph codeph">&lt;dvrKeyscopeSuffix&gt;</code> element if one is specified, regardless of
-          whether the branch as authored specifies a <code class="ph codeph">@keyscope</code> value.</blockquote></div>
+          whether the branch as authored specifies a <code class="ph codeph">@keyscope</code> value.</blockquote>
+</div>
+
       <p class="p">This makes it clearer that the prefixes (and suffixes) only apply to the filtered branch and
         not descendant scope names.</p>
-    </section>
-    <section class="section"><h2 class="sectiontitle">Test Results</h2>
+
+    </div>
+
+    <div class="section"><h2 class="sectiontitle">Test Results</h2>
       <p class="p">Describe the results of running the tests with different processors. Include the processor
         version and option details so that others can reproduce your tests.</p>
-      <div class="table-frame-top-bottom"><table id="topic_ahb_v2n_cv__table_t4w_rgn_cv" class="table expanse-column table-rules-topbot"><caption><span class="tablecap">Table 1. Test Results</span></caption><colgroup><col style="width:33.66336633663366%"><col style="width:33.003300330033%"><col style="width:33.33333333333333%"></colgroup><thead class="thead" style="text-align:left;">
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="topic_ahb_v2n_cv__table_t4w_rgn_cv" class="table" frame="hsides" border="1" rules="all"><caption><span class="tablecap">Table 1. Test Results</span></caption><colgroup><col style="width:33.66336633663366%" /><col style="width:33.003300330033%" /><col style="width:33.33333333333333%" /></colgroup><thead class="thead" style="text-align:left;">
             <tr class="row">
-              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d863e173">Processor</th>
-              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d863e176">Test Result</th>
-              <th class="entry row-nocellborder" style="text-align:left;vertical-align:top;" id="d863e179">Notes</th>
+              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d1218e173">Processor</th>
+
+              <th class="entry cellrowborder" style="text-align:left;vertical-align:top;" id="d1218e176">Test Result</th>
+
+              <th class="entry row-nocellborder" style="text-align:left;vertical-align:top;" id="d1218e179">Notes</th>
+
             </tr>
-          </thead><tbody class="tbody">
+
+          </thead>
+<tbody class="tbody">
             <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e173 ">DITA OT 2.2.3</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e176 ">Pass. All links are resolved to the correct locations.</td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d863e179 ">&nbsp;</td>
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e173 ">DITA OT 2.2.3</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e176 ">Pass. All links are resolved to the correct locations.</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d1218e179 "> </td>
+
             </tr>
+
             <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e173 ">DITA OT 2.2.2</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e176 ">Fail: Only the link branch tr-branch-02 is resolved (the branch with the
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e173 ">DITA OT 2.2.2</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e176 ">Fail: Only the link branch tr-branch-02 is resolved (the branch with the
                 explicitly-specified <code class="ph codeph">@keyscope</code> attribute). The other links do not
                 resolve.</td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d863e179 ">The 2.2.2 OT propagates keyscope prefixes to descendant scopes.<p class="p">The 2.2 2 OT
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d1218e179 ">The 2.2.2 OT propagates keyscope prefixes to descendant scopes.<p class="p">The 2.2 2 OT
                   does not use the prefix or suffix as the key scope when no @keyscope is
-                  specified.</p></td>
+                  specified.</p>
+</td>
+
             </tr>
+
             <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e173 ">oxygenXML 18 beta build 2016031809</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e176 ">Pass: Key references are resolved correctly.<p class="p">Pass: Key reference creation
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e173 ">oxygenXML 18 beta build 2016031809</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e176 ">Pass: Key references are resolved correctly.<p class="p">Pass: Key reference creation
                   dialog includes the augmented scope names as selection options for qualified key
-                  names.</p></td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d863e179 ">There's no obvious way for the editor to reflect the fact that a topic is used
+                  names.</p>
+</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d1218e179 ">There's no obvious way for the editor to reflect the fact that a topic is used
                 in two different scopes and that navigating to it as used in one scope is a
                 different result than when navigating to it as used in another scope. Doing a
                 "search references" on the re-used topic does correctly reflect the places where it
                 is used.</td>
+
             </tr>
+
             <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e173 ">oXygenXML 17.1</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e176 ">Key references are not resolved: reports the keys as not defined.<p class="p">Key
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e173 ">oXygenXML 17.1</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e176 ">Key references are not resolved: reports the keys as not defined.<p class="p">Key
                   reference creation dialog does not reflect branch-filtering defined scopes, no way
-                  to select key reference to post-filtering key scopes.</p></td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d863e179 ">Looks like oXygenXML does not take branch filtering into account when
+                  to select key reference to post-filtering key scopes.</p>
+</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d1218e179 ">Looks like oXygenXML does not take branch filtering into account when
                 constructing its key spaces.</td>
+
             </tr>
+
             <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e173 ">XMetaL 11</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e176 ">Fail: The key spaces shown in the Key Space Manager do not reflect the branch
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e173 ">XMetaL 11</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e176 ">Fail: The key spaces shown in the Key Space Manager do not reflect the branch
                 filtering prefixes.</td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d863e179 ">&nbsp;</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d1218e179 "> </td>
+
             </tr>
+
             <tr class="row">
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e173 ">XMetaL 10</td>
-              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d863e176 ">Fail: The key spaces shown in the Key Space Manager do not reflect the branch
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e173 ">XMetaL 10</td>
+
+              <td class="entry cellrowborder" style="text-align:left;vertical-align:top;" headers="d1218e176 ">Fail: The key spaces shown in the Key Space Manager do not reflect the branch
                 filtering prefixes.</td>
-              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d863e179 ">&nbsp;</td>
+
+              <td class="entry row-nocellborder" style="text-align:left;vertical-align:top;" headers="d1218e179 "> </td>
+
             </tr>
-          </tbody></table></div>
-    </section>
+
+          </tbody>
+</table>
+</div>
+
+    </div>
+
   </div>
-<nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../key-spaces/key-spaces-tests.html" title="Tests for various aspects of DITA key spaces and key references.">Key Space Tests</a></div></div></nav></article></main></body></html>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../key-spaces/key-spaces-tests.html" title="Tests for various aspects of DITA key spaces and key references.">Key Space Tests</a></div>
+</div>
+</div></body>
+</html>
