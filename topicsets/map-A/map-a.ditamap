@@ -2,23 +2,21 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Topicsetref Test Map A</title>
-  <topicref href="topicsetref_test_map_a.dita">
-    <topicref href="topics_set_01_first_use.dita">
+  <topicref href="topicsetref_test_map_a.dita" navtitle="Topicsetref Test Map A">
+    <topicref href="topics_set_01_first_use.dita" navtitle="Topic set 01 First Use">
       <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-01"/>
     </topicref>
-    <topicref href="topic_set_01_second_use.dita">
+    <topicref href="topic_set_01_second_use.dita" navtitle="Topic Set 01 Second Use">
       <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-01"/>
     </topicref>
-    <topicref href="topic_set_01_third_use.dita">
-      <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-01"
-        keyscope="topicset-01-third-use"/>
+    <topicref href="topic_set_01_third_use.dita" navtitle="Topic Set 01 Third Use">
+      <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-01" keyscope="topicset-01-third-use"/>
     </topicref>
-    <topicref href="topic_set_02_first_use.dita">
+    <topicref href="topic_set_02_first_use.dita" navtitle="Topic Set 02 First Use">
       <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-02"/>
     </topicref>
-    <topicref href="topic_set_02_second_use.dita">
-      <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-02"
-        keyscope="topicset-02-second-use"/>
+    <topicref href="topic_set_02_second_use.dita" navtitle="Topic Set 02 Second Use">
+      <topicsetref href="../map-B/map-b.ditamap#topicset-map-b-02" keyscope="topicset-02-second-use"/>
     </topicref>
   </topicref>
 </map>

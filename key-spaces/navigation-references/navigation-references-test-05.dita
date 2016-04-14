@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_nkx_1wm_qv">
+  <title>Navigation References Test 05</title>
+  <body>
+    <p>This map uses navigation references to a branch in another map but uses keys and key scopes.
+      It references map D as a local-scope submap. It uses <xmlelement>topicsetref</xmlelement> and
+        <xmlelement>topicset</xmlelement> rather than normal topicrefs.</p>
+  </body>
+</topic>

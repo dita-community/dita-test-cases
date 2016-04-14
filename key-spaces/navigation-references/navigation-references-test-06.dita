@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_jdm_tym_qv">
+  <title>Navigation Test 06</title>
+  <body>
+    <p>This test puts the key scope "tsr-01" on the topicsetref to branch-01</p>
+    <p>Here is a cross reference to "br01.branch-01": <xref keyref="br01.branch-01"/></p>
+    <p>Here is a cross reference to "tsr-01.branch-01": <xref keyref="tsr-01.branch-01"/></p>
+    <p>Here is a cross reference to "tsr-01.br01.branch-01": <xref keyref="tsr-01.br01.branch-01"/></p>
+  </body>
+</topic>

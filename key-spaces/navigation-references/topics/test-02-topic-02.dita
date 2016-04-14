@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_fcq_lwm_qv">
+  <title>Test 02 Topic 02</title>
+  <body>
+    <p>Contains a key reference to the key "br01.branch-01", which should get the root topic from
+      branch-01.</p>
+    <p>Reference to "br01.branch-01": <xref keyref="br01.branch-01"/></p>
+  </body>
+</topic>

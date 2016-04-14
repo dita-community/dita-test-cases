@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_zz4_tvm_qv">
+  <title>Navigation References Test 01</title>
+  <body>
+    <p>This map is a simple test of re-use of navigation within a single map using only direct URI
+      references and no keys or key scopes.</p>
+  </body>
+</topic>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_zz4_tvm_qv">
+  <title>Navigation References Test 03</title>
+  <body>
+    <p>This map tests referencing a topicref in a separate map using only a direct topicref and no
+      other inclusion of the map.</p>
+  </body>
+</topic>

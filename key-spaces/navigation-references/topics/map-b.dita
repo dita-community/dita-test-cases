@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_b5x_3xm_qv">
+  <title>Map B</title>
+  <body>
+    <p>This map contains a branch that is used by reference from other maps. The branch does not
+      define a key scope.</p>
+  </body>
+</topic>

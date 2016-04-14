@@ -69,6 +69,7 @@
       <topicref href="key-spaces/keyscope-test-01/keyscope-test-01-overview.dita"
         keys="keyscope-test-01"/>
       <topicref href="key-spaces/allowed-key-name-characters/allowed_key_name_characters_test.dita"/>
+      <topicref href="key-spaces/multiple_levels_of_indirection_with_key_scopes_test.dita"/>
     </topicref>
     <topicref href="this-topic-fragment-ids/this-topic-fragment-ids-test-01.dita">
     </topicref>

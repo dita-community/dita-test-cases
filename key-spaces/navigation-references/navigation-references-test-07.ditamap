@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Navigation References Test 07</title>
+  <topicref href="navigation-references-test-07.dita">
+    <topicref href="topics/root-01.dita">
+      <topicref href="map-B.ditamap#branch-01" format="ditamap"/>
+    </topicref>
+  </topicref>
+</map>
