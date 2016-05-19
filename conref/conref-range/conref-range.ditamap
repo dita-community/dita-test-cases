@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Conref Range Tests</title>
+  <topicref href="conref_range_tests.dita">
+    <topicref href="topics/warehouse_01.dita" keys="warehouse-01" processing-role="resource-only"/>
+    <topicref href="topics/using_topic_01.dita"/>
+  </topicref>
+</map>

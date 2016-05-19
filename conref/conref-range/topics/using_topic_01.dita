@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="using_topic_01">
+  <title>Using Topic 01</title>
+  <body>
+    <p>This topic uses elements by reference from other topics. For this test the references are
+      direct URI references to keep the tests simple. In practice, always use keys.</p>
+    <section id="section_aqx_wfy_rv">
+      <title>Conref Range Test 01</title>
+      <p>Good conref range.</p>
+      <p>This next paragraph conrefs from paragraph 10 to paragraph 15:</p>
+      <p conref="warehouse_01.dita#warehouse_01/p010"
+        conrefend="warehouse_01.dita#warehouse_01/p015"/>
+      <p>This is after the conref. There should be 11 paragraphs before this one.</p>
+    </section>
+    <section id="section_b1b_qgy_rv">
+      <title>Bad Range End Reference</title>
+      <p>This next paragraph conrefs from paragraph 10 to nonexistent paragraph "bogus-id":</p>
+      <p conref="warehouse_01.dita#warehouse_01/p010"
+        conrefend="warehouse_01.dita#warehouse_01/bogus-id"/>
+      <p>After the conref.</p>
+    </section>
+  </body>
+</topic>

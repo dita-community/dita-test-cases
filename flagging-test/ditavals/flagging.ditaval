@@ -13,34 +13,44 @@
       <alt-text>[/OSX]</alt-text>
     </endflag>    
   </prop>
-  <prop action="flag" att="audience" val="beginner">
+  <prop action="flag" att="audience" val="beginner" backcolor="yellow">
     <startflag>
       <alt-text>For Beginners: </alt-text>
     </startflag>
   </prop>
-  <prop action="flag" att="audience" val="expert">
+  <prop action="flag" att="audience" val="expert" backcolor="blue">
     <startflag>
       <alt-text>For Experts: </alt-text>
     </startflag>
   </prop>
-  <prop action="flag" att="group1" val="value-A">
+  <prop action="flag" att="group1" val="value-A" style="bold">
     <startflag>
       <alt-text>G1-val-A</alt-text>
     </startflag>
   </prop>
-  <prop action="flag" att="group1" val="value-B">
+  <prop action="flag" att="group1" val="valueC" style="bold">
+    <startflag>
+      <alt-text>G1-val-C</alt-text>
+    </startflag>
+  </prop>
+  <prop action="flag" att="group1" val="value-B" style="italics">
     <startflag>
       <alt-text>G1-val-B</alt-text>
     </startflag>
   </prop>
-  <prop action="flag" att="group1" val="value-B">
+  <prop action="flag" att="group2" val="value-A" color="green">
     <startflag>
       <alt-text>G1-val-B</alt-text>
     </startflag>
   </prop>
-  <prop action="flag" att="group2" val="value-B">
+  <prop action="flag" att="group2" val="value-B" color="magenta">
     <startflag>
       <alt-text>G2-val-B</alt-text>
+    </startflag>
+  </prop>
+  <prop action="flag" att="group2" val="beginner" color="teal">
+    <startflag>      
+      <alt-text>G2-val-beginner</alt-text>
     </startflag>
   </prop>
   <revprop action="passthrough">

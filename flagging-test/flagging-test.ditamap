@@ -4,7 +4,7 @@
   <title>Flagging Test</title>
   <topicref href="ditavals/flagging.ditaval" keys="flagging-ditaval" format="xml" scope="external">
     <topicmeta>
-      <navtitle>flagging.ditaval</navtitle>
+      <navtitle>ditavals/flagging.ditaval</navtitle>
     </topicmeta>
   </topicref>
   <topicref href="flagging-tests-01.dita">

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conref_range_tests">
+  <title>Conref Range Tests</title>
+  <shortdesc>Tests for exercising the conref range feature.</shortdesc>
+  <body>
+    <section spectitle="Overview">
+      <p>Describe the test case: what's its testing, how it's testing it, etc.</p>
+    </section>
+    <section spectitle="Expected Results">
+      <p>Describe the expected results of running the test.</p>
+    </section>
+    <section spectitle="Relevant Specification Language">
+      <p>Link to the relevant parts of the DITA 1.3 specification.</p>
+      <p>The DITA specification is hosted here: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/" format="html" scope="external"
+          >http://docs.oasis-open.org/dita/dita/v1.3/os/</xref>
+      </p>
+      <p>For references to the Architecture Specification, use the base edition: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/archSpec-base.html"
+          format="html" scope="external"
+          >http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/archSpec-base.html</xref></p>
+      <p>For references to the language specification use the smallest edition that includes the
+        element you're linking to (e.g., the base edition for core element types).</p>
+    </section>
+    <section spectitle="Test Results">
+      <p>Describe the results of running the tests with different processors. Include the processor
+        version and option details so that others can reproduce your tests.</p>
+      <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
+        <title>Test Results</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>Test Result</entry>
+              <entry>Notes</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>DITA Open Toolkit 2.2.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>oXygenXML Editor 18</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>XMetaL 11</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>FrameMaker 2015</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>ditac 2.5.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>DFST Link Manager 0.9.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </body>
+</topic>

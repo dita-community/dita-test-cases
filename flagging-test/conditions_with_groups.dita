@@ -8,6 +8,10 @@
       <title>Groups within <xmlatt>props</xmlatt></title>
       <p props="group1(value-A)"><xmlatt>props</xmlatt> with a single group:
           <codeph>props="group1(value-A)"</codeph>.</p>
+      <p props="group1(value-B)"><xmlatt>props</xmlatt> with a single group:
+        <codeph>props="group1(value-B)"</codeph>.</p>
+      <p props="group1(valueC)"><xmlatt>props</xmlatt> with a single group:
+        <codeph>props="group1(valueC)"</codeph>.</p>
       <p props="value-A"><xmlatt>props</xmlatt> with ungrouped keywords. This is not correct usage
         of <xmlatt>props</xmlatt>. It specifies <codeph>props="value-A"</codeph>.</p>
       <p props="group1(value-A value-B)"><xmlatt>props</xmlatt> with a group with two values:
@@ -23,6 +27,8 @@
           <codeph>audience="group1(value-A)"</codeph></p>
       <p audience="beginner group1(value-B)"><xmlatt>audience</xmlatt> with a simple value and a
         group: <codeph>audience="beginner group1(value-B)"</codeph>.</p>
+      <p audience="group2(beginner) group1(value-B)"><xmlatt>audience</xmlatt> with two groups
+        group: <codeph>audience="group2(beginner) group1(value-B)"</codeph>.</p>
     </section>
   </body>
 </topic>

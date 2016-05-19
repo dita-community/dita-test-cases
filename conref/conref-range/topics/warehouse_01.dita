@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="warehouse_01">
+  <title>Warehouse 01</title>
+  <body>
+    <p>This document contains a number of elements to be used by reference.</p>
+    <section id="group-01">
+      <title>Group 01</title>
+      <p id="p000">Paragraph 00</p>
+      <p id="p001">Paragraph 01</p>
+      <p id="p002">Paragraph 02</p>
+      <p id="p003">Paragraph 03</p>
+      <p id="p004">Paragraph 04</p>
+      <p id="p005">Paragraph 05</p>
+      <p id="p006">Paragraph 06</p>
+      <p id="p007">Paragraph 07</p>
+      <p id="p008">Paragraph 08</p>
+      <p id="p009">Paragraph 09</p>
+      <p id="p010">Paragraph 10</p>
+      <p id="p011">Paragraph 11</p>
+      <p id="p012">Paragraph 12</p>
+      <p id="p013">Paragraph 13</p>
+      <p id="p014">Paragraph 14</p>
+      <p id="p015">Paragraph 15</p>
+      <p id="p016">Paragraph 16</p>
+      <p id="p017">Paragraph 17</p>
+      <p id="p018">Paragraph 18</p>
+      <p id="p019">Paragraph 19</p>
+      <p id="p020">Paragraph 20</p>
+      <p id="p021">Paragraph 21</p>
+      <p id="p022">Paragraph 22</p>
+      <p id="p023">Paragraph 23</p>
+      <p id="p024">Paragraph 24</p>
+      <p id="p025">Paragraph 25</p>
+      <p id="p026">Paragraph 26</p>
+      <p id="p027">Paragraph 27</p>
+      <p id="p028">Paragraph 28</p>
+      <p id="p029">Paragraph 29</p>
+      <p id="p030">Paragraph 30</p>
+      
+    </section>
+  </body>
+</topic>
