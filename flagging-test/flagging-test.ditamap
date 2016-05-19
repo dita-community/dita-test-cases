@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Flagging Test</title>
+  <topicref href="ditavals/flagging.ditaval" keys="flagging-ditaval" format="xml" scope="external">
+    <topicmeta>
+      <navtitle>flagging.ditaval</navtitle>
+    </topicmeta>
+  </topicref>
+  <topicref href="flagging-tests-01.dita">
+    <topicref href="topics/flagging-test.dita" keys="basic-flagging-tests"/>
+    <topicref href="conditions_with_groups.dita"/>
+  </topicref>
+</map>

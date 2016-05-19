@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ahb_v2n_cv">
+  <title>Flagging Tests</title>
+  <shortdesc>Tests handling of flagging of DITA elements based on values for conditional
+    attributes.</shortdesc>
+  <body>
+    <section spectitle="Overview">
+      <p>This set of tests exercises the handling of the of conditional attributes, including
+          <xmlatt>props</xmlatt>, <xmlatt>otherprops</xmlatt>, <xmlatt>rev</xmlatt>, and
+        domain-defined attributes (e.g., <xmlatt>deliveryTarget</xmlatt>).</p>
+      <p>The syntax rules for conditional attributes present some challenges because you can have
+        combinations of simple keywords, e.g. <codeph>audience="beginner expert"</codeph>, and the
+        parenthesized generalized syntax, e.g. <codeph>audience="beginner usertype(noob)
+          expert"</codeph>, where "<codeph>usertype(noob)</codeph>" in this example is equivalent to
+          <codeph>usertype="noob"</codeph>, if <xmlatt>usertype</xmlatt> is a specialization of
+          <xmlatt>props</xmlatt>. This means that simple tokenization of conditional attributes is
+        not sufficient. Basically, all the attributes that can contribute to the filtering
+        conditions must be processed to produce a single mapping of condition names to values, which
+        are then compared to the active filtering specifications as defined in DITAVAL documents (or
+        the processor-specific equivalent). </p>
+      <p>The flagging is configured in <xref keyref="flagging-ditaval"/>. </p>
+    </section>
+    <section spectitle="Expected Results">
+      <p>The filtering should reflect the DITAVAL specification and correct handling of
+        parenthesized values per the DITA 1.3 specification (which is unchanged from DITA 1.2 in its
+        normative requirements but should be more clearly stated). The test case documents indicate
+        for a given test instance what the correct result should be for a given set of active
+        filtering conditions.</p>
+    </section>
+    <section spectitle="Relevant Specification Language">
+      <p>General topic on conditional attributes: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/conditional-processing-attributes.html#conditional-processing-attributes"
+          format="html" scope="external">2.2.4.2.1 Conditional processing attributes</xref>.</p>
+      <p>General topic on conditional processing: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/condproc.html"
+          format="html" scope="external">2.4.3 Conditional processing (profiling)</xref>.</p>
+      <p>Details on handling groups within conditional attribute values: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/usage-of-conditional-processing-attributes.html"
+          format="html" scope="external">2.4.3.1 Conditional processing values and
+        groups</xref>.</p>
+      <p>Flagging: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/flagging.html"
+          format="html" scope="external">2.4.3.3 Flagging</xref>.</p>
+      <p>Conditional attributes: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/langRef/attributes/metadataAttributes.html"
+          format="html" scope="external">3.10.1.2 Metadata attribute group</xref>.</p>
+      <p>Attribute generalization: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/generalization-attributes.html"
+          format="html" scope="external">2.5.4.4 Attribute generalization</xref>.</p>
+      <p>Attribute specialization requirements: <xref
+          href="http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/specialization-rules-attributes.html"
+          format="html" scope="external">2.5.3.5 Specialization rules for attributes</xref>.</p>
+    </section>
+    <section spectitle="Test Results">
+      <p>Describe the results of running the tests with different processors. Include the processor
+        version and option details so that others can reproduce your tests.</p>
+      <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
+        <title>Test Results</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>Test Result</entry>
+              <entry>Notes</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>DITA Open Toolkit 2.2.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>oXygenXML Editor 18</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>XMetaL 11</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>FrameMaker 2015</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>ditac 2.5.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>DFST Link Manager 0.9.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </body>
+</topic>

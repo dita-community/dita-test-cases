@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conditions_with_groups">
+  <title>Conditions With Groups</title>
+  <body>
+    <p>This topic exercises the use of groups within conditional attributes.</p>
+    <section id="section_br5_k1h_1w">
+      <title>Groups within <xmlatt>props</xmlatt></title>
+      <p props="group1(value-A)"><xmlatt>props</xmlatt> with a single group:
+          <codeph>props="group1(value-A)"</codeph>.</p>
+      <p props="value-A"><xmlatt>props</xmlatt> with ungrouped keywords. This is not correct usage
+        of <xmlatt>props</xmlatt>. It specifies <codeph>props="value-A"</codeph>.</p>
+      <p props="group1(value-A value-B)"><xmlatt>props</xmlatt> with a group with two values:
+          <codeph>props="group1(value-A value-B)"</codeph>.</p>
+      <p props="group1(value-A) group2(value-B)"><xmlatt>props</xmlatt> with two groups:
+          <codeph>props="group1(value-A) group2(value-B)"</codeph>.</p>
+    </section>
+    <section id="section_j2v_bbh_1w">
+      <title>Groups within <xmlatt>audience</xmlatt></title>
+      <p audience="beginner"><xmlatt>audience</xmlatt> with a simple value:
+          <codeph>audience="beginner"</codeph>.</p>
+      <p audience="group1(value-A)"><xmlatt>audience</xmlatt> with a single group:
+          <codeph>audience="group1(value-A)"</codeph></p>
+      <p audience="beginner group1(value-B)"><xmlatt>audience</xmlatt> with a simple value and a
+        group: <codeph>audience="beginner group1(value-B)"</codeph>.</p>
+    </section>
+  </body>
+</topic>
