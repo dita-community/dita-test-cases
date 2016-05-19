@@ -14,7 +14,7 @@
       <p
         audience="beginner">Paragraph for beginners.</p>
       <p
-        props="(audience beginner)">Paragraph for beginners, using @props="(audience beginner)"</p>
+        props="audience(beginner)">Paragraph for beginners, using @props="audience(beginner)"</p>
       <p
         otherprops="someotherprop">Paragraph for someotherprop, using @otherprops="someotherprop"</p>
       <p>Unconditional</p>
