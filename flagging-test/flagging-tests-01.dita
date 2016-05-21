@@ -20,6 +20,12 @@
         are then compared to the active filtering specifications as defined in DITAVAL documents (or
         the processor-specific equivalent). </p>
       <p>The flagging is configured in <xref keyref="flagging-ditaval"/>. </p>
+      <p>The <xref keyref="basic-flagging-tests"/> are simple cases.</p>
+      <p>The <xref keyref="conditions-with-groups"/> exercises edge cases involving the use of
+        groups within conditional attribute values:<ul id="ul_i15_mrv_1w">
+          <li><xref keyref="conditions-with-groups/groups-within-props"/></li>
+          <li><xref keyref="conditions-with-groups/groups-within-audience"/></li>
+        </ul></p>
     </section>
     <section spectitle="Expected Results">
       <p>The filtering should reflect the DITAVAL specification and correct handling of
