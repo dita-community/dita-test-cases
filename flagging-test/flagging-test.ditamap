@@ -10,7 +10,16 @@
   <topicref href="flagging-tests-01.dita">
     <topicref href="topics/flagging-test.dita" keys="basic-flagging-tests"/>
     <topicref href="conditions_with_groups.dita" keys="conditions-with-groups"/>
-    <topicref href="topics/composite-01.dita#topic-01" keys="composite-01" chunk="select-branch to-content"/>
-    <topicref href="topics/composite-01.dita#topic-02" keys="composite-02" chunk="select-branch to-content"/>
+    <topicref href="topics/composite-01.dita#topic-01" keys="composite-01"
+      chunk="select-branch to-content"/>
+    <topicref href="topics/composite-01.dita#topic-02" keys="composite-02"
+      chunk="select-branch to-content"/>
+    <topicgroup>
+      <topicref href="topics/composite-02.dita#topic-01" keys="composite-03" chunk="select-branch to-content"/>
+      <topicref href="topics/composite-02.dita#topic-02" keys="composite-04" chunk="select-branch to-content"/>
+    </topicgroup>
+    <topicgroup>
+      <topicref href="topics/composite-02.dita#topic-02" keys="composite-04-no-chunk"/>
+    </topicgroup>
   </topicref>
 </map>

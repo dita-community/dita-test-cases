@@ -2,17 +2,20 @@
 <!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
 <dita>
   <topic id="topic-01">
-    <title>Composite 1, Topic 01</title>
+    <title>Composite 2, Topic 01</title>
     <body>
       <p>This is the first topic in a composite.</p>
       <p>Cross reference to key "composite-02: <xref keyref="composite-02"/></p>
+      <p>Cross reference to key "composite-04: <xref keyref="composite-04"/></p>
+      <p>Cross reference to key "composite-04-no-chunk: <xref keyref="composite-04-no-chunk"/></p>
     </body>
   </topic>
   <topic id="topic-02">
-    <title>Composite 1, Topic 02</title>
+    <title>Composite 2, Topic 02</title>
     <body>
       <p id="topic-02">This is the first second in a composite. Duplicating the topic ID just to test this case.</p>
       <p>Cross reference to key "composite-01: <xref keyref="composite-01"/></p>
+      <p>Cross reference to key "composite-03: <xref keyref="composite-03"/></p>
     </body>
   </topic>
 </dita>
