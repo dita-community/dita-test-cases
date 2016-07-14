@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_bm4_wm5_pw">
+  <title>Topichead Chunking Test</title>
+  <body>
+    <p>Tests the handling of @chunk on topicheads.</p>
+  </body>
+</topic>
