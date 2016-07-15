@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_l2k_jfg_qw">
+  <title>Topic 11</title>
+  <body>
+    <p>This is topic 11. Link to topic 12: <xref keyref="topic-12"/>. Link to chunk root: <xref
+        keyref="chunk-5-root"/>.</p>
+  </body>
+</topic>

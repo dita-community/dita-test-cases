@@ -27,5 +27,35 @@
         <topicref href="topics/topic-08.dita"/>
       </topichead>
     </topichead>
+    <topicref keys="chunk-5-root" href="topics/topic-09-chunk-root.dita" chunk="to-content select-branch">
+      <topicref keys="topic-10" href="topics/topic-10.dita">
+        <topicref keys="topic-11" href="topics/topic-11.dita"/>
+        <topicref keys="topic-12" href="topics/topic-12.dita"/>
+      </topicref>
+    </topicref>
+    <topicref keys="chunk-6" href="topics/topic-13-chunk-root.dita">
+      <topicref keys="topic-14" href="topics/topic-14.dita">
+        <topicref keys="topic-15" href="topics/topic-15.dita"/>
+        <topicref keys="topic-16" href="topics/topic-16.dita"/>
+      </topicref>
+    </topicref>
   </topicref>
+  <reltable>
+    <relrow>
+      <relcell>
+        <topicref keyref="topic-11"/>
+      </relcell>
+      <relcell>
+        <topicref keyref="topic-12"/>
+      </relcell>
+    </relrow>
+    <relrow>
+      <relcell>
+        <topicref keyref="topic-15"/>
+      </relcell>
+      <relcell>
+        <topicref keyref="topic-16"/>
+      </relcell>
+    </relrow>
+  </reltable>
 </map>
