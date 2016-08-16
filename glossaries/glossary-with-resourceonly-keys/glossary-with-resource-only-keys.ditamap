@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Glossary With Resource-Only Keys</title>
+ <mapref
+  href="glossary-entries/aikido-master-glossary-keydefs.ditamap"/>
+ <topicref
+  href="glossary_with_resource_only_keys.dita"/>
+ <mapref
+  href="glossary/glossary.ditamap"/>
+</map>

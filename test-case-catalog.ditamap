@@ -81,6 +81,11 @@
     <topicref href="topicsets/topicset_and_topicsetref_test_cases.dita">
       <topicref href="topicsets/topicsetref_with_key_scopes_test.dita"/>
     </topicref>
+    <topicref
+      href="glossaries/glossary_tests.dita">
+      <topicref
+        href="glossaries/glossary-with-resourceonly-keys/glossary_with_resource_only_keys.dita"/>
+    </topicref>
   </topicref>
   <reltable>
     <!-- This relationship table is intended to relate the mapin test case

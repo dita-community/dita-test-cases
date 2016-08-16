@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="glossary_with_resource_only_keys">
+  <title>Glossary With Resource-Only Keys</title>
+  <body>
+    <p>This publication demonstrates how to manage glossary entries using two maps, one that defines
+      only resource-only keys for each glossary entry topic and one that organizes some or all of
+      those glossary entries in the publication using normal-role topicrefs.</p>
+    <p>The publication then has topics with &lt;term> elements that use keyrefs to the normal-role
+      topicrefs.</p>
+    <p>The map <filepath>glossary-entries/aikido-master-glossary-keydefs.ditamap</filepath> defines
+      resource-only keys, one for each glossary entry topic, using the key name convention
+      "gloss.*".</p>
+    <p>The map <filepath>glossary/glossary.ditamap</filepath> contains normal-role topicrefs with
+      keys of the form "glossary.*" that then refer to the corresponding resource-only keys
+      ("gloss.*"). The convention used here is "gloss." is the prefix for resource-only keys and
+      "glossary." is the prefix for navigation topicrefs (glossary entries that will be published in
+      the publication). (This particular convention, chosen for this example, might be confusing but
+      I couldn't think of a clearer convention.)</p>
+    <p>The reason that this distinction is important is that resource-only keys do not result in
+      anything in the output. The referenced topics can be used to get the glossary term text so
+      it's reflected in the output correctly but they can't be the target of hyperlinks because
+      there won't be anything rendered for the glossary entry itself in the rendered publication.
+      This is especially obvious for PDF where there's simply nowhere for a resource-only topic to
+      be. In HTML you might accidentally get HTML files that happen to correspond to the
+      resource-only topics, but that is purely accidental.</p>
+    <p>If the glossary only occurs in one document then there's no real need for these two distinct
+      sets of key definitions.</p>
+    <p>But if the glossary entries will be used in different ways in different publications then
+      having these two maps is essential.</p>
+    <p>The resource-only key definition map represents the set of all glossary entries while the
+      normal-role map can reflect only those entries actually needed in a given publication. It also
+      allows the glossary entries to be organized in whatever way is appropriate in the publication,
+      which might be different from their organization in the resource-only key definition map (for
+      example, the resource-only map might not be alphabetical or there might be different
+      equally-correct ways to group and order the entries in some languages (such as Simplified
+      Chinese, where sort order is a function of the pin-yin transliteration of the words, which can
+      vary depending on the editorial policies in effect for a given publication or writing
+      group).</p>
+    <p>The separation also makes it possible to have a separate master glossary document such that
+      the key references become cross-deliverable links to the master glossary if desired (which is
+      one reason to use the "." convention for the prefix--that makes it easy to bind the key
+      references to another publication using DITA 1.3 cross-deliverable linking features).</p>
+    <p>Here is a reference to a term defined in the glossary: <term
+        keyref="gloss.aikido"/> (should be the term "aikido" and should be a link to the glossary
+      entry for it).</p>
+    <p>Note that within the glossary entries, references to other glossary entries use the
+      "glossary.*" form of key reference, not the "gloss.*" form. That's because these references
+      need to also be to normal-role uses of the glossary entries or the term elements can't become
+      links.</p>
+  </body>
+</topic>

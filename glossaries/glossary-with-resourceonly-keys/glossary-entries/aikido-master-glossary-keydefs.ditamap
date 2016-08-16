@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+   <title>Aikido Master Glossary Keydefs</title>
+   <topicmeta>
+      <data name="description">
+This map defines resource-only keys for each glossary entry topic
+in the Aikido glossary. It serves as a catalog of glossary entries
+that can then be used in publications via normal-role topicrefs
+that refer to these keys.
+
+NOTE: You should <b>not</b> refer to these keys from &lt;term&gt; elements
+as the will be no rendered output for these keys. The best you will get
+in that case is the term text.
+
+To have a working glossary in a published document you must either include
+the glossary entries in the publication or set up cross-deliverable links
+to a separate glossary publication.
+
+Note also that the topicgroups with navigation titles are intention: As
+first defined in DITA 1.2, navigation titles on topicgroups are ignored
+for output purposes. In this map they serve merely as an aid to the author
+of the map, making it easier to work with the glossary entries by 
+grouping them by letter.
+
+The keys use the convention "gloss.*", anticipating the ability to use DITA
+1.3 key scopes where this map defines the scope name "gloss".
+      </data>
+   </topicmeta>
+   <topicgroup processing-role="resource-only">
+      <topicgroup>
+         <topicmeta>
+            <navtitle>A</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.ai" href="gloss-ai.dita"/>
+         <keydef keys="gloss.aihanmi" href="gloss-aihanmi.dita"/>
+         <keydef keys="gloss.aihanmi-katatedori" href="gloss-aihanmi-katatedori.dita"/>
+         <keydef keys="gloss.aiki" href="gloss-aiki.dita"/>
+         <keydef keys="gloss.aikibatto" href="gloss-aikibatto.dita"/>
+         <keydef keys="gloss.aikibudo" href="gloss-aikibudo.dita"/>
+         <keydef keys="gloss.aikido" href="gloss-aikido.dita"/>
+         <keydef keys="gloss.aikidoka" href="gloss-aikidoka.dita"/>
+         <keydef keys="gloss.aikido-toho" href="gloss-aikido-toho.dita"/>
+         <keydef keys="gloss.Aikijinja" href="gloss-Aikijinja.dita"/>
+         <keydef keys="gloss.aikijo" href="gloss-aikijo.dita"/>
+         <keydef keys="gloss.aikijutsu" href="gloss-aikijutsu.dita"/>
+         <keydef keys="gloss.Aikikai" href="gloss-Aikikai.dita"/>
+         <keydef keys="gloss.aikiken" href="gloss-aikiken.dita"/>
+         <keydef keys="gloss.aikinage" href="gloss-aikinage.dita"/>
+         <keydef keys="gloss.aiki-no-michi" href="gloss-aiki-no-michi.dita"/>
+         <keydef keys="gloss.aikiotoshi" href="gloss-aikiotoshi.dita"/>
+         <keydef keys="gloss.aikitaiso" href="gloss-aikitaiso.dita"/>
+         <keydef keys="gloss.aite" href="gloss-aite.dita"/>
+         <keydef keys="gloss.arigato" href="gloss-arigato.dita"/>
+         <keydef keys="gloss.arigato-gozaimasu" href="gloss-arigato-gozaimasu.dita"/>
+         <keydef keys="gloss.arigato-gozaimashita" href="gloss-arigato-gozaimashita.dita"/>
+         <keydef keys="gloss.ashi" href="gloss-ashi.dita"/>
+         <keydef keys="gloss.ate" href="gloss-ate.dita"/>
+         <keydef keys="gloss.atemi" href="gloss-atemi.dita"/>
+         <keydef keys="gloss.awase" href="gloss-awase.dita"/>
+         <keydef keys="gloss.ayumiashi" href="gloss-ayumiashi.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>B</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.barai-harai" href="gloss-barai-harai.dita"/>
+         <keydef keys="gloss.batto" href="gloss-batto.dita"/>
+         <keydef keys="gloss.bo" href="gloss-bo.dita"/>
+         <keydef keys="gloss.bokken" href="gloss-bokken.dita"/>
+         <keydef keys="gloss.bokuto" href="gloss-bokuto.dita"/>
+         <keydef keys="gloss.bu" href="gloss-bu.dita"/>
+         <keydef keys="gloss.budo" href="gloss-budo.dita"/>
+         <keydef keys="gloss.budoka" href="gloss-budoka.dita"/>
+         <keydef keys="gloss.bugei" href="gloss-bugei.dita"/>
+         <keydef keys="gloss.bukiwaza" href="gloss-bukiwaza.dita"/>
+         <keydef keys="gloss.bushi" href="gloss-bushi.dita"/>
+         <keydef keys="gloss.bushido" href="gloss-bushido.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>C</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.chado" href="gloss-chado.dita"/>
+         <keydef keys="gloss.chikara" href="gloss-chikara.dita"/>
+         <keydef keys="gloss.choku" href="gloss-choku.dita"/>
+         <keydef keys="gloss.chokutsuki" href="gloss-chokutsuki.dita"/>
+         <keydef keys="gloss.chudan" href="gloss-chudan.dita"/>
+         <keydef keys="gloss.chudan-kamae" href="gloss-chudan-kamae.dita"/>
+         <keydef keys="gloss.chudan-tsuki" href="gloss-chudan-tsuki.dita"/>
+         <keydef keys="gloss.chukyusha" href="gloss-chukyusha.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>D</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.dai" href="gloss-dai.dita"/>
+         <keydef keys="gloss.daisho" href="gloss-daisho.dita"/>
+         <keydef keys="gloss.Daito-ryu" href="gloss-Daito-ryu.dita"/>
+         <keydef keys="gloss.dame" href="gloss-dame.dita"/>
+         <keydef keys="gloss.dan" href="gloss-dan.dita"/>
+         <keydef keys="gloss.dao-tao" href="gloss-dao-tao.dita"/>
+         <keydef keys="gloss.deshi" href="gloss-deshi.dita"/>
+         <keydef keys="gloss.do" href="gloss-do.dita"/>
+         <keydef keys="gloss.dogi" href="gloss-dogi.dita"/>
+         <keydef keys="gloss.do-in" href="gloss-do-in.dita"/>
+         <keydef keys="gloss.dojo" href="gloss-dojo.dita"/>
+         <keydef keys="gloss.dojo-cho" href="gloss-dojo-cho.dita"/>
+         <keydef keys="gloss.doka" href="gloss-doka.dita"/>
+         <keydef keys="gloss.domo" href="gloss-domo.dita"/>
+         <keydef keys="gloss.domo-arigato-gozaimas" href="gloss-domo-arigato-gozaimas.dita"/>
+         <keydef keys="gloss.domo-arigato-gozaimashita"
+                 href="gloss-domo-arigato-gozaimashita.dita"/>
+         <keydef keys="gloss.dori" href="gloss-dori.dita"/>
+         <keydef keys="gloss.dosa" href="gloss-dosa.dita"/>
+         <keydef keys="gloss.doshu" href="gloss-doshu.dita"/>
+         <keydef keys="gloss.dozo" href="gloss-dozo.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>E</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.embukai" href="gloss-embukai.dita"/>
+         <keydef keys="gloss.empi" href="gloss-empi.dita"/>
+         <keydef keys="gloss.eri" href="gloss-eri.dita"/>
+         <keydef keys="gloss.eridori" href="gloss-eridori.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>F</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.fukushidoin" href="gloss-fukushidoin.dita"/>
+         <keydef keys="gloss.funakogi-undo" href="gloss-funakogi-undo.dita"/>
+         <keydef keys="gloss.furitama" href="gloss-furitama.dita"/>
+         <keydef keys="gloss.futaridori-futarigake" href="gloss-futaridori-futarigake.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>G</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.gaeshi-kaeshi" href="gloss-gaeshi-kaeshi.dita"/>
+         <keydef keys="gloss.gamae-kamae" href="gloss-gamae-kamae.dita"/>
+         <keydef keys="gloss.gasshuku" href="gloss-gasshuku.dita"/>
+         <keydef keys="gloss.gedan" href="gloss-gedan.dita"/>
+         <keydef keys="gloss.gedanbarai" href="gloss-gedanbarai.dita"/>
+         <keydef keys="gloss.geiko-keiko" href="gloss-geiko-keiko.dita"/>
+         <keydef keys="gloss.geri" href="gloss-geri.dita"/>
+         <keydef keys="gloss.gi" href="gloss-gi.dita"/>
+         <keydef keys="gloss.giri-kiri" href="gloss-giri-kiri.dita"/>
+         <keydef keys="gloss.go" href="gloss-go.dita"/>
+         <keydef keys="gloss.gokyo" href="gloss-gokyo.dita"/>
+         <keydef keys="gloss.gomen-nasai" href="gloss-gomen-nasai.dita"/>
+         <keydef keys="gloss.Gorin-no-sho" href="gloss-Gorin-no-sho.dita"/>
+         <keydef keys="gloss.gotai" href="gloss-gotai.dita"/>
+         <keydef keys="gloss.gyaku" href="gloss-gyaku.dita"/>
+         <keydef keys="gloss.gyakuhanmi" href="gloss-gyakuhanmi.dita"/>
+         <keydef keys="gloss.gyakuhanmi-katatedori" href="gloss-gyakuhanmi-katatedori.dita"/>
+         <keydef keys="gloss.gyakutsuki" href="gloss-gyakutsuki.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>H</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.hachi" href="gloss-hachi.dita"/>
+         <keydef keys="gloss.Hagakure" href="gloss-Hagakure.dita"/>
+         <keydef keys="gloss.hai" href="gloss-hai.dita"/>
+         <keydef keys="gloss.hajime" href="gloss-hajime.dita"/>
+         <keydef keys="gloss.hakama" href="gloss-hakama.dita"/>
+         <keydef keys="gloss.handachi" href="gloss-handachi.dita"/>
+         <keydef keys="gloss.hanmi" href="gloss-hanmi.dita"/>
+         <keydef keys="gloss.hanmi-gamae" href="gloss-hanmi-gamae.dita"/>
+         <keydef keys="gloss.hanmi-handachiwaza" href="gloss-hanmi-handachiwaza.dita"/>
+         <keydef keys="gloss.hanshi" href="gloss-hanshi.dita"/>
+         <keydef keys="gloss.hantai" href="gloss-hantai.dita"/>
+         <keydef keys="gloss.happo" href="gloss-happo.dita"/>
+         <keydef keys="gloss.hara" href="gloss-hara.dita"/>
+         <keydef keys="gloss.harai-barai" href="gloss-harai-barai.dita"/>
+         <keydef keys="gloss.harakiri" href="gloss-harakiri.dita"/>
+         <keydef keys="gloss.hassogaeshi" href="gloss-hassogaeshi.dita"/>
+         <keydef keys="gloss.hasso-gamae" href="gloss-hasso-gamae.dita"/>
+         <keydef keys="gloss.henkawaza" href="gloss-henkawaza.dita"/>
+         <keydef keys="gloss.hidari" href="gloss-hidari.dita"/>
+         <keydef keys="gloss.hiji" href="gloss-hiji.dita"/>
+         <keydef keys="gloss.hijidori" href="gloss-hijidori.dita"/>
+         <keydef keys="gloss.hijikimeosae" href="gloss-hijikimeosae.dita"/>
+         <keydef keys="gloss.hiki" href="gloss-hiki.dita"/>
+         <keydef keys="gloss.hineri" href="gloss-hineri.dita"/>
+         <keydef keys="gloss.hiragana" href="gloss-hiragana.dita"/>
+         <keydef keys="gloss.hito-e-mi" href="gloss-hito-e-mi.dita"/>
+         <keydef keys="gloss.hiza" href="gloss-hiza.dita"/>
+         <keydef keys="gloss.ho-1" href="gloss-ho-1.dita"/>
+         <keydef keys="gloss.ho-2" href="gloss-ho-2.dita"/>
+         <keydef keys="gloss.hombu" href="gloss-hombu.dita"/>
+         <keydef keys="gloss.Hombu-dojo" href="gloss-Hombu-dojo.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>I</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.iaido" href="gloss-iaido.dita"/>
+         <keydef keys="gloss.iaito" href="gloss-iaito.dita"/>
+         <keydef keys="gloss.ichi" href="gloss-ichi.dita"/>
+         <keydef keys="gloss.ichiban" href="gloss-ichiban.dita"/>
+         <keydef keys="gloss.iie" href="gloss-iie.dita"/>
+         <keydef keys="gloss.iki" href="gloss-iki.dita"/>
+         <keydef keys="gloss.ikkajo" href="gloss-ikkajo.dita"/>
+         <keydef keys="gloss.ikki" href="gloss-ikki.dita"/>
+         <keydef keys="gloss.ikkyo" href="gloss-ikkyo.dita"/>
+         <keydef keys="gloss.ikkyo-undo" href="gloss-ikkyo-undo.dita"/>
+         <keydef keys="gloss.in" href="gloss-in.dita"/>
+         <keydef keys="gloss.ippon" href="gloss-ippon.dita"/>
+         <keydef keys="gloss.ipponken" href="gloss-ipponken.dita"/>
+         <keydef keys="gloss.irimi" href="gloss-irimi.dita"/>
+         <keydef keys="gloss.iriminage" href="gloss-iriminage.dita"/>
+         <keydef keys="gloss.Iwama" href="gloss-Iwama.dita"/>
+         <keydef keys="gloss.Iwama-ryu" href="gloss-Iwama-ryu.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>J</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.jiyuwaza" href="gloss-jiyuwaza.dita"/>
+         <keydef keys="gloss.jo" href="gloss-jo.dita"/>
+         <keydef keys="gloss.jo-awase" href="gloss-jo-awase.dita"/>
+         <keydef keys="gloss.jodan" href="gloss-jodan.dita"/>
+         <keydef keys="gloss.jodan-kamae" href="gloss-jodan-kamae.dita"/>
+         <keydef keys="gloss.jodan-tsuki" href="gloss-jodan-tsuki.dita"/>
+         <keydef keys="gloss.jodanuke" href="gloss-jodanuke.dita"/>
+         <keydef keys="gloss.jodo" href="gloss-jodo.dita"/>
+         <keydef keys="gloss.jodori" href="gloss-jodori.dita"/>
+         <keydef keys="gloss.jokyusha" href="gloss-jokyusha.dita"/>
+         <keydef keys="gloss.ju-1" href="gloss-ju-1.dita"/>
+         <keydef keys="gloss.ju-2" href="gloss-ju-2.dita"/>
+         <keydef keys="gloss.judo" href="gloss-judo.dita"/>
+         <keydef keys="gloss.jujigarami-jujinage" href="gloss-jujigarami-jujinage.dita"/>
+         <keydef keys="gloss.jujutsu" href="gloss-jujutsu.dita"/>
+         <keydef keys="gloss.jumbitaiso" href="gloss-jumbitaiso.dita"/>
+         <keydef keys="gloss.juntsuki" href="gloss-juntsuki.dita"/>
+         <keydef keys="gloss.jutai" href="gloss-jutai.dita"/>
+         <keydef keys="gloss.jutsu" href="gloss-jutsu.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>K</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.kaeshi-gaeshi" href="gloss-kaeshi-gaeshi.dita"/>
+         <keydef keys="gloss.kaeshitsuki" href="gloss-kaeshitsuki.dita"/>
+         <keydef keys="gloss.kaeshiwaza" href="gloss-kaeshiwaza.dita"/>
+         <keydef keys="gloss.kagami-biraki" href="gloss-kagami-biraki.dita"/>
+         <keydef keys="gloss.kai" href="gloss-kai.dita"/>
+         <keydef keys="gloss.kaiso" href="gloss-kaiso.dita"/>
+         <keydef keys="gloss.kaitennage" href="gloss-kaitennage.dita"/>
+         <keydef keys="gloss.kaitenosae" href="gloss-kaitenosae.dita"/>
+         <keydef keys="gloss.kakaedori" href="gloss-kakaedori.dita"/>
+         <keydef keys="gloss.kakarigeiko" href="gloss-kakarigeiko.dita"/>
+         <keydef keys="gloss.kakudo" href="gloss-kakudo.dita"/>
+         <keydef keys="gloss.kamae-gamae" href="gloss-kamae-gamae.dita"/>
+         <keydef keys="gloss.kami" href="gloss-kami.dita"/>
+         <keydef keys="gloss.kamiza" href="gloss-kamiza.dita"/>
+         <keydef keys="gloss.kampai" href="gloss-kampai.dita"/>
+         <keydef keys="gloss.kan" href="gloss-kan.dita"/>
+         <keydef keys="gloss.kangeiko" href="gloss-kangeiko.dita"/>
+         <keydef keys="gloss.kanji" href="gloss-kanji.dita"/>
+         <keydef keys="gloss.kanren" href="gloss-kanren.dita"/>
+         <keydef keys="gloss.kanrenwaza" href="gloss-kanrenwaza.dita"/>
+         <keydef keys="gloss.kansetsu" href="gloss-kansetsu.dita"/>
+         <keydef keys="gloss.karatedo" href="gloss-karatedo.dita"/>
+         <keydef keys="gloss.Kashima-shintoryu" href="gloss-Kashima-shintoryu.dita"/>
+         <keydef keys="gloss.kata-1" href="gloss-kata-1.dita"/>
+         <keydef keys="gloss.kata-2" href="gloss-kata-2.dita"/>
+         <keydef keys="gloss.katadori" href="gloss-katadori.dita"/>
+         <keydef keys="gloss.katadori-menuchi" href="gloss-katadori-menuchi.dita"/>
+         <keydef keys="gloss.katakana" href="gloss-katakana.dita"/>
+         <keydef keys="gloss.katamewaza" href="gloss-katamewaza.dita"/>
+         <keydef keys="gloss.katana" href="gloss-katana.dita"/>
+         <keydef keys="gloss.katate" href="gloss-katate.dita"/>
+         <keydef keys="gloss.katatedori" href="gloss-katatedori.dita"/>
+         <keydef keys="gloss.katate-ryotedori" href="gloss-katate-ryotedori.dita"/>
+         <keydef keys="gloss.Katori-shintoryu" href="gloss-Katori-shintoryu.dita"/>
+         <keydef keys="gloss.keiko-geiko" href="gloss-keiko-geiko.dita"/>
+         <keydef keys="gloss.keikogi" href="gloss-keikogi.dita"/>
+         <keydef keys="gloss.ken" href="gloss-ken.dita"/>
+         <keydef keys="gloss.kendo" href="gloss-kendo.dita"/>
+         <keydef keys="gloss.ki" href="gloss-ki.dita"/>
+         <keydef keys="gloss.kiai" href="gloss-kiai.dita"/>
+         <keydef keys="gloss.ki-aikido" href="gloss-ki-aikido.dita"/>
+         <keydef keys="gloss.kihon" href="gloss-kihon.dita"/>
+         <keydef keys="gloss.kihonwaza" href="gloss-kihonwaza.dita"/>
+         <keydef keys="gloss.kikai-tanden" href="gloss-kikai-tanden.dita"/>
+         <keydef keys="gloss.kime" href="gloss-kime.dita"/>
+         <keydef keys="gloss.kimusubi" href="gloss-kimusubi.dita"/>
+         <keydef keys="gloss.kinagare-ki-no-nagare" href="gloss-kinagare-ki-no-nagare.dita"/>
+         <keydef keys="gloss.Ki-no-kenkyukai" href="gloss-Ki-no-kenkyukai.dita"/>
+         <keydef keys="gloss.kiri-giri" href="gloss-kiri-giri.dita"/>
+         <keydef keys="gloss.kirikaeshi" href="gloss-kirikaeshi.dita"/>
+         <keydef keys="gloss.koan" href="gloss-koan.dita"/>
+         <keydef keys="gloss.kobudo" href="gloss-kobudo.dita"/>
+         <keydef keys="gloss.kogeki" href="gloss-kogeki.dita"/>
+         <keydef keys="gloss.kogekiho" href="gloss-kogekiho.dita"/>
+         <keydef keys="gloss.kohai" href="gloss-kohai.dita"/>
+         <keydef keys="gloss.Kojiki" href="gloss-Kojiki.dita"/>
+         <keydef keys="gloss.kokoro" href="gloss-kokoro.dita"/>
+         <keydef keys="gloss.kokyu" href="gloss-kokyu.dita"/>
+         <keydef keys="gloss.kokyuho" href="gloss-kokyuho.dita"/>
+         <keydef keys="gloss.kokyunage" href="gloss-kokyunage.dita"/>
+         <keydef keys="gloss.kokyu-ryoku" href="gloss-kokyu-ryoku.dita"/>
+         <keydef keys="gloss.kosa" href="gloss-kosa.dita"/>
+         <keydef keys="gloss.kosadori" href="gloss-kosadori.dita"/>
+         <keydef keys="gloss.koshi" href="gloss-koshi.dita"/>
+         <keydef keys="gloss.koshinage" href="gloss-koshinage.dita"/>
+         <keydef keys="gloss.kote" href="gloss-kote.dita"/>
+         <keydef keys="gloss.kotegaeshi" href="gloss-kotegaeshi.dita"/>
+         <keydef keys="gloss.kotehineri" href="gloss-kotehineri.dita"/>
+         <keydef keys="gloss.kotemawashi" href="gloss-kotemawashi.dita"/>
+         <keydef keys="gloss.kotodama-kototama" href="gloss-kotodama-kototama.dita"/>
+         <keydef keys="gloss.ku-1" href="gloss-ku-1.dita"/>
+         <keydef keys="gloss.ku-2" href="gloss-ku-2.dita"/>
+         <keydef keys="gloss.kubi" href="gloss-kubi.dita"/>
+         <keydef keys="gloss.kubishime" href="gloss-kubishime.dita"/>
+         <keydef keys="gloss.kuden" href="gloss-kuden.dita"/>
+         <keydef keys="gloss.kumi" href="gloss-kumi.dita"/>
+         <keydef keys="gloss.kumijo" href="gloss-kumijo.dita"/>
+         <keydef keys="gloss.kumitachi" href="gloss-kumitachi.dita"/>
+         <keydef keys="gloss.kumite" href="gloss-kumite.dita"/>
+         <keydef keys="gloss.kumiuchi" href="gloss-kumiuchi.dita"/>
+         <keydef keys="gloss.kuzushi" href="gloss-kuzushi.dita"/>
+         <keydef keys="gloss.kyo" href="gloss-kyo.dita"/>
+         <keydef keys="gloss.kyoshi" href="gloss-kyoshi.dita"/>
+         <keydef keys="gloss.kyu" href="gloss-kyu.dita"/>
+         <keydef keys="gloss.kyudo" href="gloss-kyudo.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>M</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.ma" href="gloss-ma.dita"/>
+         <keydef keys="gloss.ma-ai" href="gloss-ma-ai.dita"/>
+         <keydef keys="gloss.mae" href="gloss-mae.dita"/>
+         <keydef keys="gloss.maegeri" href="gloss-maegeri.dita"/>
+         <keydef keys="gloss.mae-ukemi" href="gloss-mae-ukemi.dita"/>
+         <keydef keys="gloss.makiwara" href="gloss-makiwara.dita"/>
+         <keydef keys="gloss.maru" href="gloss-maru.dita"/>
+         <keydef keys="gloss.mawashi" href="gloss-mawashi.dita"/>
+         <keydef keys="gloss.mawashigeri" href="gloss-mawashigeri.dita"/>
+         <keydef keys="gloss.mawate" href="gloss-mawate.dita"/>
+         <keydef keys="gloss.me" href="gloss-me.dita"/>
+         <keydef keys="gloss.men" href="gloss-men.dita"/>
+         <keydef keys="gloss.michi" href="gloss-michi.dita"/>
+         <keydef keys="gloss.migi" href="gloss-migi.dita"/>
+         <keydef keys="gloss.misogi" href="gloss-misogi.dita"/>
+         <keydef keys="gloss.mochi" href="gloss-mochi.dita"/>
+         <keydef keys="gloss.mochikata" href="gloss-mochikata.dita"/>
+         <keydef keys="gloss.mo-ikkai" href="gloss-mo-ikkai.dita"/>
+         <keydef keys="gloss.mokuso" href="gloss-mokuso.dita"/>
+         <keydef keys="gloss.moro" href="gloss-moro.dita"/>
+         <keydef keys="gloss.morotedori" href="gloss-morotedori.dita"/>
+         <keydef keys="gloss.mu" href="gloss-mu.dita"/>
+         <keydef keys="gloss.mushin" href="gloss-mushin.dita"/>
+         <keydef keys="gloss.mudansha" href="gloss-mudansha.dita"/>
+         <keydef keys="gloss.mune" href="gloss-mune.dita"/>
+         <keydef keys="gloss.munedori" href="gloss-munedori.dita"/>
+         <keydef keys="gloss.musubi" href="gloss-musubi.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>N</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.nagare" href="gloss-nagare.dita"/>
+         <keydef keys="gloss.nage" href="gloss-nage.dita"/>
+         <keydef keys="gloss.nagewaza" href="gloss-nagewaza.dita"/>
+         <keydef keys="gloss.naginata" href="gloss-naginata.dita"/>
+         <keydef keys="gloss.nakaima" href="gloss-nakaima.dita"/>
+         <keydef keys="gloss.nana" href="gloss-nana.dita"/>
+         <keydef keys="gloss.nen" href="gloss-nen.dita"/>
+         <keydef keys="gloss.ni" href="gloss-ni.dita"/>
+         <keydef keys="gloss.Nihon-Nippon" href="gloss-Nihon-Nippon.dita"/>
+         <keydef keys="gloss.Nihongi" href="gloss-Nihongi.dita"/>
+         <keydef keys="gloss.nikajo" href="gloss-nikajo.dita"/>
+         <keydef keys="gloss.nikyo" href="gloss-nikyo.dita"/>
+         <keydef keys="gloss.nin" href="gloss-nin.dita"/>
+         <keydef keys="gloss.ninindori" href="gloss-ninindori.dita"/>
+         <keydef keys="gloss.ninja" href="gloss-ninja.dita"/>
+         <keydef keys="gloss.Nippon-Nihon" href="gloss-Nippon-Nihon.dita"/>
+         <keydef keys="gloss.Nito-ichiryu-Niten-ichiryu"
+                 href="gloss-Nito-ichiryu-Niten-ichiryu.dita"/>
+         <keydef keys="gloss.noto" href="gloss-noto.dita"/>
+         <keydef keys="gloss.nuki" href="gloss-nuki.dita"/>
+         <keydef keys="gloss.nukite" href="gloss-nukite.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>O</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.o" href="gloss-o.dita"/>
+         <keydef keys="gloss.obi" href="gloss-obi.dita"/>
+         <keydef keys="gloss.ocha" href="gloss-ocha.dita"/>
+         <keydef keys="gloss.oitsuki" href="gloss-oitsuki.dita"/>
+         <keydef keys="gloss.omote" href="gloss-omote.dita"/>
+         <keydef keys="gloss.Omotokyo" href="gloss-Omotokyo.dita"/>
+         <keydef keys="gloss.onegai-shimasu" href="gloss-onegai-shimasu.dita"/>
+         <keydef keys="gloss.osae" href="gloss-osae.dita"/>
+         <keydef keys="gloss.osensei" href="gloss-osensei.dita"/>
+         <keydef keys="gloss.otagai-ni-rei" href="gloss-otagai-ni-rei.dita"/>
+         <keydef keys="gloss.otoshi" href="gloss-otoshi.dita"/>
+         <keydef keys="gloss.oyowaza" href="gloss-oyowaza.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>R</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.randori" href="gloss-randori.dita"/>
+         <keydef keys="gloss.rei" href="gloss-rei.dita"/>
+         <keydef keys="gloss.reigi" href="gloss-reigi.dita"/>
+         <keydef keys="gloss.renshi" href="gloss-renshi.dita"/>
+         <keydef keys="gloss.renshu" href="gloss-renshu.dita"/>
+         <keydef keys="gloss.renzoku" href="gloss-renzoku.dita"/>
+         <keydef keys="gloss.renzoku-uchikomi" href="gloss-renzoku-uchikomi.dita"/>
+         <keydef keys="gloss.renzokuwaza" href="gloss-renzokuwaza.dita"/>
+         <keydef keys="gloss.ritsurei" href="gloss-ritsurei.dita"/>
+         <keydef keys="gloss.rokkyo" href="gloss-rokkyo.dita"/>
+         <keydef keys="gloss.roku" href="gloss-roku.dita"/>
+         <keydef keys="gloss.ryo" href="gloss-ryo.dita"/>
+         <keydef keys="gloss.ryotedori" href="gloss-ryotedori.dita"/>
+         <keydef keys="gloss.ryu" href="gloss-ryu.dita"/>
+         <keydef keys="gloss.ryutai" href="gloss-ryutai.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>S</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.sabaki" href="gloss-sabaki.dita"/>
+         <keydef keys="gloss.sake" href="gloss-sake.dita"/>
+         <keydef keys="gloss.samurai" href="gloss-samurai.dita"/>
+         <keydef keys="gloss.san" href="gloss-san.dita"/>
+         <keydef keys="gloss.sankajo" href="gloss-sankajo.dita"/>
+         <keydef keys="gloss.sankaku" href="gloss-sankaku.dita"/>
+         <keydef keys="gloss.sankakutai" href="gloss-sankakutai.dita"/>
+         <keydef keys="gloss.sankyo" href="gloss-sankyo.dita"/>
+         <keydef keys="gloss.sannindori-sanningake" href="gloss-sannindori-sanningake.dita"/>
+         <keydef keys="gloss.sanpo" href="gloss-sanpo.dita"/>
+         <keydef keys="gloss.satori" href="gloss-satori.dita"/>
+         <keydef keys="gloss.saya" href="gloss-saya.dita"/>
+         <keydef keys="gloss.seika-no-itten" href="gloss-seika-no-itten.dita"/>
+         <keydef keys="gloss.seiki" href="gloss-seiki.dita"/>
+         <keydef keys="gloss.seiza" href="gloss-seiza.dita"/>
+         <keydef keys="gloss.sempai" href="gloss-sempai.dita"/>
+         <keydef keys="gloss.sen-no-sen" href="gloss-sen-no-sen.dita"/>
+         <keydef keys="gloss.sensei" href="gloss-sensei.dita"/>
+         <keydef keys="gloss.sensen-no-sen" href="gloss-sensen-no-sen.dita"/>
+         <keydef keys="gloss.seppuku" href="gloss-seppuku.dita"/>
+         <keydef keys="gloss.shi" href="gloss-shi.dita"/>
+         <keydef keys="gloss.shiai" href="gloss-shiai.dita"/>
+         <keydef keys="gloss.shiatsu" href="gloss-shiatsu.dita"/>
+         <keydef keys="gloss.shichi" href="gloss-shichi.dita"/>
+         <keydef keys="gloss.shidoin" href="gloss-shidoin.dita"/>
+         <keydef keys="gloss.shihan" href="gloss-shihan.dita"/>
+         <keydef keys="gloss.shiho" href="gloss-shiho.dita"/>
+         <keydef keys="gloss.shihonage" href="gloss-shihonage.dita"/>
+         <keydef keys="gloss.shikaku-1" href="gloss-shikaku-1.dita"/>
+         <keydef keys="gloss.shikaku-2" href="gloss-shikaku-2.dita"/>
+         <keydef keys="gloss.shiki" href="gloss-shiki.dita"/>
+         <keydef keys="gloss.shikko" href="gloss-shikko.dita"/>
+         <keydef keys="gloss.shime" href="gloss-shime.dita"/>
+         <keydef keys="gloss.shin" href="gloss-shin.dita"/>
+         <keydef keys="gloss.shinai" href="gloss-shinai.dita"/>
+         <keydef keys="gloss.Shindo-Musoryu" href="gloss-Shindo-Musoryu.dita"/>
+         <keydef keys="gloss.shinken" href="gloss-shinken.dita"/>
+         <keydef keys="gloss.Shinshin-toitsu" href="gloss-Shinshin-toitsu.dita"/>
+         <keydef keys="gloss.shinto" href="gloss-shinto.dita"/>
+         <keydef keys="gloss.shinzen" href="gloss-shinzen.dita"/>
+         <keydef keys="gloss.shisei" href="gloss-shisei.dita"/>
+         <keydef keys="gloss.shite" href="gloss-shite.dita"/>
+         <keydef keys="gloss.shizentai" href="gloss-shizentai.dita"/>
+         <keydef keys="gloss.sho" href="gloss-sho.dita"/>
+         <keydef keys="gloss.shodan" href="gloss-shodan.dita"/>
+         <keydef keys="gloss.shodo" href="gloss-shodo.dita"/>
+         <keydef keys="gloss.Shodokan" href="gloss-Shodokan.dita"/>
+         <keydef keys="gloss.shomen-1" href="gloss-shomen-1.dita"/>
+         <keydef keys="gloss.shomen-2" href="gloss-shomen-2.dita"/>
+         <keydef keys="gloss.shomen-ni-rei" href="gloss-shomen-ni-rei.dita"/>
+         <keydef keys="gloss.shomenuchi" href="gloss-shomenuchi.dita"/>
+         <keydef keys="gloss.shoshinsha" href="gloss-shoshinsha.dita"/>
+         <keydef keys="gloss.shuto" href="gloss-shuto.dita"/>
+         <keydef keys="gloss.sode" href="gloss-sode.dita"/>
+         <keydef keys="gloss.sodedori" href="gloss-sodedori.dita"/>
+         <keydef keys="gloss.sodeguchidori" href="gloss-sodeguchidori.dita"/>
+         <keydef keys="gloss.soto" href="gloss-soto.dita"/>
+         <keydef keys="gloss.sotodeshi" href="gloss-sotodeshi.dita"/>
+         <keydef keys="gloss.sotokaiten" href="gloss-sotokaiten.dita"/>
+         <keydef keys="gloss.sotouke" href="gloss-sotouke.dita"/>
+         <keydef keys="gloss.suburi" href="gloss-suburi.dita"/>
+         <keydef keys="gloss.suki" href="gloss-suki.dita"/>
+         <keydef keys="gloss.sumi" href="gloss-sumi.dita"/>
+         <keydef keys="gloss.sumikiri" href="gloss-sumikiri.dita"/>
+         <keydef keys="gloss.sumimasen" href="gloss-sumimasen.dita"/>
+         <keydef keys="gloss.sumo" href="gloss-sumo.dita"/>
+         <keydef keys="gloss.suri" href="gloss-suri.dita"/>
+         <keydef keys="gloss.sutemiwaza" href="gloss-sutemiwaza.dita"/>
+         <keydef keys="gloss.suwariwaza" href="gloss-suwariwaza.dita"/>
+         <keydef keys="gloss.suwate" href="gloss-suwate.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>T</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.tachi-1" href="gloss-tachi-1.dita"/>
+         <keydef keys="gloss.tachi-2" href="gloss-tachi-2.dita"/>
+         <keydef keys="gloss.tachidori" href="gloss-tachidori.dita"/>
+         <keydef keys="gloss.tachiwaza" href="gloss-tachiwaza.dita"/>
+         <keydef keys="gloss.tai" href="gloss-tai.dita"/>
+         <keydef keys="gloss.taijutsu" href="gloss-taijutsu.dita"/>
+         <keydef keys="gloss.tai-no-henko" href="gloss-tai-no-henko.dita"/>
+         <keydef keys="gloss.tai-no-tenkan" href="gloss-tai-no-tenkan.dita"/>
+         <keydef keys="gloss.taisabaki" href="gloss-taisabaki.dita"/>
+         <keydef keys="gloss.taiso" href="gloss-taiso.dita"/>
+         <keydef keys="gloss.takemusu" href="gloss-takemusu.dita"/>
+         <keydef keys="gloss.takemusu-aiki" href="gloss-takemusu-aiki.dita"/>
+         <keydef keys="gloss.tameshi" href="gloss-tameshi.dita"/>
+         <keydef keys="gloss.tameshigiri" href="gloss-tameshigiri.dita"/>
+         <keydef keys="gloss.tameshiware" href="gloss-tameshiware.dita"/>
+         <keydef keys="gloss.tanbo" href="gloss-tanbo.dita"/>
+         <keydef keys="gloss.tanden" href="gloss-tanden.dita"/>
+         <keydef keys="gloss.taninzugake" href="gloss-taninzugake.dita"/>
+         <keydef keys="gloss.tanren" href="gloss-tanren.dita"/>
+         <keydef keys="gloss.tanto-tanken" href="gloss-tanto-tanken.dita"/>
+         <keydef keys="gloss.tantodori" href="gloss-tantodori.dita"/>
+         <keydef keys="gloss.tao-dao" href="gloss-tao-dao.dita"/>
+         <keydef keys="gloss.tatami" href="gloss-tatami.dita"/>
+         <keydef keys="gloss.tate" href="gloss-tate.dita"/>
+         <keydef keys="gloss.te" href="gloss-te.dita"/>
+         <keydef keys="gloss.tegatana" href="gloss-tegatana.dita"/>
+         <keydef keys="gloss.tekubi" href="gloss-tekubi.dita"/>
+         <keydef keys="gloss.tekubiosae" href="gloss-tekubiosae.dita"/>
+         <keydef keys="gloss.tenchinage" href="gloss-tenchinage.dita"/>
+         <keydef keys="gloss.tenkan" href="gloss-tenkan.dita"/>
+         <keydef keys="gloss.tettsui" href="gloss-tettsui.dita"/>
+         <keydef keys="gloss.to" href="gloss-to.dita"/>
+         <keydef keys="gloss.tobigeri" href="gloss-tobigeri.dita"/>
+         <keydef keys="gloss.tobikoshi" href="gloss-tobikoshi.dita"/>
+         <keydef keys="gloss.tomauchi" href="gloss-tomauchi.dita"/>
+         <keydef keys="gloss.tori" href="gloss-tori.dita"/>
+         <keydef keys="gloss.torifune" href="gloss-torifune.dita"/>
+         <keydef keys="gloss.tsuba" href="gloss-tsuba.dita"/>
+         <keydef keys="gloss.tsugiashi" href="gloss-tsugiashi.dita"/>
+         <keydef keys="gloss.tsuka" href="gloss-tsuka.dita"/>
+         <keydef keys="gloss.tsuki" href="gloss-tsuki.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>U</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.uchi-1" href="gloss-uchi-1.dita"/>
+         <keydef keys="gloss.uchi-2" href="gloss-uchi-2.dita"/>
+         <keydef keys="gloss.uchideshi" href="gloss-uchideshi.dita"/>
+         <keydef keys="gloss.uchikaiten" href="gloss-uchikaiten.dita"/>
+         <keydef keys="gloss.uchikata" href="gloss-uchikata.dita"/>
+         <keydef keys="gloss.uchikomi" href="gloss-uchikomi.dita"/>
+         <keydef keys="gloss.uchiuke" href="gloss-uchiuke.dita"/>
+         <keydef keys="gloss.ude" href="gloss-ude.dita"/>
+         <keydef keys="gloss.udekimenage" href="gloss-udekimenage.dita"/>
+         <keydef keys="gloss.udenobashi" href="gloss-udenobashi.dita"/>
+         <keydef keys="gloss.udeosae" href="gloss-udeosae.dita"/>
+         <keydef keys="gloss.uke-1" href="gloss-uke-1.dita"/>
+         <keydef keys="gloss.uke-2" href="gloss-uke-2.dita"/>
+         <keydef keys="gloss.ukemi" href="gloss-ukemi.dita"/>
+         <keydef keys="gloss.undo" href="gloss-undo.dita"/>
+         <keydef keys="gloss.ura" href="gloss-ura.dita"/>
+         <keydef keys="gloss.uraken" href="gloss-uraken.dita"/>
+         <keydef keys="gloss.ushiro" href="gloss-ushiro.dita"/>
+         <keydef keys="gloss.ushirogeri" href="gloss-ushirogeri.dita"/>
+         <keydef keys="gloss.ushiro-kiriotoshi" href="gloss-ushiro-kiriotoshi.dita"/>
+         <keydef keys="gloss.ushiro-ukemi" href="gloss-ushiro-ukemi.dita"/>
+         <keydef keys="gloss.ushirowaza" href="gloss-ushirowaza.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>W</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.waka-sensei" href="gloss-waka-sensei.dita"/>
+         <keydef keys="gloss.waki" href="gloss-waki.dita"/>
+         <keydef keys="gloss.wakizashi" href="gloss-wakizashi.dita"/>
+         <keydef keys="gloss.ware" href="gloss-ware.dita"/>
+         <keydef keys="gloss.waza" href="gloss-waza.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>Y</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.yame" href="gloss-yame.dita"/>
+         <keydef keys="gloss.yang" href="gloss-yang.dita"/>
+         <keydef keys="gloss.yari" href="gloss-yari.dita"/>
+         <keydef keys="gloss.yawara" href="gloss-yawara.dita"/>
+         <keydef keys="gloss.yin" href="gloss-yin.dita"/>
+         <keydef keys="gloss.yo" href="gloss-yo.dita"/>
+         <keydef keys="gloss.yoko" href="gloss-yoko.dita"/>
+         <keydef keys="gloss.yokogeri" href="gloss-yokogeri.dita"/>
+         <keydef keys="gloss.yokogiri" href="gloss-yokogiri.dita"/>
+         <keydef keys="gloss.yokomen" href="gloss-yokomen.dita"/>
+         <keydef keys="gloss.yokomenuchi" href="gloss-yokomenuchi.dita"/>
+         <keydef keys="gloss.yoko-ukemi" href="gloss-yoko-ukemi.dita"/>
+         <keydef keys="gloss.yon" href="gloss-yon.dita"/>
+         <keydef keys="gloss.yonkajo" href="gloss-yonkajo.dita"/>
+         <keydef keys="gloss.yonkyo" href="gloss-yonkyo.dita"/>
+         <keydef keys="gloss.Yoseikan" href="gloss-Yoseikan.dita"/>
+         <keydef keys="gloss.Yoshinkan" href="gloss-Yoshinkan.dita"/>
+         <keydef keys="gloss.yudansha" href="gloss-yudansha.dita"/>
+      </topicgroup>
+      <topicgroup>
+         <topicmeta>
+            <navtitle>Z</navtitle>
+         </topicmeta>
+         <keydef keys="gloss.za" href="gloss-za.dita"/>
+         <keydef keys="gloss.Zaidan-Hojin-Aikikai" href="gloss-Zaidan-Hojin-Aikikai.dita"/>
+         <keydef keys="gloss.zanshin" href="gloss-zanshin.dita"/>
+         <keydef keys="gloss.zarei" href="gloss-zarei.dita"/>
+         <keydef keys="gloss.zazen" href="gloss-zazen.dita"/>
+         <keydef keys="gloss.zen" href="gloss-zen.dita"/>
+         <keydef keys="gloss.zengo" href="gloss-zengo.dita"/>
+         <keydef keys="gloss.zori" href="gloss-zori.dita"/>
+      </topicgroup>
+  </topicgroup>
+</map>

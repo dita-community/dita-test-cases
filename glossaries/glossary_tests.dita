@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="glossary_tests">
+  <title>Glossary Tests</title>
+  <body>
+    <p>Tests involving glossary topics and references to them from &lt;term> elements.</p>
+  </body>
+</topic>
