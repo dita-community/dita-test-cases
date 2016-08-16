@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="generic_code_reference_topic">
+  <title>Generic Code Reference Topic</title>
+  <body>
+    <p>This topic contains a code reference to the key "code_sample". It is used in two scopes and
+      should reflect different code samples in each scope.</p>
+    <fig
+      id="fig_izh_wf2_zw">
+      <title>Code Sample</title>
+      <codeblock><coderef keyref="code_sample"/></codeblock>
+    </fig>
+  </body>
+</topic>

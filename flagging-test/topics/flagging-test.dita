@@ -8,7 +8,12 @@
     <p>For this test, the elements use the @platform attribute to be either
       windows or OSX for graphic flagging, and @audience of either beginner or
       expert for text flagging. The DITAVAL file
-      is:<codeblock><coderef href="../ditavals/flagging.ditaval"/></codeblock></p>
+      is:
+      <fig id="flagging.ditaval">
+        <title>DITAVAL file <filepath>flagging.ditaval</filepath></title>
+        <codeblock><coderef href="../ditavals/flagging.ditaval"/></codeblock>    
+      </fig>
+    </p>
     <section>
       <title>Body Elements</title>
       <p
@@ -46,6 +51,19 @@
         platform="windows">This is for Windows.</ph> <ph>This is for
         everything</ph> <ph
         platform="osx">This is for OSX.</ph> This for everything.</p>
+    </section>
+    <section id="section_obr_ftk_bw">
+      <title>Lists and Such</title>
+      <p>Definition list:<dl>
+          <dlentry id="dl-thing-01">
+            <dt>thing 01</dt>
+            <dd>This is thing one definition.</dd>
+          </dlentry>
+        </dl></p>
+    </section>
+    <section id="links-to-steps">
+      <title>Links to Steps</title>
+      <p>A link to step 2 in task_01: <xref href="task_01.dita#task_01/step-02"/>.</p>
     </section>
   </body>
   <topic

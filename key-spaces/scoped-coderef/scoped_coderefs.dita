@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="scoped_coderefs">
+  <title>Scoped Coderefs</title>
+  <body>
+    <p>This docment tests the use of coderef with key scopes.</p>
+    <p>Using key definitions within key scopes, bind keys to two different code files. The same
+      topic is then used in two different scopes and should reflect different code files.</p>
+  </body>
+</topic>

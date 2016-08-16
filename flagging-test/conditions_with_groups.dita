@@ -24,8 +24,7 @@
       <p props="group1(value-A) group2(value-B)"><xmlatt>props</xmlatt> with two groups:
           <codeph>props="group1(value-A) group2(value-B)"</codeph>.</p>
     </section>
-    <section id="groups-within-audience">
-      <title>Groups within <xmlatt>audience</xmlatt></title>
+    <section id="groups-within-audience" spectitle="Groups within &lt;audience&gt;">      
       <p audience="beginner"><xmlatt>audience</xmlatt> with a simple value:
           <codeph>audience="beginner"</codeph>.</p>
       <p audience="group1(value-A)"><xmlatt>audience</xmlatt> with a single group:

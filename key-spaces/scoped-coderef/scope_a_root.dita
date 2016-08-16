@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="scope_a_root">
+  <title>Scope A Root</title>
+  <body>
+    <p>This is the root of key scope "scope-A". See topic <xref
+        keyref="code-ref-topic"/> in this scope. Topic in Scope B is: <xref
+        keyref="scope-B.code-ref-topic"/>.</p>
+  </body>
+</topic>

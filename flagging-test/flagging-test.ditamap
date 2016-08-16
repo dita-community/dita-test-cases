@@ -21,5 +21,12 @@
     <topicgroup>
       <topicref href="topics/composite-02.dita#topic-02" keys="composite-04-no-chunk"/>
     </topicgroup>
+    <topicref href="topics/task_01.dita" keys="task-01"/>
   </topicref>
+  <reltable>
+    <relrow>
+      <relcell><topicref keyref="basic-flagging-tests"/></relcell>
+      <relcell><topicref keyref="conditions-with-groups"/></relcell>
+    </relrow>
+  </reltable>
 </map>
