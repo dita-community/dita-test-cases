@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="unscoped_coderef_">
+  <title>Unscoped Coderef </title>
+  <body>
+    <p>This scope contains a key reference to an unscoped key and a direct URI reference to act as a
+      control.</p>
+    <p>Coderef to key "unscoped_key":<codeblock><coderef keyref="unscoped_key"/></codeblock></p>
+    <p>Coderef to the same file by direct URI
+      reference:<codeblock><coderef href="samples/code-sample-03.py"/></codeblock></p>
+  </body>
+</topic>

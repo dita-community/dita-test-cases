@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Scoped Coderefs</title>
+ <topicref
+  href="scoped-coderef-test-01.dita">
+  <keydef
+   format="py"
+   href="samples/code-sample-03.py"
+   keys="unscoped_key"/>
+  <topicref
+   href="unscoped_coderef_.dita"/>
+  <topicref
+   href="scoped_coderefs.dita">
+   <topicref
+    href="scope_a_root.dita"
+    keys="scope-a-root"
+    keyscope="scope-A">
+    <keydef
+     format="py"
+     href="samples/code-sample-01.py"
+     keys="code_sample"/>
+    <topicref
+     href="generic_code_reference_topic.dita"
+     keys="code-ref-topic"/>
+   </topicref>
+   <topicref
+    href="scope_b_root.dita"
+    keys="scope-b-root"
+    keyscope="scope-B">
+    <keydef
+     format="py"
+     href="samples/code-sample-02.py"
+     keys="code_sample"/>
+    <topicref
+     href="generic_code_reference_topic.dita"
+     keys="code-ref-topic"/>
+   </topicref>
+  </topicref>
+ </topicref>
+</map>
