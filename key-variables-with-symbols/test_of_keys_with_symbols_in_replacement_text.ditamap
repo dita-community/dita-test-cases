@@ -19,8 +19,6 @@
       </topicmeta>
     </keydef>
   </topicgroup>
-  <topicgroup>
-    <topicref href="topic-01.dita" keys="root-topic"/>
-  </topicgroup>
+  <topicref href="topic-01.dita" keys="root-topic"/>
     
 </map>
