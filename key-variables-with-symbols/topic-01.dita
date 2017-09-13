@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_qs1_zhd_fbb">
+    <title>Test of Key-Based Variables With Symbols:</title>
+    <body>
+    <table frame="all">
+      <tgroup cols="3">
+      <thead>
+        <row>
+          <entry>Key Name</entry>
+          <entry>Resolved Value</entry>
+          <entry>Notes</entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>        
+          <entry>var-01</entry>
+          <entry><ph keyref="var-01"/></entry>
+          <entry/>
+        </row>
+        <row>
+          <entry>var-02</entry>
+          <entry><ph keyref="var-02"/></entry>
+          <entry>See the symbol in Oxygen 19 in the Author view. See entity references for
+            &amp;quot;</entry>
+        </row>
+        <row>
+          <entry>var-03</entry>
+          <entry><ph keyref="var-03"/></entry>
+          <entry>See the Chinese characters in Oxygen 19 in the Author view.</entry>
+        </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>
