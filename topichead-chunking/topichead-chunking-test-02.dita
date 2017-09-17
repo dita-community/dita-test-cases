@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_bm4_wm5_pw">
+  <title>Topichead Chunking Test 02</title>
+  <body>
+    <p>Tests the handling of @chunk on topicheads.</p>
+    <p>Per spec, when a topichead specifies chunk "to-content" the processor must generate a
+      title-only topic that reflects the navigation title of the topichead.</p>
+  </body>
+</topic>

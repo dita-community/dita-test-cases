@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Topic Head Chunking Test 02</title>
+  <topicref href="topichead-chunking-test-02.dita">
+    <topichead navtitle="Topic Head 1 no chunking">
+      <topichead navtitle="Topic Head 1.1">
+        <topicref href="topics/topic-01.dita"/>
+        <topicref href="topics/topic-02.dita"/>
+      </topichead>
+    </topichead>
+      <topichead navtitle="Topic Head 2.1" chunk="to-content">
+        <topicref href="topics/topic-03.dita"/>
+        <topicref href="topics/topic-04.dita"/>
+      </topichead>
+    <topichead navtitle="Topic Head 2.2" chunk="to-content select-topic">
+      <topicref href="topics/topic-03.dita" chunk="to-content select-topic" copy-to="chunk-2.2-topic-03.dita"/>
+      <topicref href="topics/topic-04.dita" chunk="to-content select-topic" copy-to="chunk-2.2-topic-04.dita"/>
+    </topichead>
+  </topicref>
+</map>

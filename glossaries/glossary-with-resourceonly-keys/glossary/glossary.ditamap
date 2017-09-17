@@ -1,533 +1,534 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map
-  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 1.3 Map//EN" "map.dtd">
 <map>
-   <title>Glossary of Aikido Terminology</title>
-   <topicref href="glossary-title.dita">
-      <topicref href="letter-group-A.dita">
-         <topicref keys="glossary.ai" keyref="gloss.ai" />
-         <topicref keys="glossary.aihanmi" keyref="gloss.aihanmi" />
-         <topicref keys="glossary.aihanmi-katatedori" keyref="gloss.aihanmi-katatedori" />
-         <topicref keys="glossary.aiki" keyref="gloss.aiki" />
-         <topicref keys="glossary.aikibatto" keyref="gloss.aikibatto" />
-         <topicref keys="glossary.aikibudo" keyref="gloss.aikibudo" />
-         <topicref keys="glossary.aikido" keyref="gloss.aikido" />
-         <topicref keys="glossary.aikidoka" keyref="gloss.aikidoka" />
-         <topicref keys="glossary.aikido-toho" keyref="gloss.aikido-toho" />
-         <topicref keys="glossary.Aikijinja" keyref="gloss.Aikijinja" />
-         <topicref keys="glossary.aikijo" keyref="gloss.aikijo" />
-         <topicref keys="glossary.aikijutsu" keyref="gloss.aikijutsu" />
-         <topicref keys="glossary.Aikikai" keyref="gloss.Aikikai" />
-         <topicref keys="glossary.aikiken" keyref="gloss.aikiken" />
-         <topicref keys="glossary.aikinage" keyref="gloss.aikinage" />
-         <topicref keys="glossary.aiki-no-michi" keyref="gloss.aiki-no-michi" />
-         <topicref keys="glossary.aikiotoshi" keyref="gloss.aikiotoshi" />
-         <topicref keys="glossary.aikitaiso" keyref="gloss.aikitaiso" />
-         <topicref keys="glossary.aite" keyref="gloss.aite" />
-         <topicref keys="glossary.arigato" keyref="gloss.arigato" />
-         <topicref keys="glossary.arigato-gozaimasu" keyref="gloss.arigato-gozaimasu" />
-         <topicref keys="glossary.arigato-gozaimashita" keyref="gloss.arigato-gozaimashita" />
-         <topicref keys="glossary.ashi" keyref="gloss.ashi" />
-         <topicref keys="glossary.ate" keyref="gloss.ate" />
-         <topicref keys="glossary.atemi" keyref="gloss.atemi" />
-         <topicref keys="glossary.awase" keyref="gloss.awase" />
-         <topicref keys="glossary.ayumiashi" keyref="gloss.ayumiashi" />
-      </topicref>
-      <topicref href="letter-group-B.dita">
-         <topicref keys="glossary.barai-harai" keyref="gloss.barai-harai" />
-         <topicref keys="glossary.batto" keyref="gloss.batto" />
-         <topicref keys="glossary.bo" keyref="gloss.bo" />
-         <topicref keys="glossary.bokken" keyref="gloss.bokken" />
-         <topicref keys="glossary.bokuto" keyref="gloss.bokuto" />
-         <topicref keys="glossary.bu" keyref="gloss.bu" />
-         <topicref keys="glossary.budo" keyref="gloss.budo" />
-         <topicref keys="glossary.budoka" keyref="gloss.budoka" />
-         <topicref keys="glossary.bugei" keyref="gloss.bugei" />
-         <topicref keys="glossary.bukiwaza" keyref="gloss.bukiwaza" />
-         <topicref keys="glossary.bushi" keyref="gloss.bushi" />
-         <topicref keys="glossary.bushido" keyref="gloss.bushido" />
-      </topicref>
-      <topicref href="letter-group-C.dita">
-         <topicref keys="glossary.chado" keyref="gloss.chado" />
-         <topicref keys="glossary.chikara" keyref="gloss.chikara" />
-         <topicref keys="glossary.choku" keyref="gloss.choku" />
-         <topicref keys="glossary.chokutsuki" keyref="gloss.chokutsuki" />
-         <topicref keys="glossary.chudan" keyref="gloss.chudan" />
-         <topicref keys="glossary.chudan-kamae" keyref="gloss.chudan-kamae" />
-         <topicref keys="glossary.chudan-tsuki" keyref="gloss.chudan-tsuki" />
-         <topicref keys="glossary.chukyusha" keyref="gloss.chukyusha" />
-      </topicref>
-      <topicref href="letter-group-D.dita">
-         <topicref keys="glossary.dai" keyref="gloss.dai" />
-         <topicref keys="glossary.daisho" keyref="gloss.daisho" />
-         <topicref keys="glossary.Daito-ryu" keyref="gloss.Daito-ryu" />
-         <topicref keys="glossary.dame" keyref="gloss.dame" />
-         <topicref keys="glossary.dan" keyref="gloss.dan" />
-         <topicref keys="glossary.dao-tao" keyref="gloss.dao-tao" />
-         <topicref keys="glossary.deshi" keyref="gloss.deshi" />
-         <topicref keys="glossary.do" keyref="gloss.do" />
-         <topicref keys="glossary.dogi" keyref="gloss.dogi" />
-         <topicref keys="glossary.do-in" keyref="gloss.do-in" />
-         <topicref keys="glossary.dojo" keyref="gloss.dojo" />
-         <topicref keys="glossary.dojo-cho" keyref="gloss.dojo-cho" />
-         <topicref keys="glossary.doka" keyref="gloss.doka" />
-         <topicref keys="glossary.domo" keyref="gloss.domo" />
-         <topicref keys="glossary.domo-arigato-gozaimas" keyref="gloss.domo-arigato-gozaimas" />
-         <topicref keys="glossary.domo-arigato-gozaimashita" keyref="gloss.domo-arigato-gozaimashita" />
-         <topicref keys="glossary.dori" keyref="gloss.dori" />
-         <topicref keys="glossary.dosa" keyref="gloss.dosa" />
-         <topicref keys="glossary.doshu" keyref="gloss.doshu" />
-         <topicref keys="glossary.dozo" keyref="gloss.dozo" />
-      </topicref>
-      <topicref href="letter-group-E.dita">
-         <topicref keys="glossary.embukai" keyref="gloss.embukai" />
-         <topicref keys="glossary.empi" keyref="gloss.empi" />
-         <topicref keys="glossary.eri" keyref="gloss.eri" />
-         <topicref keys="glossary.eridori" keyref="gloss.eridori" />
-      </topicref>
-      <topicref href="letter-group-F.dita">
-         <topicref keys="glossary.fukushidoin" keyref="gloss.fukushidoin" />
-         <topicref keys="glossary.funakogi-undo" keyref="gloss.funakogi-undo" />
-         <topicref keys="glossary.furitama" keyref="gloss.furitama" />
-         <topicref keys="glossary.futaridori-futarigake" keyref="gloss.futaridori-futarigake" />
-      </topicref>
-      <topicref href="letter-group-G.dita">
-         <topicref keys="glossary.gaeshi-kaeshi" keyref="gloss.gaeshi-kaeshi" />
-         <topicref keys="glossary.gamae-kamae" keyref="gloss.gamae-kamae" />
-         <topicref keys="glossary.gasshuku" keyref="gloss.gasshuku" />
-         <topicref keys="glossary.gedan" keyref="gloss.gedan" />
-         <topicref keys="glossary.gedanbarai" keyref="gloss.gedanbarai" />
-         <topicref keys="glossary.geiko-keiko" keyref="gloss.geiko-keiko" />
-         <topicref keys="glossary.geri" keyref="gloss.geri" />
-         <topicref keys="glossary.gi" keyref="gloss.gi" />
-         <topicref keys="glossary.giri-kiri" keyref="gloss.giri-kiri" />
-         <topicref keys="glossary.go" keyref="gloss.go" />
-         <topicref keys="glossary.gokyo" keyref="gloss.gokyo" />
-         <topicref keys="glossary.gomen-nasai" keyref="gloss.gomen-nasai" />
-         <topicref keys="glossary.Gorin-no-sho" keyref="gloss.Gorin-no-sho" />
-         <topicref keys="glossary.gotai" keyref="gloss.gotai" />
-         <topicref keys="glossary.gyaku" keyref="gloss.gyaku" />
-         <topicref keys="glossary.gyakuhanmi" keyref="gloss.gyakuhanmi" />
-         <topicref keys="glossary.gyakuhanmi-katatedori" keyref="gloss.gyakuhanmi-katatedori" />
-         <topicref keys="glossary.gyakutsuki" keyref="gloss.gyakutsuki" />
-      </topicref>
-      <topicref href="letter-group-H.dita">
-         <topicref keys="glossary.hachi" keyref="gloss.hachi" />
-         <topicref keys="glossary.Hagakure" keyref="gloss.Hagakure" />
-         <topicref keys="glossary.hai" keyref="gloss.hai" />
-         <topicref keys="glossary.hajime" keyref="gloss.hajime" />
-         <topicref keys="glossary.hakama" keyref="gloss.hakama" />
-         <topicref keys="glossary.handachi" keyref="gloss.handachi" />
-         <topicref keys="glossary.hanmi" keyref="gloss.hanmi" />
-         <topicref keys="glossary.hanmi-gamae" keyref="gloss.hanmi-gamae" />
-         <topicref keys="glossary.hanmi-handachiwaza" keyref="gloss.hanmi-handachiwaza" />
-         <topicref keys="glossary.hanshi" keyref="gloss.hanshi" />
-         <topicref keys="glossary.hantai" keyref="gloss.hantai" />
-         <topicref keys="glossary.happo" keyref="gloss.happo" />
-         <topicref keys="glossary.hara" keyref="gloss.hara" />
-         <topicref keys="glossary.harai-barai" keyref="gloss.harai-barai" />
-         <topicref keys="glossary.harakiri" keyref="gloss.harakiri" />
-         <topicref keys="glossary.hassogaeshi" keyref="gloss.hassogaeshi" />
-         <topicref keys="glossary.hasso-gamae" keyref="gloss.hasso-gamae" />
-         <topicref keys="glossary.henkawaza" keyref="gloss.henkawaza" />
-         <topicref keys="glossary.hidari" keyref="gloss.hidari" />
-         <topicref keys="glossary.hiji" keyref="gloss.hiji" />
-         <topicref keys="glossary.hijidori" keyref="gloss.hijidori" />
-         <topicref keys="glossary.hijikimeosae" keyref="gloss.hijikimeosae" />
-         <topicref keys="glossary.hiki" keyref="gloss.hiki" />
-         <topicref keys="glossary.hineri" keyref="gloss.hineri" />
-         <topicref keys="glossary.hiragana" keyref="gloss.hiragana" />
-         <topicref keys="glossary.hito-e-mi" keyref="gloss.hito-e-mi" />
-         <topicref keys="glossary.hiza" keyref="gloss.hiza" />
-         <topicref keys="glossary.ho-1" keyref="gloss.ho-1" />
-         <topicref keys="glossary.ho-2" keyref="gloss.ho-2" />
-         <topicref keys="glossary.hombu" keyref="gloss.hombu" />
-         <topicref keys="glossary.Hombu-dojo" keyref="gloss.Hombu-dojo" />
-      </topicref>
-      <topicref href="letter-group-I.dita">
-         <topicref keys="glossary.iaido" keyref="gloss.iaido" />
-         <topicref keys="glossary.iaito" keyref="gloss.iaito" />
-         <topicref keys="glossary.ichi" keyref="gloss.ichi" />
-         <topicref keys="glossary.ichiban" keyref="gloss.ichiban" />
-         <topicref keys="glossary.iie" keyref="gloss.iie" />
-         <topicref keys="glossary.iki" keyref="gloss.iki" />
-         <topicref keys="glossary.ikkajo" keyref="gloss.ikkajo" />
-         <topicref keys="glossary.ikki" keyref="gloss.ikki" />
-         <topicref keys="glossary.ikkyo" keyref="gloss.ikkyo" />
-         <topicref keys="glossary.ikkyo-undo" keyref="gloss.ikkyo-undo" />
-         <topicref keys="glossary.in" keyref="gloss.in" />
-         <topicref keys="glossary.ippon" keyref="gloss.ippon" />
-         <topicref keys="glossary.ipponken" keyref="gloss.ipponken" />
-         <topicref keys="glossary.irimi" keyref="gloss.irimi" />
-         <topicref keys="glossary.iriminage" keyref="gloss.iriminage" />
-         <topicref keys="glossary.Iwama" keyref="gloss.Iwama" />
-         <topicref keys="glossary.Iwama-ryu" keyref="gloss.Iwama-ryu" />
-      </topicref>
-      <topicref href="letter-group-J.dita">
-         <topicref keys="glossary.jiyuwaza" keyref="gloss.jiyuwaza" />
-         <topicref keys="glossary.jo" keyref="gloss.jo" />
-         <topicref keys="glossary.jo-awase" keyref="gloss.jo-awase" />
-         <topicref keys="glossary.jodan" keyref="gloss.jodan" />
-         <topicref keys="glossary.jodan-kamae" keyref="gloss.jodan-kamae" />
-         <topicref keys="glossary.jodan-tsuki" keyref="gloss.jodan-tsuki" />
-         <topicref keys="glossary.jodanuke" keyref="gloss.jodanuke" />
-         <topicref keys="glossary.jodo" keyref="gloss.jodo" />
-         <topicref keys="glossary.jodori" keyref="gloss.jodori" />
-         <topicref keys="glossary.jokyusha" keyref="gloss.jokyusha" />
-         <topicref keys="glossary.ju-1" keyref="gloss.ju-1" />
-         <topicref keys="glossary.ju-2" keyref="gloss.ju-2" />
-         <topicref keys="glossary.judo" keyref="gloss.judo" />
-         <topicref keys="glossary.jujigarami-jujinage" keyref="gloss.jujigarami-jujinage" />
-         <topicref keys="glossary.jujutsu" keyref="gloss.jujutsu" />
-         <topicref keys="glossary.jumbitaiso" keyref="gloss.jumbitaiso" />
-         <topicref keys="glossary.juntsuki" keyref="gloss.juntsuki" />
-         <topicref keys="glossary.jutai" keyref="gloss.jutai" />
-         <topicref keys="glossary.jutsu" keyref="gloss.jutsu" />
-      </topicref>
-      <topicref href="letter-group-K.dita">
-         <topicref keys="glossary.kaeshi-gaeshi" keyref="gloss.kaeshi-gaeshi" />
-         <topicref keys="glossary.kaeshitsuki" keyref="gloss.kaeshitsuki" />
-         <topicref keys="glossary.kaeshiwaza" keyref="gloss.kaeshiwaza" />
-         <topicref keys="glossary.kagami-biraki" keyref="gloss.kagami-biraki" />
-         <topicref keys="glossary.kai" keyref="gloss.kai" />
-         <topicref keys="glossary.kaiso" keyref="gloss.kaiso" />
-         <topicref keys="glossary.kaitennage" keyref="gloss.kaitennage" />
-         <topicref keys="glossary.kaitenosae" keyref="gloss.kaitenosae" />
-         <topicref keys="glossary.kakaedori" keyref="gloss.kakaedori" />
-         <topicref keys="glossary.kakarigeiko" keyref="gloss.kakarigeiko" />
-         <topicref keys="glossary.kakudo" keyref="gloss.kakudo" />
-         <topicref keys="glossary.kamae-gamae" keyref="gloss.kamae-gamae" />
-         <topicref keys="glossary.kami" keyref="gloss.kami" />
-         <topicref keys="glossary.kamiza" keyref="gloss.kamiza" />
-         <topicref keys="glossary.kampai" keyref="gloss.kampai" />
-         <topicref keys="glossary.kan" keyref="gloss.kan" />
-         <topicref keys="glossary.kangeiko" keyref="gloss.kangeiko" />
-         <topicref keys="glossary.kanji" keyref="gloss.kanji" />
-         <topicref keys="glossary.kanren" keyref="gloss.kanren" />
-         <topicref keys="glossary.kanrenwaza" keyref="gloss.kanrenwaza" />
-         <topicref keys="glossary.kansetsu" keyref="gloss.kansetsu" />
-         <topicref keys="glossary.karatedo" keyref="gloss.karatedo" />
-         <topicref keys="glossary.Kashima-shintoryu" keyref="gloss.Kashima-shintoryu" />
-         <topicref keys="glossary.kata-1" keyref="gloss.kata-1" />
-         <topicref keys="glossary.kata-2" keyref="gloss.kata-2" />
-         <topicref keys="glossary.katadori" keyref="gloss.katadori" />
-         <topicref keys="glossary.katadori-menuchi" keyref="gloss.katadori-menuchi" />
-         <topicref keys="glossary.katakana" keyref="gloss.katakana" />
-         <topicref keys="glossary.katamewaza" keyref="gloss.katamewaza" />
-         <topicref keys="glossary.katana" keyref="gloss.katana" />
-         <topicref keys="glossary.katate" keyref="gloss.katate" />
-         <topicref keys="glossary.katatedori" keyref="gloss.katatedori" />
-         <topicref keys="glossary.katate-ryotedori" keyref="gloss.katate-ryotedori" />
-         <topicref keys="glossary.Katori-shintoryu" keyref="gloss.Katori-shintoryu" />
-         <topicref keys="glossary.keiko-geiko" keyref="gloss.keiko-geiko" />
-         <topicref keys="glossary.keikogi" keyref="gloss.keikogi" />
-         <topicref keys="glossary.ken" keyref="gloss.ken" />
-         <topicref keys="glossary.kendo" keyref="gloss.kendo" />
-         <topicref keys="glossary.ki" keyref="gloss.ki" />
-         <topicref keys="glossary.kiai" keyref="gloss.kiai" />
-         <topicref keys="glossary.ki-aikido" keyref="gloss.ki-aikido" />
-         <topicref keys="glossary.kihon" keyref="gloss.kihon" />
-         <topicref keys="glossary.kihonwaza" keyref="gloss.kihonwaza" />
-         <topicref keys="glossary.kikai-tanden" keyref="gloss.kikai-tanden" />
-         <topicref keys="glossary.kime" keyref="gloss.kime" />
-         <topicref keys="glossary.kimusubi" keyref="gloss.kimusubi" />
-         <topicref keys="glossary.kinagare-ki-no-nagare" keyref="gloss.kinagare-ki-no-nagare" />
-         <topicref keys="glossary.Ki-no-kenkyukai" keyref="gloss.Ki-no-kenkyukai" />
-         <topicref keys="glossary.kiri-giri" keyref="gloss.kiri-giri" />
-         <topicref keys="glossary.kirikaeshi" keyref="gloss.kirikaeshi" />
-         <topicref keys="glossary.koan" keyref="gloss.koan" />
-         <topicref keys="glossary.kobudo" keyref="gloss.kobudo" />
-         <topicref keys="glossary.kogeki" keyref="gloss.kogeki" />
-         <topicref keys="glossary.kogekiho" keyref="gloss.kogekiho" />
-         <topicref keys="glossary.kohai" keyref="gloss.kohai" />
-         <topicref keys="glossary.Kojiki" keyref="gloss.Kojiki" />
-         <topicref keys="glossary.kokoro" keyref="gloss.kokoro" />
-         <topicref keys="glossary.kokyu" keyref="gloss.kokyu" />
-         <topicref keys="glossary.kokyuho" keyref="gloss.kokyuho" />
-         <topicref keys="glossary.kokyunage" keyref="gloss.kokyunage" />
-         <topicref keys="glossary.kokyu-ryoku" keyref="gloss.kokyu-ryoku" />
-         <topicref keys="glossary.kosa" keyref="gloss.kosa" />
-         <topicref keys="glossary.kosadori" keyref="gloss.kosadori" />
-         <topicref keys="glossary.koshi" keyref="gloss.koshi" />
-         <topicref keys="glossary.koshinage" keyref="gloss.koshinage" />
-         <topicref keys="glossary.kote" keyref="gloss.kote" />
-         <topicref keys="glossary.kotegaeshi" keyref="gloss.kotegaeshi" />
-         <topicref keys="glossary.kotehineri" keyref="gloss.kotehineri" />
-         <topicref keys="glossary.kotemawashi" keyref="gloss.kotemawashi" />
-         <topicref keys="glossary.kotodama-kototama" keyref="gloss.kotodama-kototama" />
-         <topicref keys="glossary.ku-1" keyref="gloss.ku-1" />
-         <topicref keys="glossary.ku-2" keyref="gloss.ku-2" />
-         <topicref keys="glossary.kubi" keyref="gloss.kubi" />
-         <topicref keys="glossary.kubishime" keyref="gloss.kubishime" />
-         <topicref keys="glossary.kuden" keyref="gloss.kuden" />
-         <topicref keys="glossary.kumi" keyref="gloss.kumi" />
-         <topicref keys="glossary.kumijo" keyref="gloss.kumijo" />
-         <topicref keys="glossary.kumitachi" keyref="gloss.kumitachi" />
-         <topicref keys="glossary.kumite" keyref="gloss.kumite" />
-         <topicref keys="glossary.kumiuchi" keyref="gloss.kumiuchi" />
-         <topicref keys="glossary.kuzushi" keyref="gloss.kuzushi" />
-         <topicref keys="glossary.kyo" keyref="gloss.kyo" />
-         <topicref keys="glossary.kyoshi" keyref="gloss.kyoshi" />
-         <topicref keys="glossary.kyu" keyref="gloss.kyu" />
-         <topicref keys="glossary.kyudo" keyref="gloss.kyudo" />
-      </topicref>
-      <topicref href="letter-group-M.dita">
-         <topicref keys="glossary.ma" keyref="gloss.ma" />
-         <topicref keys="glossary.ma-ai" keyref="gloss.ma-ai" />
-         <topicref keys="glossary.mae" keyref="gloss.mae" />
-         <topicref keys="glossary.maegeri" keyref="gloss.maegeri" />
-         <topicref keys="glossary.mae-ukemi" keyref="gloss.mae-ukemi" />
-         <topicref keys="glossary.makiwara" keyref="gloss.makiwara" />
-         <topicref keys="glossary.maru" keyref="gloss.maru" />
-         <topicref keys="glossary.mawashi" keyref="gloss.mawashi" />
-         <topicref keys="glossary.mawashigeri" keyref="gloss.mawashigeri" />
-         <topicref keys="glossary.mawate" keyref="gloss.mawate" />
-         <topicref keys="glossary.me" keyref="gloss.me" />
-         <topicref keys="glossary.men" keyref="gloss.men" />
-         <topicref keys="glossary.michi" keyref="gloss.michi" />
-         <topicref keys="glossary.migi" keyref="gloss.migi" />
-         <topicref keys="glossary.misogi" keyref="gloss.misogi" />
-         <topicref keys="glossary.mochi" keyref="gloss.mochi" />
-         <topicref keys="glossary.mochikata" keyref="gloss.mochikata" />
-         <topicref keys="glossary.mo-ikkai" keyref="gloss.mo-ikkai" />
-         <topicref keys="glossary.mokuso" keyref="gloss.mokuso" />
-         <topicref keys="glossary.moro" keyref="gloss.moro" />
-         <topicref keys="glossary.morotedori" keyref="gloss.morotedori" />
-         <topicref keys="glossary.mu" keyref="gloss.mu" />
-         <topicref keys="glossary.mushin" keyref="gloss.mushin" />
-         <topicref keys="glossary.mudansha" keyref="gloss.mudansha" />
-         <topicref keys="glossary.mune" keyref="gloss.mune" />
-         <topicref keys="glossary.munedori" keyref="gloss.munedori" />
-         <topicref keys="glossary.musubi" keyref="gloss.musubi" />
-      </topicref>
-      <topicref href="letter-group-N.dita">
-         <topicref keys="glossary.nagare" keyref="gloss.nagare" />
-         <topicref keys="glossary.nage" keyref="gloss.nage" />
-         <topicref keys="glossary.nagewaza" keyref="gloss.nagewaza" />
-         <topicref keys="glossary.naginata" keyref="gloss.naginata" />
-         <topicref keys="glossary.nakaima" keyref="gloss.nakaima" />
-         <topicref keys="glossary.nana" keyref="gloss.nana" />
-         <topicref keys="glossary.nen" keyref="gloss.nen" />
-         <topicref keys="glossary.ni" keyref="gloss.ni" />
-         <topicref keys="glossary.Nihon-Nippon" keyref="gloss.Nihon-Nippon" />
-         <topicref keys="glossary.Nihongi" keyref="gloss.Nihongi" />
-         <topicref keys="glossary.nikajo" keyref="gloss.nikajo" />
-         <topicref keys="glossary.nikyo" keyref="gloss.nikyo" />
-         <topicref keys="glossary.nin" keyref="gloss.nin" />
-         <topicref keys="glossary.ninindori" keyref="gloss.ninindori" />
-         <topicref keys="glossary.ninja" keyref="gloss.ninja" />
-         <topicref keys="glossary.Nippon-Nihon" keyref="gloss.Nippon-Nihon" />
-         <topicref keys="glossary.Nito-ichiryu-Niten-ichiryu" keyref="gloss.Nito-ichiryu-Niten-ichiryu" />
-         <topicref keys="glossary.noto" keyref="gloss.noto" />
-         <topicref keys="glossary.nuki" keyref="gloss.nuki" />
-         <topicref keys="glossary.nukite" keyref="gloss.nukite" />
-      </topicref>
-      <topicref href="letter-group-O.dita">
-         <topicref keys="glossary.o" keyref="gloss.o" />
-         <topicref keys="glossary.obi" keyref="gloss.obi" />
-         <topicref keys="glossary.ocha" keyref="gloss.ocha" />
-         <topicref keys="glossary.oitsuki" keyref="gloss.oitsuki" />
-         <topicref keys="glossary.omote" keyref="gloss.omote" />
-         <topicref keys="glossary.Omotokyo" keyref="gloss.Omotokyo" />
-         <topicref keys="glossary.onegai-shimasu" keyref="gloss.onegai-shimasu" />
-         <topicref keys="glossary.osae" keyref="gloss.osae" />
-         <topicref keys="glossary.osensei" keyref="gloss.osensei" />
-         <topicref keys="glossary.otagai-ni-rei" keyref="gloss.otagai-ni-rei" />
-         <topicref keys="glossary.otoshi" keyref="gloss.otoshi" />
-         <topicref keys="glossary.oyowaza" keyref="gloss.oyowaza" />
-      </topicref>
-      <topicref href="letter-group-R.dita">
-         <topicref keys="glossary.randori" keyref="gloss.randori" />
-         <topicref keys="glossary.rei" keyref="gloss.rei" />
-         <topicref keys="glossary.reigi" keyref="gloss.reigi" />
-         <topicref keys="glossary.renshi" keyref="gloss.renshi" />
-         <topicref keys="glossary.renshu" keyref="gloss.renshu" />
-         <topicref keys="glossary.renzoku" keyref="gloss.renzoku" />
-         <topicref keys="glossary.renzoku-uchikomi" keyref="gloss.renzoku-uchikomi" />
-         <topicref keys="glossary.renzokuwaza" keyref="gloss.renzokuwaza" />
-         <topicref keys="glossary.ritsurei" keyref="gloss.ritsurei" />
-         <topicref keys="glossary.rokkyo" keyref="gloss.rokkyo" />
-         <topicref keys="glossary.roku" keyref="gloss.roku" />
-         <topicref keys="glossary.ryo" keyref="gloss.ryo" />
-         <topicref keys="glossary.ryotedori" keyref="gloss.ryotedori" />
-         <topicref keys="glossary.ryu" keyref="gloss.ryu" />
-         <topicref keys="glossary.ryutai" keyref="gloss.ryutai" />
-      </topicref>
-      <topicref href="letter-group-S.dita">
-         <topicref keys="glossary.sabaki" keyref="gloss.sabaki" />
-         <topicref keys="glossary.sake" keyref="gloss.sake" />
-         <topicref keys="glossary.samurai" keyref="gloss.samurai" />
-         <topicref keys="glossary.san" keyref="gloss.san" />
-         <topicref keys="glossary.sankajo" keyref="gloss.sankajo" />
-         <topicref keys="glossary.sankaku" keyref="gloss.sankaku" />
-         <topicref keys="glossary.sankakutai" keyref="gloss.sankakutai" />
-         <topicref keys="glossary.sankyo" keyref="gloss.sankyo" />
-         <topicref keys="glossary.sannindori-sanningake" keyref="gloss.sannindori-sanningake" />
-         <topicref keys="glossary.sanpo" keyref="gloss.sanpo" />
-         <topicref keys="glossary.satori" keyref="gloss.satori" />
-         <topicref keys="glossary.saya" keyref="gloss.saya" />
-         <topicref keys="glossary.seika-no-itten" keyref="gloss.seika-no-itten" />
-         <topicref keys="glossary.seiki" keyref="gloss.seiki" />
-         <topicref keys="glossary.seiza" keyref="gloss.seiza" />
-         <topicref keys="glossary.sempai" keyref="gloss.sempai" />
-         <topicref keys="glossary.sen-no-sen" keyref="gloss.sen-no-sen" />
-         <topicref keys="glossary.sensei" keyref="gloss.sensei" />
-         <topicref keys="glossary.sensen-no-sen" keyref="gloss.sensen-no-sen" />
-         <topicref keys="glossary.seppuku" keyref="gloss.seppuku" />
-         <topicref keys="glossary.shi" keyref="gloss.shi" />
-         <topicref keys="glossary.shiai" keyref="gloss.shiai" />
-         <topicref keys="glossary.shiatsu" keyref="gloss.shiatsu" />
-         <topicref keys="glossary.shichi" keyref="gloss.shichi" />
-         <topicref keys="glossary.shidoin" keyref="gloss.shidoin" />
-         <topicref keys="glossary.shihan" keyref="gloss.shihan" />
-         <topicref keys="glossary.shiho" keyref="gloss.shiho" />
-         <topicref keys="glossary.shihonage" keyref="gloss.shihonage" />
-         <topicref keys="glossary.shikaku-1" keyref="gloss.shikaku-1" />
-         <topicref keys="glossary.shikaku-2" keyref="gloss.shikaku-2" />
-         <topicref keys="glossary.shiki" keyref="gloss.shiki" />
-         <topicref keys="glossary.shikko" keyref="gloss.shikko" />
-         <topicref keys="glossary.shime" keyref="gloss.shime" />
-         <topicref keys="glossary.shin" keyref="gloss.shin" />
-         <topicref keys="glossary.shinai" keyref="gloss.shinai" />
-         <topicref keys="glossary.Shindo-Musoryu" keyref="gloss.Shindo-Musoryu" />
-         <topicref keys="glossary.shinken" keyref="gloss.shinken" />
-         <topicref keys="glossary.Shinshin-toitsu" keyref="gloss.Shinshin-toitsu" />
-         <topicref keys="glossary.shinto" keyref="gloss.shinto" />
-         <topicref keys="glossary.shinzen" keyref="gloss.shinzen" />
-         <topicref keys="glossary.shisei" keyref="gloss.shisei" />
-         <topicref keys="glossary.shite" keyref="gloss.shite" />
-         <topicref keys="glossary.shizentai" keyref="gloss.shizentai" />
-         <topicref keys="glossary.sho" keyref="gloss.sho" />
-         <topicref keys="glossary.shodan" keyref="gloss.shodan" />
-         <topicref keys="glossary.shodo" keyref="gloss.shodo" />
-         <topicref keys="glossary.Shodokan" keyref="gloss.Shodokan" />
-         <topicref keys="glossary.shomen-1" keyref="gloss.shomen-1" />
-         <topicref keys="glossary.shomen-2" keyref="gloss.shomen-2" />
-         <topicref keys="glossary.shomen-ni-rei" keyref="gloss.shomen-ni-rei" />
-         <topicref keys="glossary.shomenuchi" keyref="gloss.shomenuchi" />
-         <topicref keys="glossary.shoshinsha" keyref="gloss.shoshinsha" />
-         <topicref keys="glossary.shuto" keyref="gloss.shuto" />
-         <topicref keys="glossary.sode" keyref="gloss.sode" />
-         <topicref keys="glossary.sodedori" keyref="gloss.sodedori" />
-         <topicref keys="glossary.sodeguchidori" keyref="gloss.sodeguchidori" />
-         <topicref keys="glossary.soto" keyref="gloss.soto" />
-         <topicref keys="glossary.sotodeshi" keyref="gloss.sotodeshi" />
-         <topicref keys="glossary.sotokaiten" keyref="gloss.sotokaiten" />
-         <topicref keys="glossary.sotouke" keyref="gloss.sotouke" />
-         <topicref keys="glossary.suburi" keyref="gloss.suburi" />
-         <topicref keys="glossary.suki" keyref="gloss.suki" />
-         <topicref keys="glossary.sumi" keyref="gloss.sumi" />
-         <topicref keys="glossary.sumikiri" keyref="gloss.sumikiri" />
-         <topicref keys="glossary.sumimasen" keyref="gloss.sumimasen" />
-         <topicref keys="glossary.sumo" keyref="gloss.sumo" />
-         <topicref keys="glossary.suri" keyref="gloss.suri" />
-         <topicref keys="glossary.sutemiwaza" keyref="gloss.sutemiwaza" />
-         <topicref keys="glossary.suwariwaza" keyref="gloss.suwariwaza" />
-         <topicref keys="glossary.suwate" keyref="gloss.suwate" />
-      </topicref>
-      <topicref href="letter-group-T.dita">
-         <topicref keys="glossary.tachi-1" keyref="gloss.tachi-1" />
-         <topicref keys="glossary.tachi-2" keyref="gloss.tachi-2" />
-         <topicref keys="glossary.tachidori" keyref="gloss.tachidori" />
-         <topicref keys="glossary.tachiwaza" keyref="gloss.tachiwaza" />
-         <topicref keys="glossary.tai" keyref="gloss.tai" />
-         <topicref keys="glossary.taijutsu" keyref="gloss.taijutsu" />
-         <topicref keys="glossary.tai-no-henko" keyref="gloss.tai-no-henko" />
-         <topicref keys="glossary.tai-no-tenkan" keyref="gloss.tai-no-tenkan" />
-         <topicref keys="glossary.taisabaki" keyref="gloss.taisabaki" />
-         <topicref keys="glossary.taiso" keyref="gloss.taiso" />
-         <topicref keys="glossary.takemusu" keyref="gloss.takemusu" />
-         <topicref keys="glossary.takemusu-aiki" keyref="gloss.takemusu-aiki" />
-         <topicref keys="glossary.tameshi" keyref="gloss.tameshi" />
-         <topicref keys="glossary.tameshigiri" keyref="gloss.tameshigiri" />
-         <topicref keys="glossary.tameshiware" keyref="gloss.tameshiware" />
-         <topicref keys="glossary.tanbo" keyref="gloss.tanbo" />
-         <topicref keys="glossary.tanden" keyref="gloss.tanden" />
-         <topicref keys="glossary.taninzugake" keyref="gloss.taninzugake" />
-         <topicref keys="glossary.tanren" keyref="gloss.tanren" />
-         <topicref keys="glossary.tanto-tanken" keyref="gloss.tanto-tanken" />
-         <topicref keys="glossary.tantodori" keyref="gloss.tantodori" />
-         <topicref keys="glossary.tao-dao" keyref="gloss.tao-dao" />
-         <topicref keys="glossary.tatami" keyref="gloss.tatami" />
-         <topicref keys="glossary.tate" keyref="gloss.tate" />
-         <topicref keys="glossary.te" keyref="gloss.te" />
-         <topicref keys="glossary.tegatana" keyref="gloss.tegatana" />
-         <topicref keys="glossary.tekubi" keyref="gloss.tekubi" />
-         <topicref keys="glossary.tekubiosae" keyref="gloss.tekubiosae" />
-         <topicref keys="glossary.tenchinage" keyref="gloss.tenchinage" />
-         <topicref keys="glossary.tenkan" keyref="gloss.tenkan" />
-         <topicref keys="glossary.tettsui" keyref="gloss.tettsui" />
-         <topicref keys="glossary.to" keyref="gloss.to" />
-         <topicref keys="glossary.tobigeri" keyref="gloss.tobigeri" />
-         <topicref keys="glossary.tobikoshi" keyref="gloss.tobikoshi" />
-         <topicref keys="glossary.tomauchi" keyref="gloss.tomauchi" />
-         <topicref keys="glossary.tori" keyref="gloss.tori" />
-         <topicref keys="glossary.torifune" keyref="gloss.torifune" />
-         <topicref keys="glossary.tsuba" keyref="gloss.tsuba" />
-         <topicref keys="glossary.tsugiashi" keyref="gloss.tsugiashi" />
-         <topicref keys="glossary.tsuka" keyref="gloss.tsuka" />
-         <topicref keys="glossary.tsuki" keyref="gloss.tsuki" />
-      </topicref>
-      <topicref href="letter-group-U.dita">
-         <topicref keys="glossary.uchi-1" keyref="gloss.uchi-1" />
-         <topicref keys="glossary.uchi-2" keyref="gloss.uchi-2" />
-         <topicref keys="glossary.uchideshi" keyref="gloss.uchideshi" />
-         <topicref keys="glossary.uchikaiten" keyref="gloss.uchikaiten" />
-         <topicref keys="glossary.uchikata" keyref="gloss.uchikata" />
-         <topicref keys="glossary.uchikomi" keyref="gloss.uchikomi" />
-         <topicref keys="glossary.uchiuke" keyref="gloss.uchiuke" />
-         <topicref keys="glossary.ude" keyref="gloss.ude" />
-         <topicref keys="glossary.udekimenage" keyref="gloss.udekimenage" />
-         <topicref keys="glossary.udenobashi" keyref="gloss.udenobashi" />
-         <topicref keys="glossary.udeosae" keyref="gloss.udeosae" />
-         <topicref keys="glossary.uke-1" keyref="gloss.uke-1" />
-         <topicref keys="glossary.uke-2" keyref="gloss.uke-2" />
-         <topicref keys="glossary.ukemi" keyref="gloss.ukemi" />
-         <topicref keys="glossary.undo" keyref="gloss.undo" />
-         <topicref keys="glossary.ura" keyref="gloss.ura" />
-         <topicref keys="glossary.uraken" keyref="gloss.uraken" />
-         <topicref keys="glossary.ushiro" keyref="gloss.ushiro" />
-         <topicref keys="glossary.ushirogeri" keyref="gloss.ushirogeri" />
-         <topicref keys="glossary.ushiro-kiriotoshi" keyref="gloss.ushiro-kiriotoshi" />
-         <topicref keys="glossary.ushiro-ukemi" keyref="gloss.ushiro-ukemi" />
-         <topicref keys="glossary.ushirowaza" keyref="gloss.ushirowaza" />
-      </topicref>
-      <topicref href="letter-group-W.dita">
-         <topicref keys="glossary.waka-sensei" keyref="gloss.waka-sensei" />
-         <topicref keys="glossary.waki" keyref="gloss.waki" />
-         <topicref keys="glossary.wakizashi" keyref="gloss.wakizashi" />
-         <topicref keys="glossary.ware" keyref="gloss.ware" />
-         <topicref keys="glossary.waza" keyref="gloss.waza" />
-      </topicref>
-      <topicref href="letter-group-Y.dita">
-         <topicref keys="glossary.yame" keyref="gloss.yame" />
-         <topicref keys="glossary.yang" keyref="gloss.yang" />
-         <topicref keys="glossary.yari" keyref="gloss.yari" />
-         <topicref keys="glossary.yawara" keyref="gloss.yawara" />
-         <topicref keys="glossary.yin" keyref="gloss.yin" />
-         <topicref keys="glossary.yo" keyref="gloss.yo" />
-         <topicref keys="glossary.yoko" keyref="gloss.yoko" />
-         <topicref keys="glossary.yokogeri" keyref="gloss.yokogeri" />
-         <topicref keys="glossary.yokogiri" keyref="gloss.yokogiri" />
-         <topicref keys="glossary.yokomen" keyref="gloss.yokomen" />
-         <topicref keys="glossary.yokomenuchi" keyref="gloss.yokomenuchi" />
-         <topicref keys="glossary.yoko-ukemi" keyref="gloss.yoko-ukemi" />
-         <topicref keys="glossary.yon" keyref="gloss.yon" />
-         <topicref keys="glossary.yonkajo" keyref="gloss.yonkajo" />
-         <topicref keys="glossary.yonkyo" keyref="gloss.yonkyo" />
-         <topicref keys="glossary.Yoseikan" keyref="gloss.Yoseikan" />
-         <topicref keys="glossary.Yoshinkan" keyref="gloss.Yoshinkan" />
-         <topicref keys="glossary.yudansha" keyref="gloss.yudansha" />
-      </topicref>
-      <topicref href="letter-group-Z.dita">
-         <topicref keys="glossary.za" keyref="gloss.za" />
-         <topicref keys="glossary.Zaidan-Hojin-Aikikai" keyref="gloss.Zaidan-Hojin-Aikikai" />
-         <topicref keys="glossary.zanshin" keyref="gloss.zanshin" />
-         <topicref keys="glossary.zarei" keyref="gloss.zarei" />
-         <topicref keys="glossary.zazen" keyref="gloss.zazen" />
-         <topicref keys="glossary.zen" keyref="gloss.zen" />
-         <topicref keys="glossary.zengo" keyref="gloss.zengo" />
-         <topicref keys="glossary.zori" keyref="gloss.zori" />
-      </topicref>
-  </topicref>
-</map>
+<title>Glossary of Aikido Terminology</title>
+<topicref href = "glossary-title.dita">
+<topicref href = "letter-group-A.dita">
+<topicref keyref = "gloss.ai" keys = "glossary.ai"></topicref>
+<topicref keyref = "gloss.aihanmi" keys = "glossary.aihanmi"></topicref>
+<topicref keyref = "gloss.aihanmi-katatedori"
+    keys = "glossary.aihanmi-katatedori"></topicref>
+<topicref keyref = "gloss.aiki" keys = "glossary.aiki"></topicref>
+<topicref keyref = "gloss.aikibatto" keys = "glossary.aikibatto"></topicref>
+<topicref keyref = "gloss.aikibudo" keys = "glossary.aikibudo"></topicref>
+<topicref keyref = "gloss.aikido" keys = "glossary.aikido"></topicref>
+<topicref keyref = "gloss.aikidoka" keys = "glossary.aikidoka"></topicref>
+<topicref keyref = "gloss.aikido-toho" keys = "glossary.aikido-toho"></topicref>
+<topicref keyref = "gloss.Aikijinja" keys = "glossary.Aikijinja"></topicref>
+<topicref keyref = "gloss.aikijo" keys = "glossary.aikijo"></topicref>
+<topicref keyref = "gloss.aikijutsu" keys = "glossary.aikijutsu"></topicref>
+<topicref keyref = "gloss.Aikikai" keys = "glossary.Aikikai"></topicref>
+<topicref keyref = "gloss.aikiken" keys = "glossary.aikiken"></topicref>
+<topicref keyref = "gloss.aikinage" keys = "glossary.aikinage"></topicref>
+<topicref keyref = "gloss.aiki-no-michi" keys = "glossary.aiki-no-michi"></topicref>
+<topicref keyref = "gloss.aikiotoshi" keys = "glossary.aikiotoshi"></topicref>
+<topicref keyref = "gloss.aikitaiso" keys = "glossary.aikitaiso"></topicref>
+<topicref keyref = "gloss.aite" keys = "glossary.aite"></topicref>
+<topicref keyref = "gloss.arigato" keys = "glossary.arigato"></topicref>
+<topicref keyref = "gloss.arigato-gozaimasu"
+    keys = "glossary.arigato-gozaimasu"></topicref>
+<topicref keyref = "gloss.arigato-gozaimashita"
+    keys = "glossary.arigato-gozaimashita"></topicref>
+<topicref keyref = "gloss.ashi" keys = "glossary.ashi"></topicref>
+<topicref keyref = "gloss.ate" keys = "glossary.ate"></topicref>
+<topicref keyref = "gloss.atemi" keys = "glossary.atemi"></topicref>
+<topicref keyref = "gloss.awase" keys = "glossary.awase"></topicref>
+<topicref keyref = "gloss.ayumiashi" keys = "glossary.ayumiashi"></topicref></topicref>
+<topicref href = "letter-group-B.dita">
+<topicref keyref = "gloss.barai-harai" keys = "glossary.barai-harai"></topicref>
+<topicref keyref = "gloss.batto" keys = "glossary.batto"></topicref>
+<topicref keyref = "gloss.bo" keys = "glossary.bo"></topicref>
+<topicref keyref = "gloss.bokken" keys = "glossary.bokken"></topicref>
+<topicref keyref = "gloss.bokuto" keys = "glossary.bokuto"></topicref>
+<topicref keyref = "gloss.bu" keys = "glossary.bu"></topicref>
+<topicref keyref = "gloss.budo" keys = "glossary.budo"></topicref>
+<topicref keyref = "gloss.budoka" keys = "glossary.budoka"></topicref>
+<topicref keyref = "gloss.bugei" keys = "glossary.bugei"></topicref>
+<topicref keyref = "gloss.bukiwaza" keys = "glossary.bukiwaza"></topicref>
+<topicref keyref = "gloss.bushi" keys = "glossary.bushi"></topicref>
+<topicref keyref = "gloss.bushido" keys = "glossary.bushido"></topicref></topicref>
+<topicref href = "letter-group-C.dita">
+<topicref keyref = "gloss.chado" keys = "glossary.chado"></topicref>
+<topicref keyref = "gloss.chikara" keys = "glossary.chikara"></topicref>
+<topicref keyref = "gloss.choku" keys = "glossary.choku"></topicref>
+<topicref keyref = "gloss.chokutsuki" keys = "glossary.chokutsuki"></topicref>
+<topicref keyref = "gloss.chudan" keys = "glossary.chudan"></topicref>
+<topicref keyref = "gloss.chudan-kamae" keys = "glossary.chudan-kamae"></topicref>
+<topicref keyref = "gloss.chudan-tsuki" keys = "glossary.chudan-tsuki"></topicref>
+<topicref keyref = "gloss.chukyusha" keys = "glossary.chukyusha"></topicref></topicref>
+<topicref href = "letter-group-D.dita">
+<topicref keyref = "gloss.dai" keys = "glossary.dai"></topicref>
+<topicref keyref = "gloss.daisho" keys = "glossary.daisho"></topicref>
+<topicref keyref = "gloss.Daito-ryu" keys = "glossary.Daito-ryu"></topicref>
+<topicref keyref = "gloss.dame" keys = "glossary.dame"></topicref>
+<topicref keyref = "gloss.dan" keys = "glossary.dan"></topicref>
+<topicref keyref = "gloss.dao-tao" keys = "glossary.dao-tao"></topicref>
+<topicref keyref = "gloss.deshi" keys = "glossary.deshi"></topicref>
+<topicref keyref = "gloss.do" keys = "glossary.do"></topicref>
+<topicref keyref = "gloss.dogi" keys = "glossary.dogi"></topicref>
+<topicref keyref = "gloss.do-in" keys = "glossary.do-in"></topicref>
+<topicref keyref = "gloss.dojo" keys = "glossary.dojo"></topicref>
+<topicref keyref = "gloss.dojo-cho" keys = "glossary.dojo-cho"></topicref>
+<topicref keyref = "gloss.doka" keys = "glossary.doka"></topicref>
+<topicref keyref = "gloss.domo" keys = "glossary.domo"></topicref>
+<topicref keyref = "gloss.domo-arigato-gozaimas"
+    keys = "glossary.domo-arigato-gozaimas"></topicref>
+<topicref keyref = "gloss.domo-arigato-gozaimashita"
+    keys = "glossary.domo-arigato-gozaimashita"></topicref>
+<topicref keyref = "gloss.dori" keys = "glossary.dori"></topicref>
+<topicref keyref = "gloss.dosa" keys = "glossary.dosa"></topicref>
+<topicref keyref = "gloss.doshu" keys = "glossary.doshu"></topicref>
+<topicref keyref = "gloss.dozo" keys = "glossary.dozo"></topicref></topicref>
+<topicref href = "letter-group-E.dita">
+<topicref keyref = "gloss.embukai" keys = "glossary.embukai"></topicref>
+<topicref keyref = "gloss.empi" keys = "glossary.empi"></topicref>
+<topicref keyref = "gloss.eri" keys = "glossary.eri"></topicref>
+<topicref keyref = "gloss.eridori" keys = "glossary.eridori"></topicref></topicref>
+<topicref href = "letter-group-F.dita">
+<topicref keyref = "gloss.fukushidoin" keys = "glossary.fukushidoin"></topicref>
+<topicref keyref = "gloss.funakogi-undo" keys = "glossary.funakogi-undo"></topicref>
+<topicref keyref = "gloss.furitama" keys = "glossary.furitama"></topicref>
+<topicref keyref = "gloss.futaridori-futarigake"
+    keys = "glossary.futaridori-futarigake"></topicref></topicref>
+<topicref href = "letter-group-G.dita">
+<topicref keyref = "gloss.gaeshi-kaeshi" keys = "glossary.gaeshi-kaeshi"></topicref>
+<topicref keyref = "gloss.gamae-kamae" keys = "glossary.gamae-kamae"></topicref>
+<topicref keyref = "gloss.gasshuku" keys = "glossary.gasshuku"></topicref>
+<topicref keyref = "gloss.gedan" keys = "glossary.gedan"></topicref>
+<topicref keyref = "gloss.gedanbarai" keys = "glossary.gedanbarai"></topicref>
+<topicref keyref = "gloss.geiko-keiko" keys = "glossary.geiko-keiko"></topicref>
+<topicref keyref = "gloss.geri" keys = "glossary.geri"></topicref>
+<topicref keyref = "gloss.gi" keys = "glossary.gi"></topicref>
+<topicref keyref = "gloss.giri-kiri" keys = "glossary.giri-kiri"></topicref>
+<topicref keyref = "gloss.go" keys = "glossary.go"></topicref>
+<topicref keyref = "gloss.gokyo" keys = "glossary.gokyo"></topicref>
+<topicref keyref = "gloss.gomen-nasai" keys = "glossary.gomen-nasai"></topicref>
+<topicref keyref = "gloss.Gorin-no-sho" keys = "glossary.Gorin-no-sho"></topicref>
+<topicref keyref = "gloss.gotai" keys = "glossary.gotai"></topicref>
+<topicref keyref = "gloss.gyaku" keys = "glossary.gyaku"></topicref>
+<topicref keyref = "gloss.gyakuhanmi" keys = "glossary.gyakuhanmi"></topicref>
+<topicref keyref = "gloss.gyakuhanmi-katatedori"
+    keys = "glossary.gyakuhanmi-katatedori"></topicref>
+<topicref keyref = "gloss.gyakutsuki" keys = "glossary.gyakutsuki"></topicref></topicref>
+<topicref href = "letter-group-H.dita">
+<topicref keyref = "gloss.hachi" keys = "glossary.hachi"></topicref>
+<topicref keyref = "gloss.Hagakure" keys = "glossary.Hagakure"></topicref>
+<topicref keyref = "gloss.hai" keys = "glossary.hai"></topicref>
+<topicref keyref = "gloss.hajime" keys = "glossary.hajime"></topicref>
+<topicref keyref = "gloss.hakama" keys = "glossary.hakama"></topicref>
+<topicref keyref = "gloss.handachi" keys = "glossary.handachi"></topicref>
+<topicref keyref = "gloss.hanmi" keys = "glossary.hanmi"></topicref>
+<topicref keyref = "gloss.hanmi-gamae" keys = "glossary.hanmi-gamae"></topicref>
+<topicref keyref = "gloss.hanmi-handachiwaza"
+    keys = "glossary.hanmi-handachiwaza"></topicref>
+<topicref keyref = "gloss.hanshi" keys = "glossary.hanshi"></topicref>
+<topicref keyref = "gloss.hantai" keys = "glossary.hantai"></topicref>
+<topicref keyref = "gloss.happo" keys = "glossary.happo"></topicref>
+<topicref keyref = "gloss.hara" keys = "glossary.hara"></topicref>
+<topicref keyref = "gloss.harai-barai" keys = "glossary.harai-barai"></topicref>
+<topicref keyref = "gloss.harakiri" keys = "glossary.harakiri"></topicref>
+<topicref keyref = "gloss.hassogaeshi" keys = "glossary.hassogaeshi"></topicref>
+<topicref keyref = "gloss.hasso-gamae" keys = "glossary.hasso-gamae"></topicref>
+<topicref keyref = "gloss.henkawaza" keys = "glossary.henkawaza"></topicref>
+<topicref keyref = "gloss.hidari" keys = "glossary.hidari"></topicref>
+<topicref keyref = "gloss.hiji" keys = "glossary.hiji"></topicref>
+<topicref keyref = "gloss.hijidori" keys = "glossary.hijidori"></topicref>
+<topicref keyref = "gloss.hijikimeosae" keys = "glossary.hijikimeosae"></topicref>
+<topicref keyref = "gloss.hiki" keys = "glossary.hiki"></topicref>
+<topicref keyref = "gloss.hineri" keys = "glossary.hineri"></topicref>
+<topicref keyref = "gloss.hiragana" keys = "glossary.hiragana"></topicref>
+<topicref keyref = "gloss.hito-e-mi" keys = "glossary.hito-e-mi"></topicref>
+<topicref keyref = "gloss.hiza" keys = "glossary.hiza"></topicref>
+<topicref keyref = "gloss.ho-1" keys = "glossary.ho-1"></topicref>
+<topicref keyref = "gloss.ho-2" keys = "glossary.ho-2"></topicref>
+<topicref keyref = "gloss.hombu" keys = "glossary.hombu"></topicref>
+<topicref keyref = "gloss.Hombu-dojo" keys = "glossary.Hombu-dojo"></topicref></topicref>
+<topicref href = "letter-group-I.dita">
+<topicref keyref = "gloss.iaido" keys = "glossary.iaido"></topicref>
+<topicref keyref = "gloss.iaito" keys = "glossary.iaito"></topicref>
+<topicref keyref = "gloss.ichi" keys = "glossary.ichi"></topicref>
+<topicref keyref = "gloss.ichiban" keys = "glossary.ichiban"></topicref>
+<topicref keyref = "gloss.iie" keys = "glossary.iie"></topicref>
+<topicref keyref = "gloss.iki" keys = "glossary.iki"></topicref>
+<topicref keyref = "gloss.ikkajo" keys = "glossary.ikkajo"></topicref>
+<topicref keyref = "gloss.ikki" keys = "glossary.ikki"></topicref>
+<topicref keyref = "gloss.ikkyo" keys = "glossary.ikkyo"></topicref>
+<topicref keyref = "gloss.ikkyo-undo" keys = "glossary.ikkyo-undo"></topicref>
+<topicref keyref = "gloss.in" keys = "glossary.in"></topicref>
+<topicref keyref = "gloss.ippon" keys = "glossary.ippon"></topicref>
+<topicref keyref = "gloss.ipponken" keys = "glossary.ipponken"></topicref>
+<topicref keyref = "gloss.irimi" keys = "glossary.irimi"></topicref>
+<topicref keyref = "gloss.iriminage" keys = "glossary.iriminage"></topicref>
+<topicref keyref = "gloss.Iwama" keys = "glossary.Iwama"></topicref>
+<topicref keyref = "gloss.Iwama-ryu" keys = "glossary.Iwama-ryu"></topicref></topicref>
+<topicref href = "letter-group-J.dita">
+<topicref keyref = "gloss.jiyuwaza" keys = "glossary.jiyuwaza"></topicref>
+<topicref keyref = "gloss.jo" keys = "glossary.jo"></topicref>
+<topicref keyref = "gloss.jo-awase" keys = "glossary.jo-awase"></topicref>
+<topicref keyref = "gloss.jodan" keys = "glossary.jodan"></topicref>
+<topicref keyref = "gloss.jodan-kamae" keys = "glossary.jodan-kamae"></topicref>
+<topicref keyref = "gloss.jodan-tsuki" keys = "glossary.jodan-tsuki"></topicref>
+<topicref keyref = "gloss.jodanuke" keys = "glossary.jodanuke"></topicref>
+<topicref keyref = "gloss.jodo" keys = "glossary.jodo"></topicref>
+<topicref keyref = "gloss.jodori" keys = "glossary.jodori"></topicref>
+<topicref keyref = "gloss.jokyusha" keys = "glossary.jokyusha"></topicref>
+<topicref keyref = "gloss.ju-1" keys = "glossary.ju-1"></topicref>
+<topicref keyref = "gloss.ju-2" keys = "glossary.ju-2"></topicref>
+<topicref keyref = "gloss.judo" keys = "glossary.judo"></topicref>
+<topicref keyref = "gloss.jujigarami-jujinage"
+    keys = "glossary.jujigarami-jujinage"></topicref>
+<topicref keyref = "gloss.jujutsu" keys = "glossary.jujutsu"></topicref>
+<topicref keyref = "gloss.jumbitaiso" keys = "glossary.jumbitaiso"></topicref>
+<topicref keyref = "gloss.juntsuki" keys = "glossary.juntsuki"></topicref>
+<topicref keyref = "gloss.jutai" keys = "glossary.jutai"></topicref>
+<topicref keyref = "gloss.jutsu" keys = "glossary.jutsu"></topicref></topicref>
+<topicref href = "letter-group-K.dita">
+<topicref keyref = "gloss.kaeshi-gaeshi" keys = "glossary.kaeshi-gaeshi"></topicref>
+<topicref keyref = "gloss.kaeshitsuki" keys = "glossary.kaeshitsuki"></topicref>
+<topicref keyref = "gloss.kaeshiwaza" keys = "glossary.kaeshiwaza"></topicref>
+<topicref keyref = "gloss.kagami-biraki" keys = "glossary.kagami-biraki"></topicref>
+<topicref keyref = "gloss.kai" keys = "glossary.kai"></topicref>
+<topicref keyref = "gloss.kaiso" keys = "glossary.kaiso"></topicref>
+<topicref keyref = "gloss.kaitennage" keys = "glossary.kaitennage"></topicref>
+<topicref keyref = "gloss.kaitenosae" keys = "glossary.kaitenosae"></topicref>
+<topicref keyref = "gloss.kakaedori" keys = "glossary.kakaedori"></topicref>
+<topicref keyref = "gloss.kakarigeiko" keys = "glossary.kakarigeiko"></topicref>
+<topicref keyref = "gloss.kakudo" keys = "glossary.kakudo"></topicref>
+<topicref keyref = "gloss.kamae-gamae" keys = "glossary.kamae-gamae"></topicref>
+<topicref keyref = "gloss.kami" keys = "glossary.kami"></topicref>
+<topicref keyref = "gloss.kamiza" keys = "glossary.kamiza"></topicref>
+<topicref keyref = "gloss.kampai" keys = "glossary.kampai"></topicref>
+<topicref keyref = "gloss.kan" keys = "glossary.kan"></topicref>
+<topicref keyref = "gloss.kangeiko" keys = "glossary.kangeiko"></topicref>
+<topicref keyref = "gloss.kanji" keys = "glossary.kanji"></topicref>
+<topicref keyref = "gloss.kanren" keys = "glossary.kanren"></topicref>
+<topicref keyref = "gloss.kanrenwaza" keys = "glossary.kanrenwaza"></topicref>
+<topicref keyref = "gloss.kansetsu" keys = "glossary.kansetsu"></topicref>
+<topicref keyref = "gloss.karatedo" keys = "glossary.karatedo"></topicref>
+<topicref keyref = "gloss.Kashima-shintoryu"
+    keys = "glossary.Kashima-shintoryu"></topicref>
+<topicref keyref = "gloss.kata-1" keys = "glossary.kata-1"></topicref>
+<topicref keyref = "gloss.kata-2" keys = "glossary.kata-2"></topicref>
+<topicref keyref = "gloss.katadori" keys = "glossary.katadori"></topicref>
+<topicref keyref = "gloss.katadori-menuchi"
+    keys = "glossary.katadori-menuchi"></topicref>
+<topicref keyref = "gloss.katakana" keys = "glossary.katakana"></topicref>
+<topicref keyref = "gloss.katamewaza" keys = "glossary.katamewaza"></topicref>
+<topicref keyref = "gloss.katana" keys = "glossary.katana"></topicref>
+<topicref keyref = "gloss.katate" keys = "glossary.katate"></topicref>
+<topicref keyref = "gloss.katatedori" keys = "glossary.katatedori"></topicref>
+<topicref keyref = "gloss.katate-ryotedori"
+    keys = "glossary.katate-ryotedori"></topicref>
+<topicref keyref = "gloss.Katori-shintoryu"
+    keys = "glossary.Katori-shintoryu"></topicref>
+<topicref keyref = "gloss.keiko-geiko" keys = "glossary.keiko-geiko"></topicref>
+<topicref keyref = "gloss.keikogi" keys = "glossary.keikogi"></topicref>
+<topicref keyref = "gloss.ken" keys = "glossary.ken"></topicref>
+<topicref keyref = "gloss.kendo" keys = "glossary.kendo"></topicref>
+<topicref keyref = "gloss.ki" keys = "glossary.ki"></topicref>
+<topicref keyref = "gloss.kiai" keys = "glossary.kiai"></topicref>
+<topicref keyref = "gloss.ki-aikido" keys = "glossary.ki-aikido"></topicref>
+<topicref keyref = "gloss.kihon" keys = "glossary.kihon"></topicref>
+<topicref keyref = "gloss.kihonwaza" keys = "glossary.kihonwaza"></topicref>
+<topicref keyref = "gloss.kikai-tanden" keys = "glossary.kikai-tanden"></topicref>
+<topicref keyref = "gloss.kime" keys = "glossary.kime"></topicref>
+<topicref keyref = "gloss.kimusubi" keys = "glossary.kimusubi"></topicref>
+<topicref keyref = "gloss.kinagare-ki-no-nagare"
+    keys = "glossary.kinagare-ki-no-nagare"></topicref>
+<topicref keyref = "gloss.Ki-no-kenkyukai"
+    keys = "glossary.Ki-no-kenkyukai"></topicref>
+<topicref keyref = "gloss.kiri-giri" keys = "glossary.kiri-giri"></topicref>
+<topicref keyref = "gloss.kirikaeshi" keys = "glossary.kirikaeshi"></topicref>
+<topicref keyref = "gloss.koan" keys = "glossary.koan"></topicref>
+<topicref keyref = "gloss.kobudo" keys = "glossary.kobudo"></topicref>
+<topicref keyref = "gloss.kogeki" keys = "glossary.kogeki"></topicref>
+<topicref keyref = "gloss.kogekiho" keys = "glossary.kogekiho"></topicref>
+<topicref keyref = "gloss.kohai" keys = "glossary.kohai"></topicref>
+<topicref keyref = "gloss.Kojiki" keys = "glossary.Kojiki"></topicref>
+<topicref keyref = "gloss.kokoro" keys = "glossary.kokoro"></topicref>
+<topicref keyref = "gloss.kokyu" keys = "glossary.kokyu"></topicref>
+<topicref keyref = "gloss.kokyuho" keys = "glossary.kokyuho"></topicref>
+<topicref keyref = "gloss.kokyunage" keys = "glossary.kokyunage"></topicref>
+<topicref keyref = "gloss.kokyu-ryoku" keys = "glossary.kokyu-ryoku"></topicref>
+<topicref keyref = "gloss.kosa" keys = "glossary.kosa"></topicref>
+<topicref keyref = "gloss.kosadori" keys = "glossary.kosadori"></topicref>
+<topicref keyref = "gloss.koshi" keys = "glossary.koshi"></topicref>
+<topicref keyref = "gloss.koshinage" keys = "glossary.koshinage"></topicref>
+<topicref keyref = "gloss.kote" keys = "glossary.kote"></topicref>
+<topicref keyref = "gloss.kotegaeshi" keys = "glossary.kotegaeshi"></topicref>
+<topicref keyref = "gloss.kotehineri" keys = "glossary.kotehineri"></topicref>
+<topicref keyref = "gloss.kotemawashi" keys = "glossary.kotemawashi"></topicref>
+<topicref keyref = "gloss.kotodama-kototama"
+    keys = "glossary.kotodama-kototama"></topicref>
+<topicref keyref = "gloss.ku-1" keys = "glossary.ku-1"></topicref>
+<topicref keyref = "gloss.ku-2" keys = "glossary.ku-2"></topicref>
+<topicref keyref = "gloss.kubi" keys = "glossary.kubi"></topicref>
+<topicref keyref = "gloss.kubishime" keys = "glossary.kubishime"></topicref>
+<topicref keyref = "gloss.kuden" keys = "glossary.kuden"></topicref>
+<topicref keyref = "gloss.kumi" keys = "glossary.kumi"></topicref>
+<topicref keyref = "gloss.kumijo" keys = "glossary.kumijo"></topicref>
+<topicref keyref = "gloss.kumitachi" keys = "glossary.kumitachi"></topicref>
+<topicref keyref = "gloss.kumite" keys = "glossary.kumite"></topicref>
+<topicref keyref = "gloss.kumiuchi" keys = "glossary.kumiuchi"></topicref>
+<topicref keyref = "gloss.kuzushi" keys = "glossary.kuzushi"></topicref>
+<topicref keyref = "gloss.kyo" keys = "glossary.kyo"></topicref>
+<topicref keyref = "gloss.kyoshi" keys = "glossary.kyoshi"></topicref>
+<topicref keyref = "gloss.kyu" keys = "glossary.kyu"></topicref>
+<topicref keyref = "gloss.kyudo" keys = "glossary.kyudo"></topicref></topicref>
+<topicref href = "letter-group-M.dita">
+<topicref keyref = "gloss.ma" keys = "glossary.ma"></topicref>
+<topicref keyref = "gloss.ma-ai" keys = "glossary.ma-ai"></topicref>
+<topicref keyref = "gloss.mae" keys = "glossary.mae"></topicref>
+<topicref keyref = "gloss.maegeri" keys = "glossary.maegeri"></topicref>
+<topicref keyref = "gloss.mae-ukemi" keys = "glossary.mae-ukemi"></topicref>
+<topicref keyref = "gloss.makiwara" keys = "glossary.makiwara"></topicref>
+<topicref keyref = "gloss.maru" keys = "glossary.maru"></topicref>
+<topicref keyref = "gloss.mawashi" keys = "glossary.mawashi"></topicref>
+<topicref keyref = "gloss.mawashigeri" keys = "glossary.mawashigeri"></topicref>
+<topicref keyref = "gloss.mawate" keys = "glossary.mawate"></topicref>
+<topicref keyref = "gloss.me" keys = "glossary.me"></topicref>
+<topicref keyref = "gloss.men" keys = "glossary.men"></topicref>
+<topicref keyref = "gloss.michi" keys = "glossary.michi"></topicref>
+<topicref keyref = "gloss.migi" keys = "glossary.migi"></topicref>
+<topicref keyref = "gloss.misogi" keys = "glossary.misogi"></topicref>
+<topicref keyref = "gloss.mochi" keys = "glossary.mochi"></topicref>
+<topicref keyref = "gloss.mochikata" keys = "glossary.mochikata"></topicref>
+<topicref keyref = "gloss.mo-ikkai" keys = "glossary.mo-ikkai"></topicref>
+<topicref keyref = "gloss.mokuso" keys = "glossary.mokuso"></topicref>
+<topicref keyref = "gloss.moro" keys = "glossary.moro"></topicref>
+<topicref keyref = "gloss.morotedori" keys = "glossary.morotedori"></topicref>
+<topicref keyref = "gloss.mu" keys = "glossary.mu"></topicref>
+<topicref keyref = "gloss.mushin" keys = "glossary.mushin"></topicref>
+<topicref keyref = "gloss.mudansha" keys = "glossary.mudansha"></topicref>
+<topicref keyref = "gloss.mune" keys = "glossary.mune"></topicref>
+<topicref keyref = "gloss.munedori" keys = "glossary.munedori"></topicref>
+<topicref keyref = "gloss.musubi" keys = "glossary.musubi"></topicref></topicref>
+<topicref href = "letter-group-N.dita">
+<topicref keyref = "gloss.nagare" keys = "glossary.nagare"></topicref>
+<topicref keyref = "gloss.nage" keys = "glossary.nage"></topicref>
+<topicref keyref = "gloss.nagewaza" keys = "glossary.nagewaza"></topicref>
+<topicref keyref = "gloss.naginata" keys = "glossary.naginata"></topicref>
+<topicref keyref = "gloss.nakaima" keys = "glossary.nakaima"></topicref>
+<topicref keyref = "gloss.nana" keys = "glossary.nana"></topicref>
+<topicref keyref = "gloss.nen" keys = "glossary.nen"></topicref>
+<topicref keyref = "gloss.ni" keys = "glossary.ni"></topicref>
+<topicref keyref = "gloss.Nihon-Nippon" keys = "glossary.Nihon-Nippon"></topicref>
+<topicref keyref = "gloss.Nihongi" keys = "glossary.Nihongi"></topicref>
+<topicref keyref = "gloss.nikajo" keys = "glossary.nikajo"></topicref>
+<topicref keyref = "gloss.nikyo" keys = "glossary.nikyo"></topicref>
+<topicref keyref = "gloss.nin" keys = "glossary.nin"></topicref>
+<topicref keyref = "gloss.ninindori" keys = "glossary.ninindori"></topicref>
+<topicref keyref = "gloss.ninja" keys = "glossary.ninja"></topicref>
+<topicref keyref = "gloss.Nippon-Nihon" keys = "glossary.Nippon-Nihon"></topicref>
+<topicref keyref = "gloss.Nito-ichiryu-Niten-ichiryu"
+    keys = "glossary.Nito-ichiryu-Niten-ichiryu"></topicref>
+<topicref keyref = "gloss.noto" keys = "glossary.noto"></topicref>
+<topicref keyref = "gloss.nuki" keys = "glossary.nuki"></topicref>
+<topicref keyref = "gloss.nukite" keys = "glossary.nukite"></topicref></topicref>
+<topicref href = "letter-group-O.dita">
+<topicref keyref = "gloss.o" keys = "glossary.o"></topicref>
+<topicref keyref = "gloss.obi" keys = "glossary.obi"></topicref>
+<topicref keyref = "gloss.ocha" keys = "glossary.ocha"></topicref>
+<topicref keyref = "gloss.oitsuki" keys = "glossary.oitsuki"></topicref>
+<topicref keyref = "gloss.omote" keys = "glossary.omote"></topicref>
+<topicref keyref = "gloss.Omotokyo" keys = "glossary.Omotokyo"></topicref>
+<topicref keyref = "gloss.onegai-shimasu"
+    keys = "glossary.onegai-shimasu"></topicref>
+<topicref keyref = "gloss.osae" keys = "glossary.osae"></topicref>
+<topicref keyref = "gloss.osensei" keys = "glossary.osensei"></topicref>
+<topicref keyref = "gloss.otagai-ni-rei" keys = "glossary.otagai-ni-rei"></topicref>
+<topicref keyref = "gloss.otoshi" keys = "glossary.otoshi"></topicref>
+<topicref keyref = "gloss.oyowaza" keys = "glossary.oyowaza"></topicref></topicref>
+<topicref href = "letter-group-R.dita">
+<topicref keyref = "gloss.randori" keys = "glossary.randori"></topicref>
+<topicref keyref = "gloss.rei" keys = "glossary.rei"></topicref>
+<topicref keyref = "gloss.reigi" keys = "glossary.reigi"></topicref>
+<topicref keyref = "gloss.renshi" keys = "glossary.renshi"></topicref>
+<topicref keyref = "gloss.renshu" keys = "glossary.renshu"></topicref>
+<topicref keyref = "gloss.renzoku" keys = "glossary.renzoku"></topicref>
+<topicref keyref = "gloss.renzoku-uchikomi"
+    keys = "glossary.renzoku-uchikomi"></topicref>
+<topicref keyref = "gloss.renzokuwaza" keys = "glossary.renzokuwaza"></topicref>
+<topicref keyref = "gloss.ritsurei" keys = "glossary.ritsurei"></topicref>
+<topicref keyref = "gloss.rokkyo" keys = "glossary.rokkyo"></topicref>
+<topicref keyref = "gloss.roku" keys = "glossary.roku"></topicref>
+<topicref keyref = "gloss.ryo" keys = "glossary.ryo"></topicref>
+<topicref keyref = "gloss.ryotedori" keys = "glossary.ryotedori"></topicref>
+<topicref keyref = "gloss.ryu" keys = "glossary.ryu"></topicref>
+<topicref keyref = "gloss.ryutai" keys = "glossary.ryutai"></topicref></topicref>
+<topicref href = "letter-group-S.dita">
+<topicref keyref = "gloss.sabaki" keys = "glossary.sabaki"></topicref>
+<topicref keyref = "gloss.sake" keys = "glossary.sake"></topicref>
+<topicref keyref = "gloss.samurai" keys = "glossary.samurai"></topicref>
+<topicref keyref = "gloss.san" keys = "glossary.san"></topicref>
+<topicref keyref = "gloss.sankajo" keys = "glossary.sankajo"></topicref>
+<topicref keyref = "gloss.sankaku" keys = "glossary.sankaku"></topicref>
+<topicref keyref = "gloss.sankakutai" keys = "glossary.sankakutai"></topicref>
+<topicref keyref = "gloss.sankyo" keys = "glossary.sankyo"></topicref>
+<topicref keyref = "gloss.sannindori-sanningake"
+    keys = "glossary.sannindori-sanningake"></topicref>
+<topicref keyref = "gloss.sanpo" keys = "glossary.sanpo"></topicref>
+<topicref keyref = "gloss.satori" keys = "glossary.satori"></topicref>
+<topicref keyref = "gloss.saya" keys = "glossary.saya"></topicref>
+<topicref keyref = "gloss.seika-no-itten"
+    keys = "glossary.seika-no-itten"></topicref>
+<topicref keyref = "gloss.seiki" keys = "glossary.seiki"></topicref>
+<topicref keyref = "gloss.seiza" keys = "glossary.seiza"></topicref>
+<topicref keyref = "gloss.sempai" keys = "glossary.sempai"></topicref>
+<topicref keyref = "gloss.sen-no-sen" keys = "glossary.sen-no-sen"></topicref>
+<topicref keyref = "gloss.sensei" keys = "glossary.sensei"></topicref>
+<topicref keyref = "gloss.sensen-no-sen" keys = "glossary.sensen-no-sen"></topicref>
+<topicref keyref = "gloss.seppuku" keys = "glossary.seppuku"></topicref>
+<topicref keyref = "gloss.shi" keys = "glossary.shi"></topicref>
+<topicref keyref = "gloss.shiai" keys = "glossary.shiai"></topicref>
+<topicref keyref = "gloss.shiatsu" keys = "glossary.shiatsu"></topicref>
+<topicref keyref = "gloss.shichi" keys = "glossary.shichi"></topicref>
+<topicref keyref = "gloss.shidoin" keys = "glossary.shidoin"></topicref>
+<topicref keyref = "gloss.shihan" keys = "glossary.shihan"></topicref>
+<topicref keyref = "gloss.shiho" keys = "glossary.shiho"></topicref>
+<topicref keyref = "gloss.shihonage" keys = "glossary.shihonage"></topicref>
+<topicref keyref = "gloss.shikaku-1" keys = "glossary.shikaku-1"></topicref>
+<topicref keyref = "gloss.shikaku-2" keys = "glossary.shikaku-2"></topicref>
+<topicref keyref = "gloss.shiki" keys = "glossary.shiki"></topicref>
+<topicref keyref = "gloss.shikko" keys = "glossary.shikko"></topicref>
+<topicref keyref = "gloss.shime" keys = "glossary.shime"></topicref>
+<topicref keyref = "gloss.shin" keys = "glossary.shin"></topicref>
+<topicref keyref = "gloss.shinai" keys = "glossary.shinai"></topicref>
+<topicref keyref = "gloss.Shindo-Musoryu"
+    keys = "glossary.Shindo-Musoryu"></topicref>
+<topicref keyref = "gloss.shinken" keys = "glossary.shinken"></topicref>
+<topicref keyref = "gloss.Shinshin-toitsu"
+    keys = "glossary.Shinshin-toitsu"></topicref>
+<topicref keyref = "gloss.shinto" keys = "glossary.shinto"></topicref>
+<topicref keyref = "gloss.shinzen" keys = "glossary.shinzen"></topicref>
+<topicref keyref = "gloss.shisei" keys = "glossary.shisei"></topicref>
+<topicref keyref = "gloss.shite" keys = "glossary.shite"></topicref>
+<topicref keyref = "gloss.shizentai" keys = "glossary.shizentai"></topicref>
+<topicref keyref = "gloss.sho" keys = "glossary.sho"></topicref>
+<topicref keyref = "gloss.shodan" keys = "glossary.shodan"></topicref>
+<topicref keyref = "gloss.shodo" keys = "glossary.shodo"></topicref>
+<topicref keyref = "gloss.Shodokan" keys = "glossary.Shodokan"></topicref>
+<topicref keyref = "gloss.shomen-1" keys = "glossary.shomen-1"></topicref>
+<topicref keyref = "gloss.shomen-2" keys = "glossary.shomen-2"></topicref>
+<topicref keyref = "gloss.shomen-ni-rei" keys = "glossary.shomen-ni-rei"></topicref>
+<topicref keyref = "gloss.shomenuchi" keys = "glossary.shomenuchi"></topicref>
+<topicref keyref = "gloss.shoshinsha" keys = "glossary.shoshinsha"></topicref>
+<topicref keyref = "gloss.shuto" keys = "glossary.shuto"></topicref>
+<topicref keyref = "gloss.sode" keys = "glossary.sode"></topicref>
+<topicref keyref = "gloss.sodedori" keys = "glossary.sodedori"></topicref>
+<topicref keyref = "gloss.sodeguchidori" keys = "glossary.sodeguchidori"></topicref>
+<topicref keyref = "gloss.soto" keys = "glossary.soto"></topicref>
+<topicref keyref = "gloss.sotodeshi" keys = "glossary.sotodeshi"></topicref>
+<topicref keyref = "gloss.sotokaiten" keys = "glossary.sotokaiten"></topicref>
+<topicref keyref = "gloss.sotouke" keys = "glossary.sotouke"></topicref>
+<topicref keyref = "gloss.suburi" keys = "glossary.suburi"></topicref>
+<topicref keyref = "gloss.suki" keys = "glossary.suki"></topicref>
+<topicref keyref = "gloss.sumi" keys = "glossary.sumi"></topicref>
+<topicref keyref = "gloss.sumikiri" keys = "glossary.sumikiri"></topicref>
+<topicref keyref = "gloss.sumimasen" keys = "glossary.sumimasen"></topicref>
+<topicref keyref = "gloss.sumo" keys = "glossary.sumo"></topicref>
+<topicref keyref = "gloss.suri" keys = "glossary.suri"></topicref>
+<topicref keyref = "gloss.sutemiwaza" keys = "glossary.sutemiwaza"></topicref>
+<topicref keyref = "gloss.suwariwaza" keys = "glossary.suwariwaza"></topicref>
+<topicref keyref = "gloss.suwate" keys = "glossary.suwate"></topicref></topicref>
+<topicref href = "letter-group-T.dita">
+<topicref keyref = "gloss.tachi-1" keys = "glossary.tachi-1"></topicref>
+<topicref keyref = "gloss.tachi-2" keys = "glossary.tachi-2"></topicref>
+<topicref keyref = "gloss.tachidori" keys = "glossary.tachidori"></topicref>
+<topicref keyref = "gloss.tachiwaza" keys = "glossary.tachiwaza"></topicref>
+<topicref keyref = "gloss.tai" keys = "glossary.tai"></topicref>
+<topicref keyref = "gloss.taijutsu" keys = "glossary.taijutsu"></topicref>
+<topicref keyref = "gloss.tai-no-henko" keys = "glossary.tai-no-henko"></topicref>
+<topicref keyref = "gloss.tai-no-tenkan" keys = "glossary.tai-no-tenkan"></topicref>
+<topicref keyref = "gloss.taisabaki" keys = "glossary.taisabaki"></topicref>
+<topicref keyref = "gloss.taiso" keys = "glossary.taiso"></topicref>
+<topicref keyref = "gloss.takemusu" keys = "glossary.takemusu"></topicref>
+<topicref keyref = "gloss.takemusu-aiki" keys = "glossary.takemusu-aiki"></topicref>
+<topicref keyref = "gloss.tameshi" keys = "glossary.tameshi"></topicref>
+<topicref keyref = "gloss.tameshigiri" keys = "glossary.tameshigiri"></topicref>
+<topicref keyref = "gloss.tameshiware" keys = "glossary.tameshiware"></topicref>
+<topicref keyref = "gloss.tanbo" keys = "glossary.tanbo"></topicref>
+<topicref keyref = "gloss.tanden" keys = "glossary.tanden"></topicref>
+<topicref keyref = "gloss.taninzugake" keys = "glossary.taninzugake"></topicref>
+<topicref keyref = "gloss.tanren" keys = "glossary.tanren"></topicref>
+<topicref keyref = "gloss.tanto-tanken" keys = "glossary.tanto-tanken"></topicref>
+<topicref keyref = "gloss.tantodori" keys = "glossary.tantodori"></topicref>
+<topicref keyref = "gloss.tao-dao" keys = "glossary.tao-dao"></topicref>
+<topicref keyref = "gloss.tatami" keys = "glossary.tatami"></topicref>
+<topicref keyref = "gloss.tate" keys = "glossary.tate"></topicref>
+<topicref keyref = "gloss.te" keys = "glossary.te"></topicref>
+<topicref keyref = "gloss.tegatana" keys = "glossary.tegatana"></topicref>
+<topicref keyref = "gloss.tekubi" keys = "glossary.tekubi"></topicref>
+<topicref keyref = "gloss.tekubiosae" keys = "glossary.tekubiosae"></topicref>
+<topicref keyref = "gloss.tenchinage" keys = "glossary.tenchinage"></topicref>
+<topicref keyref = "gloss.tenkan" keys = "glossary.tenkan"></topicref>
+<topicref keyref = "gloss.tettsui" keys = "glossary.tettsui"></topicref>
+<topicref keyref = "gloss.to" keys = "glossary.to"></topicref>
+<topicref keyref = "gloss.tobigeri" keys = "glossary.tobigeri"></topicref>
+<topicref keyref = "gloss.tobikoshi" keys = "glossary.tobikoshi"></topicref>
+<topicref keyref = "gloss.tomauchi" keys = "glossary.tomauchi"></topicref>
+<topicref keyref = "gloss.tori" keys = "glossary.tori"></topicref>
+<topicref keyref = "gloss.torifune" keys = "glossary.torifune"></topicref>
+<topicref keyref = "gloss.tsuba" keys = "glossary.tsuba"></topicref>
+<topicref keyref = "gloss.tsugiashi" keys = "glossary.tsugiashi"></topicref>
+<topicref keyref = "gloss.tsuka" keys = "glossary.tsuka"></topicref>
+<topicref keyref = "gloss.tsuki" keys = "glossary.tsuki"></topicref></topicref>
+<topicref href = "letter-group-U.dita">
+<topicref keyref = "gloss.uchi-1" keys = "glossary.uchi-1"></topicref>
+<topicref keyref = "gloss.uchi-2" keys = "glossary.uchi-2"></topicref>
+<topicref keyref = "gloss.uchideshi" keys = "glossary.uchideshi"></topicref>
+<topicref keyref = "gloss.uchikaiten" keys = "glossary.uchikaiten"></topicref>
+<topicref keyref = "gloss.uchikata" keys = "glossary.uchikata"></topicref>
+<topicref keyref = "gloss.uchikomi" keys = "glossary.uchikomi"></topicref>
+<topicref keyref = "gloss.uchiuke" keys = "glossary.uchiuke"></topicref>
+<topicref keyref = "gloss.ude" keys = "glossary.ude"></topicref>
+<topicref keyref = "gloss.udekimenage" keys = "glossary.udekimenage"></topicref>
+<topicref keyref = "gloss.udenobashi" keys = "glossary.udenobashi"></topicref>
+<topicref keyref = "gloss.udeosae" keys = "glossary.udeosae"></topicref>
+<topicref keyref = "gloss.uke-1" keys = "glossary.uke-1"></topicref>
+<topicref keyref = "gloss.uke-2" keys = "glossary.uke-2"></topicref>
+<topicref keyref = "gloss.ukemi" keys = "glossary.ukemi"></topicref>
+<topicref keyref = "gloss.undo" keys = "glossary.undo"></topicref>
+<topicref keyref = "gloss.ura" keys = "glossary.ura"></topicref>
+<topicref keyref = "gloss.uraken" keys = "glossary.uraken"></topicref>
+<topicref keyref = "gloss.ushiro" keys = "glossary.ushiro"></topicref>
+<topicref keyref = "gloss.ushirogeri" keys = "glossary.ushirogeri"></topicref>
+<topicref keyref = "gloss.ushiro-kiriotoshi"
+    keys = "glossary.ushiro-kiriotoshi"></topicref>
+<topicref keyref = "gloss.ushiro-ukemi" keys = "glossary.ushiro-ukemi"></topicref>
+<topicref keyref = "gloss.ushirowaza" keys = "glossary.ushirowaza"></topicref></topicref>
+<topicref href = "letter-group-W.dita">
+<topicref keyref = "gloss.waka-sensei" keys = "glossary.waka-sensei"></topicref>
+<topicref keyref = "gloss.waki" keys = "glossary.waki"></topicref>
+<topicref keyref = "gloss.wakizashi" keys = "glossary.wakizashi"></topicref>
+<topicref keyref = "gloss.ware" keys = "glossary.ware"></topicref>
+<topicref keyref = "gloss.waza" keys = "glossary.waza"></topicref></topicref>
+<topicref href = "letter-group-Y.dita">
+<topicref keyref = "gloss.yame" keys = "glossary.yame"></topicref>
+<topicref keyref = "gloss.yang" keys = "glossary.yang"></topicref>
+<topicref keyref = "gloss.yari" keys = "glossary.yari"></topicref>
+<topicref keyref = "gloss.yawara" keys = "glossary.yawara"></topicref>
+<topicref keyref = "gloss.yin" keys = "glossary.yin"></topicref>
+<topicref keyref = "gloss.yo" keys = "glossary.yo"></topicref>
+<topicref keyref = "gloss.yoko" keys = "glossary.yoko"></topicref>
+<topicref keyref = "gloss.yokogeri" keys = "glossary.yokogeri"></topicref>
+<topicref keyref = "gloss.yokogiri" keys = "glossary.yokogiri"></topicref>
+<topicref keyref = "gloss.yokomen" keys = "glossary.yokomen"></topicref>
+<topicref keyref = "gloss.yokomenuchi" keys = "glossary.yokomenuchi"></topicref>
+<topicref keyref = "gloss.yoko-ukemi" keys = "glossary.yoko-ukemi"></topicref>
+<topicref keyref = "gloss.yon" keys = "glossary.yon"></topicref>
+<topicref keyref = "gloss.yonkajo" keys = "glossary.yonkajo"></topicref>
+<topicref keyref = "gloss.yonkyo" keys = "glossary.yonkyo"></topicref>
+<topicref keyref = "gloss.Yoseikan" keys = "glossary.Yoseikan"></topicref>
+<topicref keyref = "gloss.Yoshinkan" keys = "glossary.Yoshinkan"></topicref>
+<topicref keyref = "gloss.yudansha" keys = "glossary.yudansha"></topicref></topicref>
+<topicref href = "letter-group-Z.dita">
+<topicref keyref = "gloss.za" keys = "glossary.za"></topicref>
+<topicref keyref = "gloss.Zaidan-Hojin-Aikikai"
+    keys = "glossary.Zaidan-Hojin-Aikikai"></topicref>
+<topicref keyref = "gloss.zanshin" keys = "glossary.zanshin"></topicref>
+<topicref keyref = "gloss.zarei" keys = "glossary.zarei"></topicref>
+<topicref keyref = "gloss.zazen" keys = "glossary.zazen"></topicref>
+<topicref keyref = "gloss.zen" keys = "glossary.zen"></topicref>
+<topicref keyref = "gloss.zengo" keys = "glossary.zengo"></topicref>
+<topicref keyref = "gloss.zori" keys = "glossary.zori"></topicref></topicref></topicref></map>
