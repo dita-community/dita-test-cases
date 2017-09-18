@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_adaptation">
+   <glossterm>Adaptation</glossterm>
+   <glossdef>
+      <p>See
+                    <term keyref="gloss_derivative_work"/>.</p>
+   </glossdef>
+</glossentry>

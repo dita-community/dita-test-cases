@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_biological_resources">
+   <glossterm>Biological Resources</glossterm>
+   <glossdef>
+      <p>As defined in Article 2 of the <i>Convention on Biological Diversity</i> (1992), this term “includes genetic resources, organisms or parts thereof, populations, or any other biotic component of ecosystems with actual or potential use or value for humanity.” Genetic resources form, therefore, one category of biological resources.</p>
+      <p>Article 1 of the <i>Decision 391 on Access to Genetic Resources of Andean Community </i>(1996) defines the term as “individuals, organisms or parts of them, populations or any biotic component of value or of real or potential use that contains a genetic resource or its by-products.”</p>
+   </glossdef>
+   <glossBody>
+      <glossUsage>
+         <div>
+            <p>
+               <b>Biological Material</b>
+            </p>
+            <p>The term is defined in the European Union Directive on the legal protection of biotechnological inventions as “material containing genetic information and capable of reproducing itself or being reproduced in a biological system.” (Article 2.1(a) of the Directive 98/44/EC of the European Parliament and of the Council of 6 July 1998 on the legal protection of biotechnological inventions.) According to the <i>United States Code of Federal Regulations</i>, this term shall include “material that is capable of self-replication either directly or indirectly.” (Section 1.801 of Chapter 37 of the Code of Federal Regulations (CFR) and USPTO Manual of Patent Examining Procedure (MPEP): 2403.01.)</p>
+         </div>
+      </glossUsage>
+   </glossBody>
+</glossentry>

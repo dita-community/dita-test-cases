@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_material_transfer_agreements">
+   <glossterm>Material Transfer Agreements</glossterm>
+   <glossdef>
+      <p>Material Transfer Agreements (MTAs) are agreements in commercial and academic research partnerships involving the transfer of biological materials, such as germplasm, microorganisms and cell cultures to exchange of materials from a provider to a recipient and setting conditions for access to public germplasm collections, seed banks or in situ genetic resources.</p>
+   </glossdef>
+</glossentry>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_prior_art">
+   <glossterm>Prior Art</glossterm>
+   <glossdef>
+      <p>Prior art is, in general, all the knowledge that existed prior to the relevant filing or priority date of a patent application, whether it existed by way of written and oral disclosure. In some legal instruments there is a differentiation between printed publications, oral disclosures and prior use and where the publications or disclosure occurred. (, WIPO Publication No. 489 (E), 2008, p. 19)</p>
+      <p>For the purposes of the PCT, prior art is defined by Rule 33.1 of the PCT Regulations as “everything which has been made available to the public anywhere in the world by means of written disclosure (including drawings and other illustrations) and which is capable of being of assistance in determining that the claimed invention is or is not new and that it does or does not involve an inventive step (i.e. that it is or is not obvious), provided that the making available to the public occurred prior to the international filing date.”</p>
+      <p>In Europe, Article 54(2) of the European Patent Convention (EPC) defines the equivalent term “the state of the art”. Section 35 of the United States Code 102 defines prior art indirectly through the concept of “novelty”. Section 29 of Japanese Patent Law indirectly defines “prior art”.</p>
+   </glossdef>
+</glossentry>

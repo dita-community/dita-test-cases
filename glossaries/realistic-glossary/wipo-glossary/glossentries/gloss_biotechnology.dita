@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_biotechnology">
+   <glossterm>Biotechnology</glossterm>
+   <glossdef>
+      <p>Article 2 of the <i>Convention on Biological Diversity</i> (1992) defines the term as “any technological application that uses biological systems, living organisms, or derivatives thereof, to make or modify products or processes for specific use.” The <i>Nagoya Protocol on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from their Utilization to the Convention on Biological Diversity</i> (2010) uses the same definition in its Article 2.</p>
+      <p>The term “modern biotechnology” is also defined in Article 3 of the <i>Cartagena Protocol on Biosafety to the Convention on Biological Diversity</i>, adopted in 2000, as “the application of: a) in vitro nucleic acid techniques, including recombinant deoxyribonucleic acid (DNA) and direct injection of nucleic acid into cells or organelles, or b) fusion of cells beyond the taxonomic family, that overcome natural physiological reproductive or recombination barriers and that are not techniques used in traditional breeding and selection.”</p>
+   </glossdef>
+</glossentry>

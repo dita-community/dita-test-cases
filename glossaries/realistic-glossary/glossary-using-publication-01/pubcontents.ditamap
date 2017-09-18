@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Publication Contents Map</title>
+  <topicgroup>
+    <topicref href="topics/glossary-using-publication-01.dita">
+      <topicref href="topics/term_references.dita" keys="term-refs-first"/>
+      <topicref href="topics/more_term_references.dita" keys="more-term-refs"/>
+      <topicref href="topics/term_refs_in_a_hierarchy.dita" keys="branch-root-01">
+        <topicref href="topics/subordinate_topic_one.dita" keys="sub-topic-01"/>
+      </topicref>
+      <topicref href="topics/term_refs_in_a_chunk.dita" keys="chunk-root-01" chunk="to-content select-branch">
+        <topicref href="topics/subordinate_topic_two.dita" keys="sub-topic-02"/>
+      </topicref>
+      <mapref href="../wipo-glossary/wipo-glossentries-navigation.ditamap"/>
+    </topicref>
+  </topicgroup>
+</map>

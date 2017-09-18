@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_public_domain">
+   <glossterm>Public Domain</glossterm>
+   <glossdef>
+      <p>In a copyright context, a work is considered to be in the public domain if there is no legal restriction for its use by the public.</p>
+      <p>Black’s Law Dictionary defines the public domain as “the universe of inventions and creative works that are not protected by intellectual-property rights and are therefore available for anyone to use without charge. When copyright, trademark, patent, or trade-secret rights are lost or expire, the intellectual property they had protected becomes part of the public domain and can be appropriated by anyone without liability for infringement.” (Black's Law Dictionary 1027 (8th ed. 2005))</p>
+      <p>The public domain has been defined in the field of copyright and related rights as “the scope of those works and objects of related rights that can be used and exploited by everyone without authorization, and without the obligation to pay remuneration to the owners of copyright and related rights concerned – as a rule because of the expiry of their term of protection, or due to the absence of an international treaty ensuring protection for them in the given country.” (WIPO Guide to the Copyright and Related Rights Treaties by WIPO and Glossary of Copyright and Related Rights Terms)</p>
+      <p>The public domain in relation to patent law consists of knowledge, ideas and innovations over which no person or organization has any proprietary rights. Knowledge, ideas and innovations are in the public domain if there are no legal restrictions of use (varying in different legislations and forming, therefore, different public domains), after expiration of patents (regularly 20 years), in consequence of non renewal, after revocation and after invalidation of patents. (See document SCP/13/5.)</p>
+   </glossdef>
+</glossentry>

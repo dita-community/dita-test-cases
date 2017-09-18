@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_cultural_property">
+   <glossterm>Cultural Property</glossterm>
+   <glossdef>
+      <p>Cultural property is defined in the UNESCO <i>Convention on the Means of Prohibiting and Preventing the Illicit Import, Export and Transfer of Ownership of Cultural Property</i> (1970) as property which, on religious or secular grounds, is specifically designated by each State as being of importance for archaeology, prehistory, history, literature, art or science and which belongs to the following categories:</p>
+      <ul>
+         <li>rare collections and specimens of fauna, flora, minerals and anatomy, and objects of paleontological interest;</li>
+         <li>property relating to history, including the history of science and technology and military and social history, to the life of national leaders, thinkers, scientists and artists and to events of national importance;</li>
+         <li>products of archaeological excavations (including regular and clandestine) or of archaeological discoveries;</li>
+         <li>elements of artistic or historical monuments or archaeological sites which have been dismembered;</li>
+         <li>antiquities more than one hundred years old, such as inscriptions, coins and engraved seals;</li>
+         <li>objects of ethnological interest; (g) property of artistic interest, such as:
+<ul>
+               <li>pictures, paintings and drawings produced entirely by hand on any support and in any material (excluding industrial designs and manufactured articles decorated by hand);</li>
+               <li>original works of statuary art and sculpture in any material;</li>
+               <li>original engravings, prints and lithographs;</li>
+               <li>original artistic assemblages and montages in any material;</li>
+            </ul>
+         </li>
+         <li>rare manuscripts and incunabula, old books, documents and publications of special interest (historical, artistic, scientific, literary, etc.) singly or in collections</li>
+         <li>postage, revenue and similar stamps, singly or in collections;</li>
+         <li>archives, including sound, photographic and cinematographic archives;</li>
+         <li>articles of furniture more than one hundred years old and old musical instruments.</li>
+      </ul>
+   </glossdef>
+</glossentry>

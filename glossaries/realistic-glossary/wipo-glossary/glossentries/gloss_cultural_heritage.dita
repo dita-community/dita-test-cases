@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_cultural_heritage">
+   <glossterm>Cultural Heritage</glossterm>
+   <glossdef>
+      <p>For purposes of the UNESCO <i>Convention concerning the Protection of the World Cultural and Natural Heritage</i> (1972), the following is considered as cultural heritage, as outlined in Article 1:</p>
+      <ul>
+         <li>monuments: architectural works, works of monumental sculpture and painting, elements or structures of an archaeological nature, inscriptions, cave dwellings and combinations of features, which are of outstanding universal value from the point of view of history, art or science;</li>
+         <li>groups of buildings: groups of separate or connected buildings which, because of their architecture, their homogeneity or their place in the landscape, are of outstanding universal value from the point of view of history, art or science;</li>
+         <li>sites: works of man or the combined works of nature and of man, and areas including archaeological sites which are of outstanding universal value from the historical, aesthetic, ethnological or anthropological points of view.</li>
+      </ul>
+   </glossdef>
+</glossentry>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_jqt_tff_gbb">
+    <title>Glossary-Using Publication 01</title>
+    <body>
+        <p>This is a publication that uses a separately-managed glossary. It serves to demonstrate
+      and exercise the various DITA glossary-related features.</p>
+    <p>The publication includes the master glossary navigation map directly, rather than making its
+      own copy of the navigation topicrefs. This is the simplest approach to glossary reuse.</p>
+    </body>
+</topic>

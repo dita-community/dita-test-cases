@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_minimum_documentation_pct">
+   <glossterm>Minimum Documentation (PCT)</glossterm>
+   <glossdef>
+      <p>According to the , the Minimum documentation could be described as “the documents in which the International Searching Authority must search for relevant prior art. It also applies to International Preliminary Examining Authorities for examination purposes. The documentation comprises certain published patent documents and non-patent literature contained in a list published by the International Bureau. The Minimum Documentation is set out by the PCT Regulations Rule 34“.</p>
+      <p>In the PCT International Search Guidelines, the international search minimum documentation is defined as “a document collection that is systematically arranged (or otherwise systematically accessible) for search purposes according to the subject matter content of the documents, which are primarily patent documents supplemented by a number of articles from periodicals and other items of non-patent literature”. (Para IX-2.1, PCT International Search Guidelines (as in force from 18 September 1998))</p>
+      <p>Since 2003, some traditional knowledge documentation is included in the non-patent literature part of the PCT Minimum Documentation.</p>
+   </glossdef>
+</glossentry>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_disclosure_requirements">
+   <glossterm>Disclosure Requirements</glossterm>
+   <glossdef>
+      <p>Disclosure is part of the core rationale of patent law. Patent law imposes a general obligation on patent applicants, as referred to in Article 5 of the  (PCT), “to disclose the invention in a manner sufficiently clear and complete for the invention to be carried out by a person skilled in the art”.</p>
+      <p>However, “disclosure requirements” is also used as a general term for reforms made to patent law at the regional or national level, and proposals to reform international patent law, which would specifically require patent applicants to disclose several categories of information concerning traditional knowledge and/or genetic resources when these are used in developing the invention claimed in a patent or patent application. (For further information, see document , Annex I, pages 7 to 11 and WIPO, TK Division, database on national and regional legislative measures in patent law.)</p>
+      <p>Three broad functions have been considered for disclosure methods relating to genetic resources and traditional knowledge:</p>
+      <ul>
+         <li>to disclose any genetic resources/traditional knowledge actually used in the course of developing the invention (a descriptive or transparency function, pertaining to the genetic resources/traditional knowledge itself and its relationship with the invention);</li>
+         <li>to disclose the actual source of the genetic resources/traditional knowledge (a disclosure function, relating to where the genetic resources/traditional knowledge was obtained) – this may concern the country of origin (to clarify under which jurisdiction the source material was obtained), or a more specific location (for instance, to ensure that genetic resources can be accessed, so as to ensure the invention can be duplicated or reproduced); and</li>
+         <li>to provide an undertaking or evidence of prior informed consent (a compliance function, relating to the legitimacy of the acts of access to genetic resources/traditional knowledge source material) - this may entail showing that genetic resources/traditional knowledge used in the invention was obtained and used in compliance with applicable laws in the country of origin or in compliance with the terms of any specific agreement recording prior informed consent; or showing that the act of applying for a patent was in itself undertaken in accordance with prior informed consent. (WIPO Technical Study on Patent Disclosure Requirements related to Genetic Resources and Traditional Knowledge, WIPO Publication No. 786(E), p. 65) </li>
+      </ul>
+   </glossdef>
+</glossentry>

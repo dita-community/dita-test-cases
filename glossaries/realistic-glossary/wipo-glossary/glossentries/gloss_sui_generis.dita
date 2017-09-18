@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_sui_generis">
+   <glossterm>Sui Generis</glossterm>
+   <glossdef>
+      <p>Black’s Law Dictionary defines “<i>sui generis</i>” as “<i>[Latin “of its own kind”]</i> of its own kind or class; unique or peculiar. The term is used in intellectual property law to describe a regime designed to protect rights that fall outside the traditional patent, trademark, copyright, and trade-secret doctrines. For example, a database may not be protected by copyright law if its content is not original, but it could be protected by a <i>sui generis</i> statute designed for that purpose.”</p>
+      <p>A <i>sui generis</i> system is a system specifically designed to address the needs and concerns of a particular issue. There are already several examples of sui generis intellectual property rights such as plant breeders’ rights—as reflected in the International Convention on the Protection of New Varieties of Plants, 1991 (“the UPOV Convention”)—and the intellectual property protection of integrated circuits—as reflected in the Treaty on Intellectual Property in respect of Integrated circuits, 1989 (“The Washington Treaty”), among others.</p>
+   </glossdef>
+</glossentry>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_international_patent_classification">
+   <glossterm>International Patent Classification</glossterm>
+   <glossdef>
+      <p>The International Patent Classification (IPC) is “a hierarchical system in which the whole area of technology is divided into a range of sections, classes, subclasses and groups. The Classification is a language independent tool indispensable for the retrieval of patent documents in the search for ‘prior art’.” (see WIPO )</p>
+   </glossdef>
+   <glossBody>
+      <glossUsage>
+         <div>
+            <p>
+               <b>Traditional Knowledge Resource Classification</b>
+            </p>
+            <p>The Traditional Knowledge Resource Classification (TKRC) is an innovative structured classification system for the purpose of systematic arrangement, dissemination and retrieval which identifies about 5,000 sub–groups of traditional knowledge against one group in IPC. The TKRC has been developed for the Indian Systems of medicine (Ayurveda, Unani, Siddha and Yoga).</p>
+            <p>The TKRC has gained international recognition and linked with the IPC. It is likely to facilitate greater awareness on the traditional knowledge systems by leveraging the modern system of dissemination i.e. Information Technology, in particular, the Internet and Web technologies. It is anticipated that TKRC structure and details will create interest in those countries that are concerned about prevention of grant of wrong patents for non-original discoveries relating to traditional knowledge systems. (More information is available at )</p>
+         </div>
+      </glossUsage>
+   </glossBody>
+</glossentry>

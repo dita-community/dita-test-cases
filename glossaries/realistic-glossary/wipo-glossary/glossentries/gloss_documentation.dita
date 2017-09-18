@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_documentation">
+   <glossterm>Documentation</glossterm>
+   <glossdef>
+      <p>The Oxford English Dictionary defines “documentation” as the accumulation, classification and dissemination of information; the material as collected. Documenting traditional knowledge and traditional cultural expressions may include recording them, writing them down, taking pictures of them or filming them—anything that involves recording them in a way that preserves them and could make them available for others.</p>
+      <p>It is different from the traditional ways of preserving and passing on traditional knowledge and traditional cultural expressions within the community. (Summary and Introduction to the Toolkit for Managing Intellectual Property when Documenting Traditional Knowledge and Genetic Resources, document .)</p>
+   </glossdef>
+   <glossBody>
+      <glossUsage>
+         <div>
+            <p>
+               <b>Registers of Traditional Knowledge</b>
+            </p>
+            <p>Registers can be analyzed from many different perspectives. According to their legal nature, registers can be termed either declarative or constitutive, depending upon the system under which they are established.</p>
+            <p>A declaratory regime relating to traditional knowledge recognizes that the rights over traditional knowledge do not arise due to any act of government but rather are based upon pre-existing rights, including ancestral, customary, moral and human rights. In the case of declarative registers, although registration does not affect the existence of such rights, it may be used to assist patent officials in analyzing prior art, and to support challenges to patents granted which may have directly or indirectly made use of traditional knowledge. In circumstances where these registers are organized in an electronic form and available through the Internet, it is important to establish a mechanism that ensures that entry dates of traditional knowledge are valid when carrying out searches related to novelty and inventiveness. A third function that these registers may have is to facilitate benefit-sharing between users and providers.</p>
+            <p>Constitutive registers form part of a legal regime which seeks to grant rights over traditional knowledge. Constitutive registers will record the granting of rights (i.e. exclusive property rights) to the traditional knowledge holder as a means to ensure their moral, economic and legal interests are protected and recognized. Most model constitutive registers are conceived as public in nature, run by a national entity and under a law or regulation which clearly determines how valid registration of traditional knowledge can take place and be formally recognized and accepted. As such they may be more controversial and difficult to design and face some critical challenges and questions in moving from concept to practice. (The Role of Registers &amp; Databases in the Protection of Traditional Knowledge: A Comparative Analysis. UNU-IAS Report, January 2004, p. 32)</p>
+         </div>
+      </glossUsage>
+   </glossBody>
+</glossentry>

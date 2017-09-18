@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry
+  PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="gloss_patent_cooperation_treaty_pct">
+   <glossterm>Patent Cooperation Treaty</glossterm>
+   <glossdef>
+      <p>Assists applicants in seeking patent protection internationally for their inventions, helps patent Offices with their patent granting decisions, and facilitates public access to a wealth of technical information relating to those inventions. By filing one international patent application under the PCT, applicants can simultaneously seek protection for an invention in a very large number of countries.</p>
+   </glossdef>
+  <glossBody>
+    <glossSurfaceForm>Patent Cooperation Treaty (PCT)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>PCT</glossAcronym>      
+    </glossAlt>
+  </glossBody>
+</glossentry>

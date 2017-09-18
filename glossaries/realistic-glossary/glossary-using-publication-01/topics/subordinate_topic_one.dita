@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="subordinate_topic_one">
+    <title>Subordinate Topic One</title>
+    <body>
+        <p>This is subordinate topic one, a child of the root of a branch.</p>
+      <p>Reference to term with an abbreviation ("patent cooperation treaty") using
+        <xmlelement>abbreviated-form</xmlelement>: <abbreviated-form
+        keyref="gloss_patent_cooperation_treaty_pct"/>. This would only be "first use" if the
+      criteria is "first in topic". It would not be first in branch, first in publication, or first
+      in chunk.</p>    </body>
+</topic>

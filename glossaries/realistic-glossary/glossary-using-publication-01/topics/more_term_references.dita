@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="more_term_references">
+    <title>More Term References</title>
+    <body>
+        <p>This topic has more term references. It follows <xref keyref="term-refs-first"/>.</p>
+      <p>Reference to term with an abbreviation ("patent cooperation treaty") using
+        <xmlelement>abbreviated-form</xmlelement>: <abbreviated-form
+        keyref="gloss_patent_cooperation_treaty_pct"/> This should <b>not</b> be treated as the
+      "first use" if the criteria is "first in publication". It should be treated as first use if
+      the criteria is "first in topic" or "first in chunk".</p>
+    <p>Reference to a term with local term text: <term keyref="gloss_derivative"
+      >derivative</term>.</p>
+    </body>
+</topic>
