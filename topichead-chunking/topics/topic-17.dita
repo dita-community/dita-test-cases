@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic-17">
+    <title>Root of Chunk</title>
+    <body>
+        <p>This topic is the root of a chunk where the direct-child topicrefs of the reference to
+      this topic are topicheads that then have child references to real topics.</p>
+    <p>The topicheads should be reflected in the resulting chunk.</p>
+    </body>
+</topic>

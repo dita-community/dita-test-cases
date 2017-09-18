@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_bm4_wm5_pw">
+  <title>Topichead Chunking Test 03</title>
+  <body>
+    <p>Tests the handling of topicheads that occur within a to-content chunk. </p>
+    <p>The only reasonable result is that they are reflected in the chunk as though they were
+      title-only topics.</p>
+  </body>
+</topic>
