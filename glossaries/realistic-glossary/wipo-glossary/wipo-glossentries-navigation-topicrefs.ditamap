@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>WIPO Glossary Navigation Map (Groups)</title>
+    <topicgroup toc="no">
+      <topicref href="title-only-topics/a.dita">
+        <topicref keys="gloss_access_to_genetic_resources" keyref="gloss_wipo_001"/>
+        <topicref keys="gloss_adaptation" keyref="gloss_wipo_002"/>
+      </topicref>
+      <topicref href="title-only-topics/b.dita">
+        <topicref keys="gloss_beneficiaries" keyref="gloss_wipo_003"/>
+        <topicref keys="gloss_biological_diversity" keyref="gloss_wipo_004"/>
+        <topicref keys="gloss_biological_material" keyref="gloss_wipo_005"/>
+        <topicref keys="gloss_biological_resources" keyref="gloss_wipo_006"/>
+        <topicref keys="gloss_biotechnological_inventions"
+          keyref="gloss_wipo_007"/>
+        <topicref keys="gloss_biotechnology" keyref="gloss_wipo_008"/>
+      </topicref>
+      <topicref href="title-only-topics/c.dita">
+        <topicref keys="gloss_clearing_house_mechanism" keyref="gloss_wipo_009"/>
+        <topicref keys="gloss_country_of_origin_of_genetic_resources"
+          keyref="gloss_wipo_010"/>
+        <topicref keys="gloss_cultural_diversity" keyref="gloss_wipo_011"/>
+        <topicref keys="gloss_cultural_expressions" keyref="gloss_wipo_012"/>
+        <topicref keys="gloss_cultural_heritage" keyref="gloss_wipo_013"/>
+        <topicref keys="gloss_cultural_property" keyref="gloss_wipo_014"/>
+        <topicref keys="gloss_custodian" keyref="gloss_wipo_015"/>
+        <topicref keys="gloss_customary_context" keyref="gloss_wipo_016"/>
+        <topicref keys="gloss_customary_law_and_practices"
+          keyref="gloss_wipo_017"/>
+      </topicref>
+      <topicref href="title-only-topics/d.dita">
+        <topicref keys="gloss_derivative" keyref="gloss_wipo_018"/>
+        <topicref keys="gloss_derivative_work" keyref="gloss_wipo_019"/>
+        <topicref keys="gloss_disclosure_requirements" keyref="gloss_wipo_020"/>
+        <topicref keys="gloss_documentation" keyref="gloss_wipo_021"/>
+      </topicref>
+      <topicref href="title-only-topics/e.dita">
+        <topicref keys="gloss_expressions_of_folklore" keyref="gloss_wipo_022"/>
+      </topicref>
+      <topicref href="title-only-topics/f.dita">
+        <topicref keys="gloss_folklore" keyref="gloss_wipo_023"/>
+      </topicref>
+      <topicref href="title-only-topics/g.dita">
+        <topicref keys="gloss_genetic_resources" keyref="gloss_wipo_024"/>
+      </topicref>
+      <topicref href="title-only-topics/h.dita">
+        <topicref keys="gloss_heritage_of_indigenous_peoples"
+          keyref="gloss_wipo_025"/>
+      </topicref>
+      <topicref href="title-only-topics/i.dita">
+        <topicref keys="gloss_indigenous_and_local_communities"
+          keyref="gloss_wipo_026"/>
+        <topicref keys="gloss_indigenous_knowledge" keyref="gloss_wipo_027"/>
+        <topicref keys="gloss_indigenous_peoples" keyref="gloss_wipo_028"/>
+        <topicref keys="gloss_intangible_cultural_heritage"
+          keyref="gloss_wipo_029"/>
+        <topicref keys="gloss_international_patent_classification"
+          keyref="gloss_wipo_030"/>
+      </topicref>
+      <topicref href="title-only-topics/j.dita">
+        <topicref keys="gloss_material_transfer_agreements"
+          keyref="gloss_wipo_031"/>
+        <topicref keys="gloss_minimum_documentation_pct" keyref="gloss_wipo_032"/>
+        <topicref keys="gloss_misappropriation" keyref="gloss_wipo_033"/>
+        <topicref keys="gloss_misuse" keyref="gloss_wipo_034"/>
+        <topicref keys="gloss_mutually_agreed_terms" keyref="gloss_wipo_035"/>
+      </topicref>
+      <topicref href="title-only-topics/k.dita">
+        <topicref keys="gloss_nation" keyref="gloss_wipo_036"/>
+      </topicref>
+      <topicref href="title-only-topics/l.dita">
+        <topicref keys="gloss_patent_cooperation_treaty_pct"
+          keyref="gloss_wipo_037"/>
+        <topicref keys="gloss_preservation" keyref="gloss_wipo_038"/>
+        <topicref keys="gloss_prior_informed_consent" keyref="gloss_wipo_039"/>
+        <topicref keys="gloss_prior_art" keyref="gloss_wipo_040"/>
+        <topicref keys="gloss_protection" keyref="gloss_wipo_041"/>
+        <topicref keys="gloss_providers_and_recipients_of_genetic_resources"
+          keyref="gloss_wipo_042"/>
+        <topicref keys="gloss_public_domain" keyref="gloss_wipo_043"/>
+      </topicref>
+      <topicref href="title-only-topics/s.dita">
+        <topicref keys="gloss_sacred" keyref="gloss_wipo_044"/>
+        <topicref keys="gloss_safeguarding" keyref="gloss_wipo_045"/>
+        <topicref keys="gloss_secret" keyref="gloss_wipo_046"/>
+        <topicref keys="gloss_sui_generis" keyref="gloss_wipo_047"/>
+      </topicref>
+      <topicref href="title-only-topics/t.dita">
+        <topicref keys="gloss_traditional_context" keyref="gloss_wipo_048"/>
+        <topicref keys="gloss_traditional_cultural_expressions"
+          keyref="gloss_wipo_049"/>
+        <topicref keys="gloss_traditional_knowledge" keyref="gloss_wipo_050"/>
+        <topicref keys="gloss_traditional_knowledge_associated_with_genetic_resources"
+          keyref="gloss_wipo_051"/>
+        <topicref keys="gloss_traditional_medicine" keyref="gloss_wipo_052"/>
+        <topicref keys="gloss_tradition-based_creations_and_innovations"
+          keyref="gloss_wipo_053"/>
+      </topicref>
+      <topicref href="title-only-topics/u.dita">
+        <topicref keys="gloss_united_nations_declaration_on_the_rights_of_indigenous_peoples"
+          keyref="gloss_wipo_054"/>
+        <topicref keys="gloss_use_of_traditional_cultural_expressions-traditional_knowledge"
+          keyref="gloss_wipo_055"/>
+        <topicref keys="gloss_utilization" keyref="gloss_wipo_056"/>
+      </topicref>
+      <topicref href="title-only-topics/w.dita">
+        <topicref
+          keys="gloss_wipo-unesco_model_provisions_for_national_laws_on_the_protection_of_expressions_of_folklore_against_illicit_exploitation_and_other_prejudicial_actions"
+          keyref="gloss_wipo_057"
+        />
+      </topicref>
+    </topicgroup>
+     
+</map>

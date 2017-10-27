@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="wipo-glossary">
+    <title>World Intellectual Property Organization Glossary</title>
+  <titlealts>
+    <navtitle>WIPO Glossary</navtitle>
+  </titlealts>
+  <shortdesc>Key terms related to intellectual property and genetic resources, traditional knowledge
+    and traditional cultural expressions.</shortdesc>
+    <body>
+    <p>The present online Glossary is an abridged version of document “<xref keyref="wipo-full-dictionary"/>”. The proposed
+      definitions it contains are not exhaustive or necessarily authoritative; other terms may also
+      be relevant to intellectual property and genetic resources, traditional knowledge, and
+      traditional cultural expressions and the terms selected may also be defined in other ways. The
+      selection and proposed definitions are not necessarily agreed upon by participants in the
+      Intergovernmental Committee on Intellectual Property and Genetic Resources, Traditional
+      Knowledge and Folklore.</p>
+    <p>The present online Glossary is an information document informally made available on the WIPO
+      website for information purposes only and does not constitute legal advice or should be
+      considered as an authoritative source.</p>
+    </body>
+</topic>

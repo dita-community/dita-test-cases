@@ -1,153 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map
-  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
-   <title>WIPO Glossary Resource Map</title>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>A</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_001" href="glossentries/gloss_access_to_genetic_resources.dita"/>
-      <keydef keys="gloss_wipo_002" href="glossentries/gloss_adaptation.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>B</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_003" href="glossentries/gloss_beneficiaries.dita"/>
-      <keydef keys="gloss_wipo_004" href="glossentries/gloss_biological_diversity.dita"/>
-      <keydef keys="gloss_wipo_005" href="glossentries/gloss_biological_material.dita"/>
-      <keydef keys="gloss_wipo_006" href="glossentries/gloss_biological_resources.dita"/>
-      <keydef keys="gloss_wipo_007" href="glossentries/gloss_biotechnological_inventions.dita"/>
-      <keydef keys="gloss_wipo_008" href="glossentries/gloss_biotechnology.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>C</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_009" href="glossentries/gloss_clearing_house_mechanism.dita"/>
-      <keydef keys="gloss_wipo_010"
-              href="glossentries/gloss_country_of_origin_of_genetic_resources.dita"/>
-      <keydef keys="gloss_wipo_011" href="glossentries/gloss_cultural_diversity.dita"/>
-      <keydef keys="gloss_wipo_012" href="glossentries/gloss_cultural_expressions.dita"/>
-      <keydef keys="gloss_wipo_013" href="glossentries/gloss_cultural_heritage.dita"/>
-      <keydef keys="gloss_wipo_014" href="glossentries/gloss_cultural_property.dita"/>
-      <keydef keys="gloss_wipo_015" href="glossentries/gloss_custodian.dita"/>
-      <keydef keys="gloss_wipo_016" href="glossentries/gloss_customary_context.dita"/>
-      <keydef keys="gloss_wipo_017" href="glossentries/gloss_customary_law_and_practices.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>D</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_018" href="glossentries/gloss_derivative.dita"/>
-      <keydef keys="gloss_wipo_019" href="glossentries/gloss_derivative_work.dita"/>
-      <keydef keys="gloss_wipo_020" href="glossentries/gloss_disclosure_requirements.dita"/>
-      <keydef keys="gloss_wipo_021" href="glossentries/gloss_documentation.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>E</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_022" href="glossentries/gloss_expressions_of_folklore.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>F</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_023" href="glossentries/gloss_folklore.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>G</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_024" href="glossentries/gloss_genetic_resources.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>H</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_025" href="glossentries/gloss_heritage_of_indigenous_peoples.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>I</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_026"
-              href="glossentries/gloss_indigenous_and_local_communities.dita"/>
-      <keydef keys="gloss_wipo_027" href="glossentries/gloss_indigenous_knowledge.dita"/>
-      <keydef keys="gloss_wipo_028" href="glossentries/gloss_indigenous_peoples.dita"/>
-      <keydef keys="gloss_wipo_029" href="glossentries/gloss_intangible_cultural_heritage.dita"/>
-      <keydef keys="gloss_wipo_030"
-              href="glossentries/gloss_international_patent_classification.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>M</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_031" href="glossentries/gloss_material_transfer_agreements.dita"/>
-      <keydef keys="gloss_wipo_032" href="glossentries/gloss_minimum_documentation_pct.dita"/>
-      <keydef keys="gloss_wipo_033" href="glossentries/gloss_misappropriation.dita"/>
-      <keydef keys="gloss_wipo_034" href="glossentries/gloss_misuse.dita"/>
-      <keydef keys="gloss_wipo_035" href="glossentries/gloss_mutually_agreed_terms.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>N</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_036" href="glossentries/gloss_nation.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>P</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_037" href="glossentries/gloss_patent_cooperation_treaty_pct.dita"/>
-      <keydef keys="gloss_wipo_038" href="glossentries/gloss_preservation.dita"/>
-      <keydef keys="gloss_wipo_039" href="glossentries/gloss_prior_informed_consent.dita"/>
-      <keydef keys="gloss_wipo_040" href="glossentries/gloss_prior_art.dita"/>
-      <keydef keys="gloss_wipo_041" href="glossentries/gloss_protection.dita"/>
-      <keydef keys="gloss_wipo_042"
-              href="glossentries/gloss_providers_and_recipients_of_genetic_resources.dita"/>
-      <keydef keys="gloss_wipo_043" href="glossentries/gloss_public_domain.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>S</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_044" href="glossentries/gloss_sacred.dita"/>
-      <keydef keys="gloss_wipo_045" href="glossentries/gloss_safeguarding.dita"/>
-      <keydef keys="gloss_wipo_046" href="glossentries/gloss_secret.dita"/>
-      <keydef keys="gloss_wipo_047" href="glossentries/gloss_sui_generis.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>T</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_048" href="glossentries/gloss_traditional_context.dita"/>
-      <keydef keys="gloss_wipo_049"
-              href="glossentries/gloss_traditional_cultural_expressions.dita"/>
-      <keydef keys="gloss_wipo_050" href="glossentries/gloss_traditional_knowledge.dita"/>
-      <keydef keys="gloss_wipo_051"
-              href="glossentries/gloss_traditional_knowledge_associated_with_genetic_resources.dita"/>
-      <keydef keys="gloss_wipo_052" href="glossentries/gloss_traditional_medicine.dita"/>
-      <keydef keys="gloss_wipo_053"
-              href="glossentries/gloss_tradition-based_creations_and_innovations.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>U</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_054"
-              href="glossentries/gloss_united_nations_declaration_on_the_rights_of_indigenous_peoples.dita"/>
-      <keydef keys="gloss_wipo_055"
-              href="glossentries/gloss_use_of_traditional_cultural_expressions-traditional_knowledge.dita"/>
-      <keydef keys="gloss_wipo_056" href="glossentries/gloss_utilization.dita"/>
-   </topicgroup>
-   <topicgroup>
-      <topicmeta>
-         <navtitle>W</navtitle>
-      </topicmeta>
-      <keydef keys="gloss_wipo_057"
-              href="glossentries/gloss_wipo-unesco_model_provisions_for_national_laws_on_the_protection_of_expressions_of_folklore_against_illicit_exploitation_and_other_prejudicial_actions.dita"/>
-   </topicgroup>
-</map>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "technicalContent/dtd/map.dtd" [
+]>
+
+<map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+<title>WIPO Glossary Resource Map</title>
+<topicgroup><topicmeta><navtitle>A</navtitle></topicmeta>
+<keydef href="glossentries/gloss_access_to_genetic_resources.dita"
+    keys="gloss_wipo_001" type="glossentry"><topicmeta><navtitle>Access
+to Genetic Resources</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_adaptation.dita"
+    keys="gloss_wipo_002" type="glossentry"><topicmeta><navtitle>Adaptation</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>B</navtitle></topicmeta>
+<keydef href="glossentries/gloss_beneficiaries.dita"
+    keys="gloss_wipo_003" type="glossentry"><topicmeta><navtitle>Beneficiaries</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_biological_diversity.dita"
+    keys="gloss_wipo_004" type="glossentry"><topicmeta><navtitle>Biological
+Diversity</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_biological_material.dita"
+    keys="gloss_wipo_005" type="glossentry"><topicmeta><navtitle>Biological
+Material</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_biological_resources.dita"
+    keys="gloss_wipo_006" type="glossentry"><topicmeta><navtitle>Biological
+Resources</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_biotechnological_inventions.dita"
+    keys="gloss_wipo_007" type="glossentry"><topicmeta><navtitle>Biotechnological
+Inventions</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_biotechnology.dita"
+    keys="gloss_wipo_008" type="glossentry"><topicmeta><navtitle>Biotechnology</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>C</navtitle></topicmeta>
+<keydef href="glossentries/gloss_clearing_house_mechanism.dita"
+    keys="gloss_wipo_009" type="glossentry"><topicmeta><navtitle>Clearing
+House Mechanism</navtitle></topicmeta></keydef>
+<keydef
+    href="glossentries/gloss_country_of_origin_of_genetic_resources.dita"
+    keys="gloss_wipo_010" type="glossentry"><topicmeta><navtitle>Country
+of Origin of Genetic Resources</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_cultural_diversity.dita"
+    keys="gloss_wipo_011" type="glossentry"><topicmeta><navtitle>Cultural
+Diversity</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_cultural_expressions.dita"
+    keys="gloss_wipo_012" type="glossentry"><topicmeta><navtitle>Cultural
+Expressions</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_cultural_heritage.dita"
+    keys="gloss_wipo_013" type="glossentry"><topicmeta><navtitle>Cultural
+Heritage</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_cultural_property.dita"
+    keys="gloss_wipo_014" type="glossentry"><topicmeta><navtitle>Cultural
+Property</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_custodian.dita"
+    keys="gloss_wipo_015" type="glossentry"><topicmeta><navtitle>Custodian</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_customary_context.dita"
+    keys="gloss_wipo_016" type="glossentry"><topicmeta><navtitle>Customary
+Context</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_customary_law_and_practices.dita"
+    keys="gloss_wipo_017" type="glossentry"><topicmeta><navtitle>Customary
+Law and Practices</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>D</navtitle></topicmeta>
+<keydef href="glossentries/gloss_derivative.dita"
+    keys="gloss_wipo_018" type="glossentry"><topicmeta><navtitle>Derivative</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_derivative_work.dita"
+    keys="gloss_wipo_019" type="glossentry"><topicmeta><navtitle>Derivative
+Work</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_disclosure_requirements.dita"
+    keys="gloss_wipo_020" type="glossentry"><topicmeta><navtitle>Disclosure
+Requirements</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_documentation.dita"
+    keys="gloss_wipo_021" type="glossentry"><topicmeta><navtitle>Documentation</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>E</navtitle></topicmeta>
+<keydef href="glossentries/gloss_expressions_of_folklore.dita"
+    keys="gloss_wipo_022" type="glossentry"><topicmeta><navtitle>Expressions
+of Folklore</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>F</navtitle></topicmeta>
+<keydef href="glossentries/gloss_folklore.dita"
+    keys="gloss_wipo_023" type="glossentry"><topicmeta><navtitle>Folklore</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>G</navtitle></topicmeta>
+<keydef href="glossentries/gloss_genetic_resources.dita"
+    keys="gloss_wipo_024" type="glossentry"><topicmeta><navtitle>Genetic
+Resources</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>H</navtitle></topicmeta>
+<keydef href="glossentries/gloss_heritage_of_indigenous_peoples.dita"
+    keys="gloss_wipo_025" type="glossentry"><topicmeta><navtitle>Heritage
+(of Indigenous Peoples)</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>I</navtitle></topicmeta>
+<keydef
+    href="glossentries/gloss_indigenous_and_local_communities.dita"
+    keys="gloss_wipo_026" type="glossentry"><topicmeta><navtitle>Indigenous
+and Local Communities</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_indigenous_knowledge.dita"
+    keys="gloss_wipo_027" type="glossentry"><topicmeta><navtitle>Indigenous
+Knowledge</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_indigenous_peoples.dita"
+    keys="gloss_wipo_028" type="glossentry"><topicmeta><navtitle>Indigenous
+Peoples</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_intangible_cultural_heritage.dita"
+    keys="gloss_wipo_029" type="glossentry"><topicmeta><navtitle>Intangible
+Cultural Heritage</navtitle></topicmeta></keydef>
+<keydef
+    href="glossentries/gloss_international_patent_classification.dita"
+    keys="gloss_wipo_030" type="glossentry"><topicmeta><navtitle>International
+Patent Classification</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>M</navtitle></topicmeta>
+<keydef href="glossentries/gloss_material_transfer_agreements.dita"
+    keys="gloss_wipo_031" type="glossentry"><topicmeta><navtitle>Material
+Transfer Agreements</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_minimum_documentation_pct.dita"
+    keys="gloss_wipo_032" type="glossentry"><topicmeta><navtitle>Minimum
+Documentation (PCT)</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_misappropriation.dita"
+    keys="gloss_wipo_033" type="glossentry"><topicmeta><navtitle>Misappropriation</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_misuse.dita" keys="gloss_wipo_034"
+    type="glossentry"><topicmeta><navtitle>Misuse</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_mutually_agreed_terms.dita"
+    keys="gloss_wipo_035" type="glossentry"><topicmeta><navtitle>Mutually
+Agreed Terms</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>N</navtitle></topicmeta>
+<keydef href="glossentries/gloss_nation.dita" keys="gloss_wipo_036"
+    type="glossentry"><topicmeta><navtitle>Nation</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>P</navtitle></topicmeta>
+<keydef href="glossentries/gloss_patent_cooperation_treaty_pct.dita"
+    keys="gloss_wipo_037" type="glossentry"><topicmeta><navtitle>Patent
+Cooperation Treaty</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_preservation.dita"
+    keys="gloss_wipo_038" type="glossentry"><topicmeta><navtitle>Preservation</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_prior_informed_consent.dita"
+    keys="gloss_wipo_039" type="glossentry"><topicmeta><navtitle>Prior
+Informed Consent</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_prior_art.dita"
+    keys="gloss_wipo_040" type="glossentry"><topicmeta><navtitle>Prior
+Art</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_protection.dita"
+    keys="gloss_wipo_041" type="glossentry"><topicmeta><navtitle>Protection</navtitle></topicmeta></keydef>
+<keydef
+    href="glossentries/gloss_providers_and_recipients_of_genetic_resources.dita"
+    keys="gloss_wipo_042" type="glossentry"><topicmeta><navtitle>Providers
+and Recipients of Genetic Resources</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_public_domain.dita"
+    keys="gloss_wipo_043" type="glossentry"><topicmeta><navtitle>Public
+Domain</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>S</navtitle></topicmeta>
+<keydef href="glossentries/gloss_sacred.dita" keys="gloss_wipo_044"
+    type="glossentry"><topicmeta><navtitle>Sacred</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_safeguarding.dita"
+    keys="gloss_wipo_045" type="glossentry"><topicmeta><navtitle>Safeguarding</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_secret.dita" keys="gloss_wipo_046"
+    type="glossentry"><topicmeta><navtitle>Secret</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_sui_generis.dita"
+    keys="gloss_wipo_047" type="glossentry"><topicmeta><navtitle>Sui
+Generis</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>T</navtitle></topicmeta>
+<keydef href="glossentries/gloss_traditional_context.dita"
+    keys="gloss_wipo_048" type="glossentry"><topicmeta><navtitle>Traditional
+Context</navtitle></topicmeta></keydef>
+<keydef
+    href="glossentries/gloss_traditional_cultural_expressions.dita"
+    keys="gloss_wipo_049" type="glossentry"><topicmeta><navtitle>Traditional
+Cultural Expressions</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_traditional_knowledge.dita"
+    keys="gloss_wipo_050" type="glossentry"><topicmeta><navtitle>Traditional
+Knowledge</navtitle></topicmeta></keydef>
+<keydef
+    href="glossentries/gloss_traditional_knowledge_associated_with_genetic_resources.dita"
+    keys="gloss_wipo_051" type="glossentry"><topicmeta><navtitle>Traditional
+Knowledge Associated with Genetic Resources</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_traditional_medicine.dita"
+    keys="gloss_wipo_052" type="glossentry"><topicmeta><navtitle>Traditional
+Medicine</navtitle></topicmeta></keydef>
+<keydef
+    href="glossentries/gloss_tradition-based_creations_and_innovations.dita"
+    keys="gloss_wipo_053" type="glossentry"><topicmeta><navtitle>Tradition-Based
+Creations and Innovations</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>U</navtitle></topicmeta>
+<keydef
+    href="glossentries/gloss_united_nations_declaration_on_the_rights_of_indigenous_peoples.dita"
+    keys="gloss_wipo_054" type="glossentry"><topicmeta><navtitle>United
+Nations Declaration on the Rights of Indigenous Peoples</navtitle></topicmeta></keydef>
+<keydef
+    href="glossentries/gloss_use_of_traditional_cultural_expressions-traditional_knowledge.dita"
+    keys="gloss_wipo_055" type="glossentry"><topicmeta><navtitle>Use
+of Traditional Cultural Expressions/Traditional Knowledge</navtitle></topicmeta></keydef>
+<keydef href="glossentries/gloss_utilization.dita"
+    keys="gloss_wipo_056" type="glossentry"><topicmeta><navtitle>Utilization</navtitle></topicmeta></keydef></topicgroup>
+<topicgroup><topicmeta><navtitle>W</navtitle></topicmeta>
+<keydef
+    href="glossentries/gloss_wipo-unesco_model_provisions_for_national_laws_on_the_protection_of_expressions_of_folklore_against_illicit_exploitation_and_other_prejudicial_actions.dita"
+    keys="gloss_wipo_057"></keydef></topicgroup></map>

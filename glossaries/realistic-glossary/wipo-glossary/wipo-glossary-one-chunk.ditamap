@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+   <title>WIPO Glossary (One Chunk Glossary)</title>
+  <topicgroup>
+    <keydef keys="wipo-full-dictionary"
+      href="http://www.wipo.int/meetings/en/doc_details.jsp?doc_id=204299" format="html"
+      scope="external"  >
+      <topicmeta>
+        <navtitle>Glossary of Key Terms Related to Intellectual Property and Genetic Resources, Traditional Knowledge and Traditional Cultural Expressions</navtitle>
+      </topicmeta>
+    </keydef>    
+  </topicgroup>
+   <mapref href="wipo-glossentries-resource.ditamap"/>
+   <topicref keys="introduction" href="wipo-glossary.dita"/>
+   <topichead chunk="to-content" 
+    keys="glossary wipo-glossary"
+    >
+    <topicmeta><navtitle>Glossary</navtitle></topicmeta>  
+      <mapref href="wipo-glossentries-navigation-topicheads.ditamap"/>     
+   </topichead>
+</map>
