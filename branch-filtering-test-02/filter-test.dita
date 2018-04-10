@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="filter-test">
+    <title>Filtering Test</title>
+    <body>
+      <p>Not conditional</p>      
+      <p props="state(TX)">state is TX</p>
+      <p props="state(FL)">state is FL</p>
+      <p props="OFFICE_VISIT_COPAY(ACTIVE)">OFFICE_VISIT_COPAY is ACTIVE</p>
+      <p props="OFFICE_XRAY_SERVICES(INCLUDED)">OFFICE_XRAY_SERVICES is INCLUDED</p>
+      <p props="is_true(OFFICE_VISIT_COPAY_ACTIVE)">OFFICE_VISIT_COPAY_ACTIVE is true</p> 
+      <p props="is_true(PREVENTATIVE_CARE_OON_ACTIVE)">PREVENTATIVE_CARE_OON_ACTIVE is true</p>
+      
+      <!--
+        IF ((STATE = TX OR STATE = FL) AND
+       OFFICE_VISIT_COPAY.ACTIVE AND 
+       OFFICE_XRAY_SERVICES_INCLUDED)
+
+       -->
+      <p>Following included if TX or FL  
+        and OFFICE_VISIT_COPAY.ACTIVE 
+        and OFFICE_XRAY_SERVICES_INCLUDED:</p>
+      <p props="state(TX FL) 
+         OFFICE_VISIT_COPAY(ACTIVE)         
+         OFFICE_XRAY_SERVICES(INCLUDED)">
+        <codeblock>
+        IF ((STATE = TX OR STATE = FL) AND
+        OFFICE_VISIT_COPAY.ACTIVE AND 
+        OFFICE_XRAY_SERVICES_INCLUDED)
+        </codeblock>
+      </p>
+      <!-- 
+        IF (
+           ((STATE = TX OR STATE = FL) AND
+           OFFICE_VISIT_COPAY) OR 
+           ((STATE = TX OR STATE = FL) AND
+           PREVENTATIVE_CARE_OON)
+        )
+      -->
+      <p>Following included if TX or FL and OFFICE_VISIT_COPAY_ACTIVE or
+        PREVENTATIVE_CARE_OON_ACTIVE:</p>
+      <p props="state(TX FL) 
+        is_true(OFFICE_VISIT_COPAY_ACTIVE 
+                PREVENTATIVE_CARE_OON_ACTIVE)">
+        <codeblock>
+          IF (
+          ((STATE = TX OR STATE = FL) AND
+          OFFICE_VISIT_COPAY) OR 
+          ((STATE = TX OR STATE = FL) AND
+          PREVENTATIVE_CARE_OON)
+        </codeblock>
+      </p>
+      
+    </body>
+</topic>

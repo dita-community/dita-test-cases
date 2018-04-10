@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Branch Filtering Test</title>
+  <topicref href="filter-test-root.dita">
+    <topicref href="all-true.dita" chunk="to-content select-branch">
+      <ditavalref href="ditavals/case-3-tx-all-true.ditaval"/>
+      <topicref href="filter-test.dita"
+        locktitle="yes"
+        >
+        <topicmeta>
+          <navtitle>Filter Test All True</navtitle>
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="none-true.dita" chunk="to-content select-branch">
+      <ditavalref href="ditavals/case-3-tx-none-true.ditaval"/>
+      <topicref href="filter-test.dita" 
+        locktitle="yes"
+        >
+        <topicmeta>
+          <navtitle>Filter Test None True</navtitle>
+        </topicmeta>
+      </topicref>
+    </topicref>    
+    <topicref href="ovcopay-active.dita" chunk="to-content select-branch">
+      <ditavalref href="ditavals/case-3-tx-ovcopay-active.ditaval"/>
+      <topicref href="filter-test.dita"
+        locktitle="yes"
+        >
+        <topicmeta>
+          <navtitle>Filter Office Visit Copy Active</navtitle>
+        </topicmeta>
+      </topicref>
+    </topicref>    
+    <topicref href="prev-care-oon-active.dita" chunk="to-content select-branch">
+      <ditavalref href="ditavals/case-3-tx-prev-care-oon-active.ditaval"/>
+      <topicref href="filter-test.dita"
+        locktitle="yes"
+        >
+        <topicmeta>
+          <navtitle>Filter Test Preventative Care OON Active</navtitle>
+        </topicmeta>
+      </topicref>
+    </topicref>    
+  </topicref>
+</map>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="filter-test-root">
+    <title>Branch Filtering Test</title>
+    <body>
+        <p>This is a test of using DITA filtering for different types of logical combinations.</p>
+    <p>It consists of 4 branches, each of which includes the same topic to be filtered 4 different
+      ways.</p>
+    <p>The topic reflects four different condition attributes: <xmlatt>state</xmlatt>,
+        <xmlatt>OFFICE_VISIT_COPAY</xmlatt>, <xmlatt>OFFICE_XRAY_SERVICES</xmlatt>,
+        <xmlatt>is_true</xmlatt>, all specified in <xmlatt>props</xmlatt> using the generalization
+      syntax:<codeblock>&lt;p props="state(TX FL) 
+         OFFICE_VISIT_COPAY(ACTIVE)         
+         OFFICE_XRAY_SERVICES(INCLUDED)">
+&lt;p props="state(TX FL) 
+        is_true(OFFICE_VISIT_COPAY_ACTIVE 
+                PREVENTATIVE_CARE_OON_ACTIVE)"></codeblock></p>
+    <p>The branches are filtered as follows:<ul id="ul_hqs_cqn_ldb">
+        <li>All conditions true (set to "include")</li>
+        <li>No conditions true (all set to "exclude")</li>
+        <li>Office visit copay conditions true, preventative care conditions false</li>
+        <li>Office visit copay conditions false, preventative care conditions true</li>
+      </ul></p>
+    <p>The conditions themselves reflect the need to express non-trivial boolean combinations of AND
+      and OR relations between the different conditions and condition values.</p>
+    <p>Each branch includes a unique topic that reflects the DITAVAL file used in that branch.</p>
+    </body>
+</topic>

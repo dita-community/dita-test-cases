@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop action="exclude"/>
+  <prop att="state" val="TX" action="include"/>
+  <prop att="OFFICE_VISIT_COPAY" val="ACTIVE" action="include"/>
+  <prop att="OFFICE_XRAY_SERVICES" val="INCLUDED" action="include"/>
+  <prop att="is_true" val="OFFICE_VISIT_COPAY_ACTIVE" action="include"/>
+  <prop att="is_true" val="PREVENTATIVE_CARE_OON_ACTIVE" action="include"/>
+</val>

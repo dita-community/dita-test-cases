@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop action="exclude" val="false"/>
+  <prop action="exclude" att="long_nameA"/>
+  <prop action="exclude" att="long_nameB"/>
+  <prop action="include" att="long_nameA" val="true"/>
+  <prop action="include" att="long_nameB" val="false"/>
+  
+</val>

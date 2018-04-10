@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="all-true">
+    <title>All Conditions are True</title>
+    <body>
+    <fig id="fig_ms5_jwh_ldb">
+      <title>ditavals/case-3-tx-all-true.ditaval</title>
+      <codeblock><coderef href="ditavals/case-3-tx-all-true.ditaval"/></codeblock>
+    </fig>
+  </body>
+</topic>
