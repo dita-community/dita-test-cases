@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map keyscope="test-02">
+ <title>Cross-Deliverable Links Test 02</title>
+  <topicgroup>
+    <mapref href="map-a/map-a.ditamap" scope="peer" keyscope="map-a"/>
+    <mapref href="map-b/map-b.ditamap" scope="peer" keyscope="map-b"/>
+  </topicgroup>
+  <topicref href="cross-deliverable-links-test-01.dita"/>
+</map>
