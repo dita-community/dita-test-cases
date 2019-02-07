@@ -11,7 +11,7 @@
   <topic id="topic-02">
     <title>Composite 1, Topic 02</title>
     <body>
-      <p id="topic-02">This is the first second in a composite. Duplicating the topic ID just to test this case.</p>
+      <p id="xtopic-02">This is the first second in a composite. Duplicating the topic ID just to test this case.</p>
       <p>Cross reference to key "composite-01: <xref keyref="composite-01"/></p>
     </body>
   </topic>

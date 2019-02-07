@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="flagging_on_status">
+  <title>Flagging On Status</title>
+  <body>
+    <p>While the base OT does not implement flagging on the @status attribute there's no reason you
+      can't (that is, the DITA spec does not explicitly disallow it, and even if it did, so what?
+      Flagging is purely a presentation concern so the DITA standard cannot impose constraints
+      there, either as a matter of policy or as a matter of practicality).</p>
+  </body>
+</topic>

@@ -21,6 +21,7 @@
         the processor-specific equivalent). </p>
       <p>The flagging is configured in <xref keyref="flagging-ditaval"/>. See <xref
           keyref="basic-flagging-tests/flagging.ditaval"/>.</p>
+      <p>XRef with local text (should be "The first task"): <xref href="topics/task_01.dita">The first task</xref>.</p>
       <p>The <xref keyref="basic-flagging-tests"/> are simple cases.</p>
       <p>Reference to a numbered list item: "<xref href="#./li-02"/>".</p>
       <p>Reference to a step in a task: "<xref keyref="task-01/step-01"/>".</p>

@@ -53,6 +53,12 @@
       <alt-text>G2-val-beginner</alt-text>
     </startflag>
   </prop>
+  <prop att="status" action="flag" val="new" color="blue"/>
+  <prop att="status" action="flag" val="deleted" color="red" style="line-through"/>
+  <prop att="status" action="flag" val="changed" color="green"/>
+  <revprop action="flag" val="2.0" backcolor="teal" changebar="color:black;style:solid;width:0.5pt">
+   
+  </revprop>
   <revprop action="passthrough">
   </revprop>
 </val>

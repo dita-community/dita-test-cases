@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="status_flagging_within_content">
+  <title>Status Flagging Within Content</title>
+  <body>
+    <p status="new">This entire paragraph is status="new".</p>
+    <p status="deleted">This entire paragraph is status="deleted".</p>
+    <p status="changed">This entire paragraph is status="changed".</p>
+    <p>Inline change marking [<ph status="deleted">this is deleted</ph><ph status="new">this is
+        new</ph>] unchanged [<ph status="changed">changed</ph>].</p>
+    <p rev="2.0">This paragraph is marked with rev="2.0".</p>
+  </body>
+</topic>
