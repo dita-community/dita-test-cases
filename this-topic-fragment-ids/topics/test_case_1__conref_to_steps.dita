@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="test_case_1__conref_to_steps">
     <title>Test Case 1: Conref to Steps</title>
-    <shortdesc>This task contains conref to steps that use this-topic fragment identifiers to link
+    <shortdesc>This task contains a conref to steps that use this-topic fragment identifiers to link
     to among themselves.</shortdesc>
     <taskbody>
         <context>

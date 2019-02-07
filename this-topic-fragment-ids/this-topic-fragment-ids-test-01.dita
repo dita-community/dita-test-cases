@@ -29,9 +29,53 @@
           >http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/handling-xref-and-conref-within-topics.html#handling-xref-and-conref-within-topics</xref></p>
     </section>
     <section spectitle="Test Results">
-      <p>Tests performed 29 March 2016.</p>
+      <table frame="topbot" rowsep="1" colsep="1" id="table_f1q_4s3_sgb">
+        <title>Test Results 7 Feb 2018</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Processor</entry>
+              <entry>Test Result</entry>
+              <entry>Notes</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>DITA Open Toolkit 2.5.4</entry>
+              <entry>HTML: Failed with unresolved or incorrectly-resolved links<p>PDF: Failed with
+                  unresolved/incorrectly-resolved references in the conreffed elements.</p></entry>
+              <entry>This-topic fragment identifiers within conreffed elements are not correctly
+                resolved. They are correctly resolved in the same content when processed
+                directly.</entry>
+            </row>
+            <row>
+              <entry>oXygenXML Editor 20.1 beta</entry>
+              <entry>Succeeded</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>XMetaL 11</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>FrameMaker 13</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>ditac 2.5.x</entry>
+              <entry>Not tested</entry>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
       <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
-        <title>Test Results</title>
+        <title>Test Results 29 March 2016</title>
         <tgroup cols="3">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
