@@ -3,7 +3,7 @@
 <map>
   <title>Branch Filtering Test</title>
   <topicref href="filter-test-root.dita">
-    <topicref href="all-true.dita" chunk="to-content select-branch">
+    <topicref href="all-true.dita">
       <ditavalref href="ditavals/case-3-tx-all-true.ditaval"/>
       <topicref href="filter-test.dita"
         locktitle="yes"
@@ -13,9 +13,9 @@
         </topicmeta>
       </topicref>
     </topicref>
-    <topicref href="none-true.dita" chunk="to-content select-branch">
+    <topicref href="none-true.dita">
       <ditavalref href="ditavals/case-3-tx-none-true.ditaval"/>
-      <topicref href="filter-test.dita" 
+      <topicref href="filter-test.dita" copy-to="filter-test-none-true.dita"
         locktitle="yes"
         >
         <topicmeta>
@@ -23,7 +23,7 @@
         </topicmeta>
       </topicref>
     </topicref>    
-    <topicref href="ovcopay-active.dita" chunk="to-content select-branch">
+    <topicref href="ovcopay-active.dita">
       <ditavalref href="ditavals/case-3-tx-ovcopay-active.ditaval"/>
       <topicref href="filter-test.dita"
         locktitle="yes"
@@ -33,7 +33,7 @@
         </topicmeta>
       </topicref>
     </topicref>    
-    <topicref href="prev-care-oon-active.dita" chunk="to-content select-branch">
+    <topicref href="prev-care-oon-active.dita">
       <ditavalref href="ditavals/case-3-tx-prev-care-oon-active.ditaval"/>
       <topicref href="filter-test.dita"
         locktitle="yes"

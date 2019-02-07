@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_krm_dsl_jx">
+  <title>Topic title</title>
+  <body>
+    <p>Topic paragraph</p>
+    <p><ph id="prod-name">
+      <ph product="product-1">Product 1</ph>
+      <ph product="product-2">Product 2</ph>
+    </ph></p>
+  </body>
+</topic>

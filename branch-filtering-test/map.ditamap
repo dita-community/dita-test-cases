@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Learning Map//EN" "map.dtd">
+<map>
+    <topichead navtitle="API Reference">
+        <topicref href="topic.dita" keyscope="prod1">
+            <keydef keys="meta" href="meta.dita"/>
+            <ditavalref href="product-1.ditaval">
+                <ditavalmeta>
+                    <dvrKeyscopePrefix>prod-01_</dvrKeyscopePrefix>
+                </ditavalmeta>
+            </ditavalref>
+        </topicref>
+        <topicref href="topic.dita" keyscope="prod2">
+            <keydef keys="meta" href="meta.dita"/>
+            <ditavalref href="product-2.ditaval">
+                <ditavalmeta>
+                    <dvrKeyscopePrefix>prod-02_</dvrKeyscopePrefix>
+                </ditavalmeta>
+            </ditavalref>
+        </topicref>
+    </topichead>
+</map>
