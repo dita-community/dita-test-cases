@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic-01">
+    <title>Map C Topic 01</title>
+    <body>
+        <p>This topic is referenced from the direct-child map of
+      <filepath>map-c.ditamap</filepath>.</p>
+    <p>Link to Map B, Topic 02: <xref keyref="map-b.topic-02"/>. </p>
+    </body>
+</topic>

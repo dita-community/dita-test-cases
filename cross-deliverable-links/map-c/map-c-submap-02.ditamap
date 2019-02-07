@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Map C Submap 02</title>
+  <topicref keys="topic-02" href="topic-02.dita"/>
+</map>

@@ -7,5 +7,9 @@
     <p>This is a reference to key "topic-02", it should resolve to Map A Topic 02: <xref
         keyref="topic-02"/>.</p>
     <p>This is a reference to map B itself: <xref keyref="map-b.map-b-map"/>.</p>
+    <p>This is a reference to key "map-b.topic-02", it should resolve to Map B Topic 02: <xref
+      keyref="map-b.topic-02"/>.</p>
+    <p>This is a reference to key "map-c.topic-02", it should resolve to Map C Topic 02: <xref
+      keyref="map-c.topic-02"/>.</p>
   </body>
 </topic>

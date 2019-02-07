@@ -6,6 +6,9 @@
     <mapref href="../map-b/map-b.ditamap" keys="map-b-map" scope="peer" keyscope="map-b"
       toc="no"
     />
+    <mapref href="../map-c/map-c.ditamap" keys="map-c-map" scope="peer" keyscope="map-c"
+      toc="no"
+    />
   </topicgroup>
   <mapref href="content-topics.ditamap"/>
   <reltable title="Cross-Deliverable Links">
@@ -24,7 +27,12 @@
       <relcell>
         <topicref keyref="map-b.topic-01">
           <topicmeta>
-            <navtitle>Map B as a Root Map</navtitle>
+            <navtitle>Topic 01 Map B as a Root Map</navtitle>
+          </topicmeta>
+        </topicref>
+        <topicref keyref="map-c.topic-01">
+          <topicmeta>
+            <navtitle>Topic 01 Map C as a Root Map</navtitle>
           </topicmeta>
         </topicref>
       </relcell>

@@ -23,7 +23,15 @@ the key definition in Map B will take precedence over the key definition
 in Map A. A reference from a topic in Map A should resolve to the
 Map-A-used topic and not to the Map B-used topic.</p>
       <p>Map A is here: <xref keyref="map-a.topic-01"/>. Map A is the input to the tests.</p>
-      <p>Map B is here: <xref keyref="map-b.topic-01"/>. Map B is linked to by topics in Map A.</p></section>
+      <p>Map B is here: <xref keyref="map-b.topic-01"/>. Map B is linked to by topics in Map A and
+        Map C.</p>
+      <p>Map C is here: <xref keyref="map-c.topic-01"/>. Map C is linked to by topics in Map A.</p>
+      <p>There are two initial maps: one with a map-level keyscope and one without. The presence of
+        the map-level keyscope should not affect resolution of any of the keys because all the
+        references are either within the scope or within separate root maps. Map
+          <filepath>cross-deliverable-links-test-01.ditamap</filepath> does not have a map-level key
+        scope. Map <filepath>cross-deliverable-links-test-02.ditamap</filepath> does have a
+        map-level key scope.</p></section>
 <section spectitle = "Expected Results"><p>The expected results
 include:<ul id = "ul_mly_x5y_nv"><li>Map B's keys are not included
 in Map A's key space.</li>
@@ -59,6 +67,12 @@ and linking</xref>.</p></section>
 <entry colname = "2">Not tested</entry>
 <entry colname = "3"></entry>
 </row>
+            <row>
+              <entry colname="1">oXygenXML Editor 20.1</entry>
+              <entry colname="2">Key references resolve correctly when key-providing map does not
+                have a map-level scope. Fails when key-providing map has a map-level scope.</entry>
+              <entry colname="3">Reported to Radu</entry>
+            </row>
 <row rowsep = "1">
 <entry colname = "1">oXygenXML Editor 18 beta</entry>
 <entry colname="2">Key reference to peer topic is reported as a topic referenced from another topic
