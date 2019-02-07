@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="test_case_3_link_to_conreffed_step">
+  <title>Test Case 3: Link To a Step Within a Conreffed Set of Steps</title>
+  <taskbody>
+    <context>
+      <p>The steps are used by reference from topic
+        <filepath>warehouse-task-01.dita</filepath>.</p>
+      <p>This is a link to step 2 using "#./step-02", which should be rendered as a link to the
+        reused step 2: <xref href="#./step-02"/>.</p>
+      <p>This is a link to step 2 using "#test_case_3_link_to_conreffed_step/step-02", which may or may not be rendered as a link to the
+        reused step 2: <xref href="#test_case_3_link_to_conreffed_step/step-02"/>.
+        This link as authored is incorrect because there is no element with the ID "step-02" in topic "test_case_3_link_to_conreffed_step" as authored, only 
+        after conref resolution (and assuming that conref resolution produces a literal XML result).
+      </p>
+    </context>
+    <steps conkeyref="warehouse-task-01/steps">
+      <step>
+        <cmd></cmd>
+      </step>
+    </steps>
+  </taskbody>
+  
+</task>

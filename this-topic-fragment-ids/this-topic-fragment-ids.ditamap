@@ -7,7 +7,8 @@
     <topicref href="topics/warehouse_topic.dita" keys="warehouse-topic"/>
   </topicgroup>
   <topicref keys="test-case-definition" href="this-topic-fragment-ids-test-01.dita">
-    <topichead navtitle="Test Case 1: Links within re-used steps">
+    <topichead>
+      <topicmeta><navtitle>Test Case 1: Links within re-used steps</navtitle></topicmeta>
       <topicref href="topics/test_case_1__conref_to_steps.dita" keys="test-case-01"/>
       <topicref keyref="warehouse-task-01" keys="task-direct-use">
         <topicmeta>
@@ -15,14 +16,25 @@
         </topicmeta>
       </topicref>
     </topichead>
-    <topichead navtitle="Test Case 2: Link from reused content to element in using topic">
+    <topichead> 
+      <topicmeta><navtitle>Test Case 2: Link from reused content to element in using topic</navtitle></topicmeta>
       <topicref href="topics/test_case_2__use_of_para_with_this_topic_reference.dita"
         keys="test-case-02"/>
+    </topichead>
+    <topichead>
+      <topicmeta><navtitle>Test Case 3: Link from using topic to element in reused content</navtitle></topicmeta>
+      <topicref href="topics/test_case_3_link_to_element_in_conreffed_data.dita"
+        keys="test-case-03"/>
+    </topichead>
+    <topichead>
+      <topicmeta>
+        <navtitle>Warehouse Topic Used Directly</navtitle>
+      </topicmeta>
       <topicref keyref="warehouse-topic" keys="warehouse-topic-direct-use">
         <topicmeta>
           <navtitle>Warehouse Topic Used Directly</navtitle>
         </topicmeta>
-      </topicref>
+      </topicref>      
     </topichead>
   </topicref>
 </map>

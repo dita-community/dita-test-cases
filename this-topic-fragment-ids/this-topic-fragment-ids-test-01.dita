@@ -29,7 +29,7 @@
           >http://docs.oasis-open.org/dita/dita/v1.3/os/part1-base/archSpec/base/handling-xref-and-conref-within-topics.html#handling-xref-and-conref-within-topics</xref></p>
     </section>
     <section spectitle="Test Results">
-      <table frame="topbot" rowsep="1" colsep="1" id="table_f1q_4s3_sgb">
+      <table frame="all" rowsep="1" colsep="1" id="table_f1q_4s3_sgb">
         <title>Test Results 7 Feb 2018</title>
         <tgroup cols="3">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
@@ -44,16 +44,28 @@
           </thead>
           <tbody>
             <row>
+              <entry>DITA Open Toolkit 3.2.1</entry>
+              <entry>
+                <p>Test case 1: Failed to resolve all links</p>
+                <p>Test case 2: Link from outside conref to element in conref is correct.</p>
+                <p>Test case 3: Link from inside conref to element in using topic is not
+                  resolved.</p>
+              </entry>
+              <entry>I looks like case 1 almost worked in that the generated IDs were close but the
+                actual generated values are different between the ID values set on the list items
+                and on the reference to them.</entry>
+            </row>
+            <row>
               <entry>DITA Open Toolkit 2.5.4</entry>
-              <entry>HTML: Failed with unresolved or incorrectly-resolved links<p>PDF: Failed with
-                  unresolved/incorrectly-resolved references in the conreffed elements.</p></entry>
+              <entry>All links fail to resolve correctly.</entry>
               <entry>This-topic fragment identifiers within conreffed elements are not correctly
                 resolved. They are correctly resolved in the same content when processed
                 directly.</entry>
             </row>
             <row>
               <entry>oXygenXML Editor 20.1 beta</entry>
-              <entry>Succeeded</entry>
+              <entry>Partly succeeded. Navigation from links to targets done correctly in all cases.
+                Resolution of link text not done correctly.</entry>
               <entry/>
             </row>
             <row>
@@ -62,9 +74,9 @@
               <entry/>
             </row>
             <row>
-              <entry>FrameMaker 13</entry>
-              <entry>Not tested</entry>
-              <entry/>
+              <entry>FrameMaker 19</entry>
+              <entry>Failed</entry>
+              <entry>Links were not resolved although conrefs were resolved.</entry>
             </row>
             <row>
               <entry>ditac 2.5.x</entry>
@@ -74,7 +86,7 @@
           </tbody>
         </tgroup>
       </table>
-      <table frame="topbot" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
+      <table frame="all" rowsep="1" colsep="1" id="table_t4w_rgn_cv">
         <title>Test Results 29 March 2016</title>
         <tgroup cols="3">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>

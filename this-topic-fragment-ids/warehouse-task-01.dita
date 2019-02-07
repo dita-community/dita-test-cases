@@ -14,7 +14,7 @@
       </step>
       <step>
         <cmd>This is step 3, ID "step-03".</cmd>
-        <stepresult>See <xref href="#./step-01" format="dita"/> (Reference to step 01 using
+        <stepresult>See <xref href="#./step-01"/> (Reference to step 01 using
           "#./step-01").</stepresult>
       </step>
     </steps>
