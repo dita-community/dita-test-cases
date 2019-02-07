@@ -9,10 +9,14 @@
         <topicref href="topics/topic-02.dita"/>
       </topichead>
     </topichead>
-      <topichead navtitle="Topic Head 2.1" chunk="to-content">
-        <topicref href="topics/topic-03.dita"/>
-        <topicref href="topics/topic-04.dita"/>
-      </topichead>
+    <topicref href="title-only-topic-01.dita">
+      <topicref href="topics/topic-03.dita"/>
+      <topicref href="topics/topic-04.dita"/>
+    </topicref>
+    <topichead navtitle="Topic Head 2.1" chunk="to-content">
+      <topicref href="topics/topic-03.dita"/>
+      <topicref href="topics/topic-04.dita"/>
+    </topichead>
     <topichead navtitle="Topic Head 2.2" chunk="to-content select-topic">
       <topicref href="topics/topic-03.dita" chunk="to-content select-topic" copy-to="chunk-2.2-topic-03.dita"/>
       <topicref href="topics/topic-04.dita" chunk="to-content select-topic" copy-to="chunk-2.2-topic-04.dita"/>
