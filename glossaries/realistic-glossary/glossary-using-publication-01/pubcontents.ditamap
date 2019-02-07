@@ -12,7 +12,7 @@
       <topicref href="topics/term_refs_in_a_chunk.dita" keys="chunk-root-01" chunk="to-content select-branch">
         <topicref href="topics/subordinate_topic_two.dita" keys="sub-topic-02"/>
       </topicref>
-      <mapref href="../wipo-glossary/wipo-glossentries-navigation.ditamap"/>
+      <mapref href="../wipo-glossary/wipo-glossentries-navigation-topicrefs.ditamap"/>
     </topicref>
   </topicgroup>
 </map>
