@@ -4,10 +4,22 @@
   <title>Topic B</title> 
   <body> 
 	 <p>Link to URI "topic_a.dita": 
-		<xref href="topic_a.dita#topic_a"><?xm-replace_text Topic A?></xref>
+		<xref href="topic_a.dita#topic_a"/>
 	 </p> 
 	 <p>Link to URI "topic_a-use-02.dita": 
-		<xref href="topic_a-use-02.dita#topic_a"><?xm-replace_text xref?></xref>
+	   <xref href="topic_a-use-02.dita#topic_a"/>
 	 </p> 
+    <p>Link to URI "topic_a-use-02.dita (no fragment ID)": 
+      <xref href="topic_a-use-02.dita"/>
+    </p> 
+    <p>Link to URI "topic_a-use-03.dita": 
+      <xref href="topic_a-use-03.dita#topic_a"/>
+    </p> 
+    <p>Link to URI "topic_a-use-04.dita": 
+      <xref href="topic_a-use-04.dita#topic_a"/>
+    </p> 
+    <p>Link to URI "topic_a-use-05.dita": 
+      <xref href="topic_a-use-05.dita#topic_a"/>
+    </p> 
   </body>
 </topic>
