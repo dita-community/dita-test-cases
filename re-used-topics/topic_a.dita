@@ -2,6 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_a">
   <title>Topic A</title>
+  <shortdesc>Topic a short description within the topic.</shortdesc>
   <body>
     <p>Topic A</p>
   </body>

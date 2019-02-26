@@ -6,9 +6,25 @@
     <topicref href="topic_a.dita"/>
     <topicref href="topic_b.dita"/>
     <topicref href="topic_c.dita"/>
-    <topicref href="topic_a.dita" copy-to="topic_a-use-02.dita" locktitle="yes">
+    <topicref href="topic_a.dita" copy-to="topic_a-use-02.dita" >
       <topicmeta>
-        <navtitle>Topic A Second Use</navtitle>
+        <navtitle>Topic A Second Use Locktitle=yes</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="topic_a.dita" copy-to="topic_a-use-03.dita" >
+      <topicmeta>
+        <navtitle>Topic A Third Use locktitle not specified</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="topic_a.dita" copy-to="topic_a-use-04.dita" >
+      <topicmeta>
+        <navtitle>Topic A Fourth Use Imposed Shortdesc</navtitle>
+        <shortdesc>Topic A fourth use shortdesc imposed by topicref.</shortdesc>
+      </topicmeta>
+    </topicref>
+    <topicref href="topic_a.dita" copy-to="topic_a-use-05.dita" locktitle="yes">
+      <topicmeta>
+        <navtitle>Topic A fifth Use locktitle=yes</navtitle>
       </topicmeta>
     </topicref>
   </topicref>
