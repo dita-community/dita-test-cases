@@ -4,9 +4,9 @@
   <title>Topic B</title> 
   <body> 
 	 <p>Link to URI "topic_a.dita": 
-		<xref href="topic_a.dita#topic_a"/>
+		<xref href="topic_a.dita"/>
 	 </p> 
-	 <p>Link to URI "topic_a-use-02.dita": 
+    <p>Link to URI "topic_a-use-02.dita#topic_a": 
 	   <xref href="topic_a-use-02.dita#topic_a"/>
 	 </p> 
     <p>Link to URI "topic_a-use-02.dita (no fragment ID)": 

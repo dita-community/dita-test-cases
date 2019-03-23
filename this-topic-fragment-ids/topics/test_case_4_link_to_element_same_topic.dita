@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-case-04">
+  <title>Test Case 4: Same Topic Conref Within the Same Topic</title>
+  <body>
+    <p>This is a phrase with the ID "phrase-01": <ph id="phrase-01">this is phrase 01 in topic Test
+        Case 4</ph>.</p>
+    <p>This is a conref to phrase-01 using normal topic ID and element ID fragment identifier: <ph
+        conref="#test-case-04/phrase-01"/></p>
+    <p>This is a conref to phrase-01 using a "this topic" fragment identifier: <ph
+        conref="#./phrase-01"/></p>
+  </body>
+</topic>

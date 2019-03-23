@@ -44,20 +44,25 @@
           </thead>
           <tbody>
             <row>
-              <entry>DITA Open Toolkit 3.2.1</entry>
+              <entry>DITA Open Toolkit 3.3</entry>
               <entry>
-                <p>Test case 1: Failed to resolve all links</p>
-                <p>Test case 2: Link from outside conref to element in conref is correct.</p>
-                <p>Test case 3: Link from inside conref to element in using topic is not
-                  resolved.</p>
+                <p>Test case 1: Failed:  link from within conreffed steps to step within conreffed
+                  steps not resolved.</p>
+                <p>Test case 2: Passed: Link from inside conref to element outside conref works.</p>
+                <p>Test case 3: Failed:<ul id="ul_yxr_rfp_2hb">
+                    <li>Link from inside conref to element in using topic is not resolved.</li>
+                    <li>Link from within conreffed content to ID in conreffed content not
+                      resolved.</li>
+                  </ul></p>
+                <p>Test case 4: Passed. Conref to element in the same topic is resolved.</p>
               </entry>
-              <entry>I looks like case 1 almost worked in that the generated IDs were close but the
+              <entry>It looks like case 1 almost worked in that the generated IDs were close but the
                 actual generated values are different between the ID values set on the list items
                 and on the reference to them.</entry>
             </row>
             <row>
               <entry>DITA Open Toolkit 2.5.4</entry>
-              <entry>All links fail to resolve correctly.</entry>
+              <entry>Test cases 1-3 fail.<p>Test case 4 succeeds.</p></entry>
               <entry>This-topic fragment identifiers within conreffed elements are not correctly
                 resolved. They are correctly resolved in the same content when processed
                 directly.</entry>

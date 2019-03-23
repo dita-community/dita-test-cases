@@ -27,6 +27,11 @@
         keys="test-case-03"/>
     </topichead>
     <topichead>
+      <topicmeta><navtitle>Test Case 4: Link to element in the same topic no conref involved</navtitle></topicmeta>
+      <topicref href="topics/test_case_4_link_to_element_same_topic.dita"
+        keys="test-case-04"/>
+    </topichead>
+    <topichead>
       <topicmeta>
         <navtitle>Warehouse Topic Used Directly</navtitle>
       </topicmeta>

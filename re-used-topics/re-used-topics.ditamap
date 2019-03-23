@@ -7,17 +7,12 @@
     <topicref href="topic_b.dita"/>
     <topicref href="topic_c.dita"/>
     <topicref href="topic_a.dita" copy-to="topic_a_use-02.dita" />
-    <topicref href="topic_a.dita" copy-to="topic_a_use-06.dita">
+    <topicref href="topic_a.dita" copy-to="topic_a-use-02.dita" >
       <topicmeta>
-        <navtitle>Topic A sixth use, navtitle in topicref</navtitle>
+        <navtitle>Topic A Second Use</navtitle>
       </topicmeta>
     </topicref>
-    <!--    <topicref href="topic_a.dita" copy-to="topic_a-use-02.dita" >
-      <topicmeta>
-        <navtitle>Topic A Second Use locktitle not specified</navtitle>
-      </topicmeta>
-    </topicref>
--->    <topicref href="topic_a.dita" copy-to="topic_a-use-03.dita" >
+    <topicref href="topic_a.dita" copy-to="topic_a-use-03.dita" >
       <topicmeta>
         <navtitle>Topic A Third Use locktitle not specified</navtitle>
       </topicmeta>
