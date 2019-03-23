@@ -5,6 +5,18 @@
   <topicgroup>
     <keydef href="warehouse-task-01.dita" keys="warehouse-task-01"/>
     <topicref href="topics/warehouse_topic.dita" keys="warehouse-topic"/>
+    <keydef keys="text-only-key-01">
+      <topicmeta>
+        <linktext>This is text-only key "text-only-key-01"</linktext>
+      </topicmeta>
+    </keydef>
+    <topicgroup keyscope="scope-01">
+      <keydef keys="text-only-key-02">
+        <topicmeta>
+          <linktext>This is text-only key "text-only-key-02" in scope "scope-01"</linktext>
+        </topicmeta>
+      </keydef>      
+    </topicgroup>
   </topicgroup>
   <topicref keys="test-case-definition" href="this-topic-fragment-ids-test-01.dita">
     <topichead>
@@ -27,9 +39,17 @@
         keys="test-case-03"/>
     </topichead>
     <topichead>
-      <topicmeta><navtitle>Test Case 4: Link to element in the same topic no conref involved</navtitle></topicmeta>
-      <topicref href="topics/test_case_4_link_to_element_same_topic.dita"
-        keys="test-case-04"/>
+      <topicmeta>
+        <navtitle>Test Case 4: Link to element in the same topic no conref involved</navtitle>
+      </topicmeta>
+      <topicref href="topics/test_case_4_link_to_element_same_topic.dita" keys="test-case-04"/>
+    </topichead>
+    <topichead>
+      <topicmeta>
+        <navtitle>Test Case 5: Conref To Keyref to Text-Only Key</navtitle>
+      </topicmeta>
+      <topicref href="topics/test_case_4_conref_to_keyref_to_text-only_key.dita"
+        keys="test-case-05"/>
     </topichead>
     <topichead>
       <topicmeta>

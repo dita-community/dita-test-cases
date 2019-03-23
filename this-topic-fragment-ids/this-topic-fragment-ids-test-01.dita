@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_ahb_v2n_cv">
-  <title>This-Topic Fragment ID Test 01</title>
+  <title>This-Topic Fragment ID Tests</title>
   <shortdesc>Tests the resolution of this-topic fragment IDs within elements used by content
     reference.</shortdesc>
   <body>
@@ -55,6 +55,7 @@
                       resolved.</li>
                   </ul></p>
                 <p>Test case 4: Passed. Conref to element in the same topic is resolved.</p>
+                <p>Test case 5: Passed. All conrefs correctly resolved</p>
               </entry>
               <entry>It looks like case 1 almost worked in that the generated IDs were close but the
                 actual generated values are different between the ID values set on the list items
@@ -62,7 +63,8 @@
             </row>
             <row>
               <entry>DITA Open Toolkit 2.5.4</entry>
-              <entry>Test cases 1-3 fail.<p>Test case 4 succeeds.</p></entry>
+              <entry>Test cases 1-3 fail.<p>Test case 4 succeeds.</p><p>Test case 5: Passed. All
+                  conrefs correctly resolved</p></entry>
               <entry>This-topic fragment identifiers within conreffed elements are not correctly
                 resolved. They are correctly resolved in the same content when processed
                 directly.</entry>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-case-05">
+  <title>Test Case 5: Conref to Keyref to a Text-Only Key</title>
+  <body>
+    <section id="section_bky_jkp_2hb">
+      <title>Case 5.1: Unscoped keyref</title>
+      <p>This is a keyref to text-only key "test-only-key-01" in the default scope. It has the ID
+        "keyref-01": <ph keyref="text-only-key-01" id="keyref-01"/></p>
+      <p>This is a conref to the phrase "keyref-01" using "#test-case-05/keyref-01": <ph
+          conref="#test-case-05/keyref-01"/></p>
+      <p>This is a conref to the phrase "keyref-01" using "#./keyref-01": <ph conref="#./keyref-01"
+        /></p>
+    </section>
+    <section id="section_yk5_lkp_2hb">
+      <title>Case 5.2: Scoped keyref</title>
+      <p>This is a keyref to text-only key "test-only-key-02" in scope "scope-01". It has the ID
+        "keyref-02": <ph keyref="scope-01.text-only-key-02" id="keyref-02"/></p>
+      <p>This is a conref to the phrase "keyref-02" using "#test-case-05/keyref-02": <ph
+          conref="#test-case-05/keyref-02"/></p>
+      <p>This is a conref to the phrase "keyref-02" using "#./keyref-02": <ph conref="#./keyref-02"
+        /></p>
+    </section>
+  </body>
+</topic>
