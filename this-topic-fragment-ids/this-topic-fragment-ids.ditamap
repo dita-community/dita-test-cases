@@ -48,8 +48,7 @@
       <topicmeta>
         <navtitle>Test Case 5: Conref To Keyref to Text-Only Key</navtitle>
       </topicmeta>
-      <topicref href="topics/test_case_4_conref_to_keyref_to_text-only_key.dita"
-        keys="test-case-05"/>
+      <topicref href="topics/test_case_5_conref_to_keyref_to_text-only_key.dita" keys="test-case-05"/>
     </topichead>
     <topichead>
       <topicmeta>
