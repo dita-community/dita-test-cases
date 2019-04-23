@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Locktitle Test</title>
+    <topicref href="topics/locktitle-test-01.dita">
+        <topicref href="topics/topic-01.dita" locktitle="yes" keys="topicref-01">
+            <topicmeta>
+                <navtitle>Locked Title Ref to topic-01 navtitle element</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="topics/topic-02.dita" locktitle="yes" keys="topicref-02" navtitle="Locked Title Ref to topic-02 @navtitle att"/>
+        <topicref href="topics/topic-03.dita" locktitle="yes" keys="topicref-03"/><!-- No navtitle -->
+        <topicref href="topics/topic-04.dita" keys="topicref-04"/>        
+    </topicref>
+</map>

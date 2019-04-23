@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic-02">
+    <title>Topic Three</title>
+    <body>
+        <p>This is topic three</p>
+        <p>This topic is referenced with @locktitle="yes" but with no navtitleon the topicref.</p>
+    </body>
+</topic>
