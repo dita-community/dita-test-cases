@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic-01">
+    <title>Reuse With Relationship Tables</title>
+    <body>
+        <p>Test of reuse with relationship tables.</p>
+        <p>The same topic is used twice with different parent topics and key scopes.</p>
+        <p>Each use is referenced by a separate relationship row in a relationship table.</p>
+    </body>
+</topic>

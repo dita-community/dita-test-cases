@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Reuse With Relationship Tables</title>
+    <topicref keys="root" href="topics/topic-01.dita">
+        <topicref keys="topic-02" href="topics/topic-02.dita" keyscope="scope-01">
+            <keydef keys="variable-value">
+                <topicmeta>
+                    <keywords>
+                        <keyword>Scope 1 value</keyword>
+                    </keywords>
+                </topicmeta>
+            </keydef>
+            <topicref keys="topic-04-use-01" href="topics/topic-04.dita"/>
+        </topicref>
+        <topicref keys="topic-03" href="topics/topic-03.dita" keyscope="scope-02">
+            <keydef keys="variable-value">
+                <topicmeta>
+                    <keywords>
+                        <keyword>Scope 2 value</keyword>
+                    </keywords>
+                </topicmeta>
+            </keydef>
+            <topicref keys="topic-04-use-02" href="topics/topic-04.dita"/>
+        </topicref>
+    </topicref>
+    <reltable>
+        <relrow>
+            <relcell>
+                <topicref keyref="root"/>
+            </relcell>
+            <relcell>
+                <topicref keyref="scope-01.topic-04-use-01">
+                    <topicmeta>
+                        <linktext>Topic 04 in Scope 1</linktext>
+                    </topicmeta>
+                </topicref>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref keyref="root"/>
+            </relcell>
+            <relcell>
+                <topicref keyref="scope-02.topic-04-use-02">
+                    <topicmeta>
+                        <linktext>Topic 04 in Scope 2</linktext>
+                    </topicmeta>
+                </topicref>
+            </relcell>
+        </relrow>
+    </reltable>
+</map>

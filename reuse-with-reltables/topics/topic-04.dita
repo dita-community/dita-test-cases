@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic-04">
+    <title>Topic 4 Reused Topic</title>
+    <body>
+        <p>This is reused topic 4.</p>
+        <p>Reference to text key "variable-value": "<keyword keyref="variable-value"/>".</p>
+    </body>
+</topic>
