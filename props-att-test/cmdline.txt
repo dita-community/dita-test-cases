@@ -1,0 +1,2 @@
+ekimber@Mako[master]$ /Users/ekimber/dita-ot/dita-ot-2.5.4/bin/dita -i props_attribute_test.ditamap -f html5 --filter=condition-A-bar.ditaval -o out/bar
+ekimber@Mako[master]$ /Users/ekimber/dita-ot/dita-ot-2.5.4/bin/dita -i props_attribute_test.ditamap -f html5 --filter=condition-A-foo.ditaval -o out/foo
